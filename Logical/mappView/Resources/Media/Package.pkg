@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="MediaPackage" PackageType="MediaPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">Package</Object>
+    <Object Type="Package">LanguageIMG</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">AlarmX</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">UserX</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">Recipe</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">CMS</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">Signal</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/dialog_UserXImport</prop>
+  </header>
+  <body>
+    <tu tuid="Dialog.Header">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcıları Cek</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Users Import</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Confirm">
+      <tuv xml:lang="tr">
+        <seg>Onayla</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Confirm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Cancel">
+      <tuv xml:lang="tr">
+        <seg>İptal</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cancel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Label.SelectedFileName">
+      <tuv xml:lang="tr">
+        <seg>Seçili Dosya:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Selected File:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Table.Item.FileList">
+      <tuv xml:lang="tr">
+        <seg>Dosya Listesi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>File List</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.ImportRoles">
+      <tuv xml:lang="tr">
+        <seg>Rolleri Çek</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Import Roles</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.ImportUsers">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcıları Çek</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Import Users</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_Navigation" guid="8f41b267-79e2-42ae-95c9-cf3570784bf5" height="840" width="150" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.ButtonBar" id="ButtonBar1" top="9" left="5" width="138" height="819" zIndex="0">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton1" top="5" left="21" width="99" height="102" zIndex="0" image="Media/home-page.png" imageAlign="top" pageId="pageId1" text="Ana Sayfa" fontSize="13px" bold="true" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton2" top="121" left="21" width="99" height="102" zIndex="1" pageId="pageId1" text="Manual" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton3" top="237" left="21" width="99" height="102" zIndex="2" pageId="pageId1" text="NavigationButton3" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton4" top="353" left="21" width="99" height="102" zIndex="3" pageId="pageId1" text="Setting" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton5" top="469" left="21" width="99" height="102" zIndex="4" pageId="pageId1" text="Alarm" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton6" top="585" left="21" width="99" height="102" zIndex="5" image="Media/UserX/friend_5180044.png" imageAlign="top" pageId="pageId1" text="User" imageHeight="60" imageWidth="60" fontSize="13px" bold="true" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton7" top="701" left="21" width="99" height="102" zIndex="6" image="Media/receipt_13324573.png" imageAlign="top" pageId="pageId1" text="Recipe" imageHeight="60" imageWidth="60" fontSize="13px" bold="true" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

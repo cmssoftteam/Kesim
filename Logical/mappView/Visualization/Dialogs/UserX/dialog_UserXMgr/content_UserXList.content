@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_UserXList" guid="1c38f410-9737-41ad-90a6-ad2b57f8a0ea" height="800" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.UserList" id="UserList_Table" top="0" left="0" width="800" height="520" zIndex="0" itemsPerPage="100000" searchBox="false" showPagingButtons="false" backColorSelectedRow="rgba(113, 0, 67, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.UserListItem" id="UserListItem_UserNames" width="600" zIndex="0" text="$IAT/dialog_UserXMgr/UserList.Item.UserNames" />
+        <Widget xsi:type="widgets.brease.UserListItem" id="UserListItem_Roles" width="0" zIndex="1" columnType="Roles" text="$IAT/dialog_UserXMgr/UserList.Item.Roles" />
+        <Widget xsi:type="widgets.brease.UserListItem" id="UserListItem_LastLoginc" width="0" zIndex="2" columnType="IsLocked" text="$IAT/dialog_UserXMgr/UserList.Item.IsLocked" />
+        <Widget xsi:type="widgets.brease.UserListItem" id="UserListItem_LastLogin" zIndex="3" columnType="LastLogin" text="$IAT/dialog_UserXMgr/UserList.Item.LastLogin" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Button" id="Button_Edit" top="533" left="136" width="130" height="60" zIndex="1" image="Media/UserX/EditUser.svg" multiLine="true" text="$IAT/dialog_UserXMgr/Button.Edit" wordWrap="true" imageHeight="40" imageWidth="40" permissionOperate="['AdministratorBR', 'AdministratorCU', 'Supervisor']" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_Add" top="533" left="3" width="130" height="60" zIndex="2" image="Media/UserX/AddUser.svg" multiLine="true" text="$IAT/dialog_UserXMgr/Button.Add" wordWrap="true" imageHeight="40" imageWidth="40" permissionOperate="['AdministratorBR', 'AdministratorCU', 'Supervisor']" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_Delete" top="533" left="269" width="130" height="60" zIndex="3" image="Media/UserX/DeleteUser.svg" multiLine="true" text="$IAT/dialog_UserXMgr/Button.Delete" wordWrap="true" imageHeight="40" imageWidth="40" permissionOperate="['AdministratorBR', 'AdministratorCU', 'Supervisor']" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_Export" top="533" left="402" width="130" height="60" zIndex="4" image="Media/UserX/ExportUser.svg" multiLine="true" text="$IAT/dialog_UserXMgr/Button.Export" wordWrap="true" imageHeight="40" imageWidth="40" permissionOperate="['AdministratorBR', 'AdministratorCU', 'Supervisor']" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_Import" top="533" left="534" width="130" height="60" zIndex="5" image="Media/UserX/ImportUser.svg" multiLine="true" text="$IAT/dialog_UserXMgr/Button.Import" wordWrap="true" imageHeight="40" imageWidth="40" permissionOperate="['AdministratorBR', 'AdministratorCU', 'Supervisor']" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_Refresh" top="533" left="667" width="130" height="60" zIndex="6" image="Media/UserX/Refresh.svg" multiLine="true" text="$IAT/dialog_UserXMgr/Button.Refresh" wordWrap="true" imageHeight="40" imageWidth="40" permissionOperate="['AdministratorBR', 'AdministratorCU', 'Operator', 'Supervisor']" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="606" left="3" width="360" height="190" zIndex="7">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.LogoutButton" id="Logout_Button" top="87" left="179" width="140" height="50" zIndex="0" image="Media/UserX/Logout.svg" multiLine="true" text="$IAT/dialog_UserXMgr/Button.Logout" wordWrap="true" imageHeight="40" imageWidth="40" />
+        <Widget xsi:type="widgets.brease.Password" id="Password_UserPassword" top="47" left="159" width="160" zIndex="1" borderColor="rgba(113, 0, 67, 1)" shadow="4px 1px 4px rgba(113, 0, 67, 0.75)" />
+        <Widget xsi:type="widgets.brease.Label" id="Label_Password" top="47" left="19" width="120" zIndex="2" text="$IAT/dialog_UserXMgr/Login_Widget.passwordLabel" />
+        <Widget xsi:type="widgets.brease.Label" id="Label_Username" top="7" left="19" width="120" zIndex="3" text="$IAT/dialog_UserXMgr/Login_Widget.userLabel" />
+        <Widget xsi:type="widgets.brease.TextInput" id="TextInput_UserName" top="7" left="159" width="160" zIndex="4" borderColor="rgba(113, 0, 67, 1)" activeBorderColor="rgba(113, 0, 67, 1)" shadow="4px 1px 4px rgba(113, 0, 67, 0.75)" />
+        <Widget xsi:type="widgets.brease.LoginButton" id="Login_Button" top="87" left="19" width="140" height="50" zIndex="5" image="Media/UserX/Login.svg" multiLine="true" text="$IAT/dialog_UserXMgr/Button.Login" wordWrap="true" imageHeight="40" imageWidth="40" />
+        <Widget xsi:type="widgets.brease.LoginInfo" id="Login_Info" top="147" left="19" width="300" zIndex="6" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

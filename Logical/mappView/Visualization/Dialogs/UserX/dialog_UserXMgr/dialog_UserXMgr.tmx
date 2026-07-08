@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/dialog_UserXMgr</prop>
+  </header>
+  <body>
+    <tu tuid="Dialog.OpenButton">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.Header">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı Yönetimi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>UserX Manager</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Add">
+      <tuv xml:lang="tr">
+        <seg>Ekle</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Add</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Delete">
+      <tuv xml:lang="tr">
+        <seg>Sil</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Delete</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Edit">
+      <tuv xml:lang="tr">
+        <seg>Düzenle</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Edit</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Refresh">
+      <tuv xml:lang="tr">
+        <seg>Yenile</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Refresh</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Export">
+      <tuv xml:lang="tr">
+        <seg>Aktar</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Export</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Import">
+      <tuv xml:lang="tr">
+        <seg>Çek</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Import</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Logout">
+      <tuv xml:lang="tr">
+        <seg>Çıkış</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Logout</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Login">
+      <tuv xml:lang="tr">
+        <seg>Giriş</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login</seg>
+      </tuv>
+    </tu>
+    <tu tuid="UserList.Item.UserNames">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı İsimleri</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User Names</seg>
+      </tuv>
+    </tu>
+    <tu tuid="UserList.Item.Roles">
+      <tuv xml:lang="tr">
+        <seg>Roller</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Roles</seg>
+      </tuv>
+    </tu>
+    <tu tuid="UserList.Item.LastLogin">
+      <tuv xml:lang="tr">
+        <seg>Son Giriş</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Last Login</seg>
+      </tuv>
+    </tu>
+    <tu tuid="UserList.Item.IsLocked">
+      <tuv xml:lang="tr">
+        <seg>Kilitlimi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>IsLocked</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.Delete.Header">
+      <tuv xml:lang="tr">
+        <seg>Sil</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Delete</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.Delete.Message">
+      <tuv xml:lang="tr">
+        <seg>Reçete silinsin mi ?</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Delete recipe ?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Login_Widget.autFailMessage">
+      <tuv xml:lang="tr">
+        <seg>Geçersiz Kullanıcıadı/Şifre</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Invalid Username/Password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Login_Widget.buttonLabel">
+      <tuv xml:lang="tr">
+        <seg>Giriş</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Login_Widget.passwordLabel">
+      <tuv xml:lang="tr">
+        <seg>Şifre</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Password:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Login_Widget.setUserFailMessage">
+      <tuv xml:lang="tr">
+        <seg>Giriş Başarısız</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login Failed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Login_Widget.setUserSuccessMessage">
+      <tuv xml:lang="tr">
+        <seg>Giriş Başarılı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login Successful</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Login_Widget.userChangedMessage">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı değişti:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User changed to:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Login_Widget.userLabel">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.AutoLogout.Header">
+      <tuv xml:lang="tr">
+        <seg>Çıkış</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Logout</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.AutoLogout.Message">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı otomatik olarak çıkış yaptı.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The user was automatically logged out.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.FileOverwrite.Message">
+      <tuv xml:lang="tr">
+        <seg>Girilen dosya adı zaten mevcut. Mevcut dosyanın üzerine yazmak ister misiniz?</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The filename entered already exists. Would you like to overwrite the existing file?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.FileOverwrite.Header">
+      <tuv xml:lang="tr">
+        <seg>Dosya Kopyası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>File Duplicate</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

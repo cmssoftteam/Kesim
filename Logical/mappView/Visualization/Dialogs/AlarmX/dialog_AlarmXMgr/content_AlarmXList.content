@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_AlarmXList" guid="be2651e6-ee55-4eef-909f-69ee4c180bf5" height="750" width="1200" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList_Table" top="0" left="0" width="1200" height="680" zIndex="0" imagePrefix="Media/AlarmX/Categories/" imageSuffix=".svg" itemsPerPage="3000000" showPagingButtons="false" headerTextAlign="center" textAlign="center">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem_category" width="150" zIndex="0" columnType="category" text="$IAT/dialog_AlarmXMgr/AlarmList.Item.category" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem_message" width="650" zIndex="1" text="$IAT/dialog_AlarmXMgr/AlarmList.Item.message" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem_code" width="100" zIndex="2" columnType="code" text="$IAT/dialog_AlarmXMgr/AlarmList.Item.code" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem_timestamp" width="300" zIndex="3" columnType="timestamp" text="$IAT/dialog_AlarmXMgr/AlarmList.Item.timestamp" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Button" id="Button_Detail" top="685" left="5" width="180" height="60" zIndex="1" image="Media/AlarmX/Detail.svg" multiLine="true" text="$IAT/dialog_AlarmXMgr/AlarmList.Button.Detail" wordWrap="true" imageHeight="40" imageWidth="40" />
+  </Widgets>
+</Content>

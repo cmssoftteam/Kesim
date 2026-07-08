@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Signal_No.png</Object>
+    <Object Type="File">Signal_IN.png</Object>
+    <Object Type="File">Signal_OUT.png</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">rect</Object>
+    <Object Type="File">risk-management_1.png</Object>
+    <Object Type="File">info_5174825.png</Object>
+  </Objects>
+</Package>

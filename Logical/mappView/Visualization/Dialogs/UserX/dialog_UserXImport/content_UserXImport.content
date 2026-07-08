@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_UserXImport" guid="ff977cbf-b38b-47e9-ae16-e42732bbbc8c" height="300" width="450" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="LabelExportFileName" top="178" left="0" width="200" height="45" zIndex="0" multiLine="true" text="$IAT/dialog_UserXImport/Label.SelectedFileName" wordWrap="true" textAlign="right" fontSize="20px" padding="0px 0px 0px 0px" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_ImportConfirm" top="236" left="40" width="180" height="60" zIndex="1" image="Media/UserX/Confirm.svg" multiLine="true" text="$IAT/dialog_UserXExport/Button.Confirm" wordWrap="true" imageHeight="40" imageWidth="40" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_ImportCancel" top="236" left="230" width="180" height="60" zIndex="2" image="Media/UserX/Cancel.svg" multiLine="true" text="$IAT/dialog_UserXExport/Button.Cancel" wordWrap="true" imageHeight="40" imageWidth="40" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput_ImportFileName" top="186" left="220" width="220" zIndex="3" />
+    <Widget xsi:type="widgets.brease.Table" id="Table_UserXImport" top="4" left="4" width="280" height="160" zIndex="4">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.TableItem" id="TableItem_FileList" zIndex="0" columnWidth="280" text="$IAT/dialog_UserXImport/Table.Item.FileList" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox_ImportRoles" top="40" left="300" zIndex="5" text="$IAT/dialog_UserXImport/Button.ImportRoles" />
+    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox_ImportUsers" top="100" left="300" zIndex="6" text="$IAT/dialog_UserXImport/Button.ImportUsers" />
+  </Widgets>
+</Content>

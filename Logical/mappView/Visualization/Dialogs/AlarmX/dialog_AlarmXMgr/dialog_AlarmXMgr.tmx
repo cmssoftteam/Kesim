@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/dialog_AlarmXMgr</prop>
+  </header>
+  <body>
+    <tu tuid="Dialog.Header">
+      <tuv xml:lang="tr">
+        <seg>Alarm Yönetimi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alarm Manager</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.OpenButton">
+      <tuv xml:lang="tr">
+        <seg>Alarm</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alarm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TabControl.Tab.AlarmList">
+      <tuv xml:lang="tr">
+        <seg>Liste</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>List</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TabControl.Tab.AlarmXHistory">
+      <tuv xml:lang="tr">
+        <seg>Geçmiş</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>History</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmList.Item.category">
+      <tuv xml:lang="tr">
+        <seg>Kategori</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Category</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmList.Item.message">
+      <tuv xml:lang="tr">
+        <seg>Mesaj</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Message</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmList.Item.name">
+      <tuv xml:lang="tr">
+        <seg>İsim</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Name</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmList.Item.scope">
+      <tuv xml:lang="tr">
+        <seg>Kapsam</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Scope</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmList.Item.timestamp">
+      <tuv xml:lang="tr">
+        <seg>Zaman</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Time</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmList.Item.code">
+      <tuv xml:lang="tr">
+        <seg>Kod</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Code</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmList.Item.severity">
+      <tuv xml:lang="tr">
+        <seg>Şiddet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Severity</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmList.Item.state">
+      <tuv xml:lang="tr">
+        <seg>Durum</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>State</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmList.Item.instanceId">
+      <tuv xml:lang="tr">
+        <seg>Olay Nr</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Instance Id</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmList.Item.additionalInfo1">
+      <tuv xml:lang="tr">
+        <seg>Ek Bilgi 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Additional Info 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmList.Item.additionalInfo2">
+      <tuv xml:lang="tr">
+        <seg>Ek Bilgi 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Additional Info 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmXHistory.Item.category">
+      <tuv xml:lang="tr">
+        <seg>Kategori</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Category</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmXHistory.Item.message">
+      <tuv xml:lang="tr">
+        <seg>Mesaj</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Message</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmXHistory.Item.name">
+      <tuv xml:lang="tr">
+        <seg>İsim</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Name</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmXHistory.Item.scope">
+      <tuv xml:lang="tr">
+        <seg>Kapsam</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Scope</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmXHistory.Item.timestamp">
+      <tuv xml:lang="tr">
+        <seg>Zaman</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Time</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmXHistory.Item.code">
+      <tuv xml:lang="tr">
+        <seg>Kod</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Code</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmXHistory.Item.severity">
+      <tuv xml:lang="tr">
+        <seg>Şiddet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Severity</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmXHistory.Item.state">
+      <tuv xml:lang="tr">
+        <seg>Durum</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>State</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmXHistory.Item.instanceId">
+      <tuv xml:lang="tr">
+        <seg>Olay Nr</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Instance Id</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmXHistory.Item.additionalInfo1">
+      <tuv xml:lang="tr">
+        <seg>Ek Bilgi 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Additional Info 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmXHistory.Item.additionalInfo2">
+      <tuv xml:lang="tr">
+        <seg>Ek Bilgi 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Additional Info 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmList.Button.AcknowledgeAll">
+      <tuv xml:lang="tr">
+        <seg>Tümünü Onayla</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Acknowledge All</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmList.Button.Acknowledge">
+      <tuv xml:lang="tr">
+        <seg>Onyla</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Acknowledge</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmList.Button.Detail">
+      <tuv xml:lang="tr">
+        <seg>Detay</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Detail</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmXHistory.Button.Clear">
+      <tuv xml:lang="tr">
+        <seg>Temizle</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Clear</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmXHistory.Button.Export">
+      <tuv xml:lang="tr">
+        <seg>Aktar</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Export</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmXHistory.Button.Detail">
+      <tuv xml:lang="tr">
+        <seg>Detay</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Detail</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.AlarmXHistory.Export.Message">
+      <tuv xml:lang="tr">
+        <seg>Dışa aktarılsın mı ?</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Export ?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.AlarmXHistory.Export.Header">
+      <tuv xml:lang="tr">
+        <seg>Aktar</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Export</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.AlarmXHistory.Clear.Message">
+      <tuv xml:lang="tr">
+        <seg>Temizlensin mi ?</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Clear ?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.AlarmXHistory.Clear.Header">
+      <tuv xml:lang="tr">
+        <seg>Temizle</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Clear</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.ExportSuccessful.Message">
+      <tuv xml:lang="tr">
+        <seg>Aktarma işlemi başarılı.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Export successful.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.ExportSuccessful.Header">
+      <tuv xml:lang="tr">
+        <seg>Yapıldı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Done</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.AutoExport.Header">
+      <tuv xml:lang="tr">
+        <seg>Otomatik Aktar</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Auto Export</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.AutoExport.Message">
+      <tuv xml:lang="tr">
+        <seg>Alarm geçmiş listesi otomatik olarak aktarılacak</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>List of alam history will be export automatically.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.AlarmSelect.Header">
+      <tuv xml:lang="tr">
+        <seg>Seçim</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Selection</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.AlarmSelect.Message">
+      <tuv xml:lang="tr">
+        <seg>Bir alarm seçin</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Select an alarm</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

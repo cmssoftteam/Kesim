@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/OTM_Language</prop>
+  </header>
+  <body>
+    <tu tuid="txtCNCProgram">
+      <tuv xml:lang="tr">
+        <seg>CNC Program</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>CNC Program</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtSpeed">
+      <tuv xml:lang="tr">
+        <seg>Hız</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Speed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtPosition">
+      <tuv xml:lang="tr">
+        <seg>Pozisyon</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Position</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtPathSpeed">
+      <tuv xml:lang="tr">
+        <seg>İşleme Hızı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Path Speed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtAutoSquaring">
+      <tuv xml:lang="tr">
+        <seg>Oto Gönyeleme</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Auto Squaring</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtGo">
+      <tuv xml:lang="tr">
+        <seg>Git</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Go</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtStop">
+      <tuv xml:lang="tr">
+        <seg>Dur</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Stop</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

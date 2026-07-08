@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/IO_Module_names</prop>
+  </header>
+  <body>
+    <tu tuid="0">
+      <tuv xml:lang="tr">
+        <seg>X20DIF371_1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20DIF371_1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="1">
+      <tuv xml:lang="tr">
+        <seg>X20DIF371_2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20DIF371_2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="2">
+      <tuv xml:lang="tr">
+        <seg>X20DIF371_3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20DIF371_3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="3">
+      <tuv xml:lang="tr">
+        <seg>X20DIF371_4</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20DIF371_4</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4">
+      <tuv xml:lang="tr">
+        <seg>X20DIF371_5</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20DIF371_5</seg>
+      </tuv>
+    </tu>
+    <tu tuid="5">
+      <tuv xml:lang="tr">
+        <seg>X20DOF322_1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20DIF371_1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="6">
+      <tuv xml:lang="tr">
+        <seg>X20DOF322_2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20DIF371_2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="7">
+      <tuv xml:lang="tr">
+        <seg>X20DOF322_3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20DIF371_3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="8">
+      <tuv xml:lang="tr">
+        <seg>X20DOF322_4</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20DIF371_4</seg>
+      </tuv>
+    </tu>
+    <tu tuid="9">
+      <tuv xml:lang="tr">
+        <seg>X20DOF322_5</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20DIF371_5</seg>
+      </tuv>
+    </tu>
+    <tu tuid="10">
+      <tuv xml:lang="tr">
+        <seg>X20AI4622_1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20AI4622_1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="11">
+      <tuv xml:lang="tr">
+        <seg>X20AI4622_2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20AI4622_2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="12">
+      <tuv xml:lang="tr">
+        <seg>X20AI4622_2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20AI4622_2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="13">
+      <tuv xml:lang="tr">
+        <seg>X20AO4622_1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20AO4622_1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="14">
+      <tuv xml:lang="tr">
+        <seg>X20AO4622_2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20AO4622_2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="15">
+      <tuv xml:lang="tr">
+        <seg>X20AO4622_3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X20AO4622_3</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/dialog_RecipeMgr</prop>
+  </header>
+  <body>
+    <tu tuid="Dialog.OpenButton">
+      <tuv xml:lang="tr">
+        <seg>Reçete</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Recipe</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.Header">
+      <tuv xml:lang="tr">
+        <seg>Reçete Yönetimi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Recipe Manager</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Add">
+      <tuv xml:lang="tr">
+        <seg>Ekle</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Add</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Delete">
+      <tuv xml:lang="tr">
+        <seg>Sil</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Delete</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Rename">
+      <tuv xml:lang="tr">
+        <seg>İsimlendir</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Rename</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Refresh">
+      <tuv xml:lang="tr">
+        <seg>Yenile</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Refresh</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Save">
+      <tuv xml:lang="tr">
+        <seg>Kaydet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Save</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Load">
+      <tuv xml:lang="tr">
+        <seg>Yükle</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Load</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.PageUp">
+      <tuv xml:lang="tr">
+        <seg>Sayfa Yukarı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Page Up</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.PageDown">
+      <tuv xml:lang="tr">
+        <seg>Sayfa Aşağı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Page Down</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.StepUp">
+      <tuv xml:lang="tr">
+        <seg>Adım Yukarı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Step Up</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.StepDown">
+      <tuv xml:lang="tr">
+        <seg>Adım Aşağı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Step Down</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.Delete.Header">
+      <tuv xml:lang="tr">
+        <seg>Sil !</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Delete !</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.Delete.Message">
+      <tuv xml:lang="tr">
+        <seg>Reçete silinsin mi ?</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Delete recipe ?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.Save.Header">
+      <tuv xml:lang="tr">
+        <seg>Kaydet !</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Save !</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.Save.Message">
+      <tuv xml:lang="tr">
+        <seg>Reçete kaydedilsin mi?</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Save recipe ?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.Load.Header">
+      <tuv xml:lang="tr">
+        <seg>Yükle !</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Load !</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.Load.Message">
+      <tuv xml:lang="tr">
+        <seg>Reçete yüklensin mi ?</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Load recipe ?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="RecipeList.TableItem.Names">
+      <tuv xml:lang="tr">
+        <seg>İsim</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Name</seg>
+      </tuv>
+    </tu>
+    <tu tuid="RecipeList.TableItem.LastModified">
+      <tuv xml:lang="tr">
+        <seg>Son Değiştirilme</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Last Modified</seg>
+      </tuv>
+    </tu>
+    <tu tuid="RecipeList.TableItem.Sizes">
+      <tuv xml:lang="tr">
+        <seg>Boyut</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Size</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtMakina">
+      <tuv xml:lang="tr">
+        <seg>Makina</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Machine</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtReçete">
+      <tuv xml:lang="tr">
+        <seg>Reçete</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Recipe</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

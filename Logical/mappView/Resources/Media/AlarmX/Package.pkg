@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">Categories</Object>
+    <Object Type="File">InProgressGray.gif</Object>
+    <Object Type="File">AcknowledgeAll.svg</Object>
+    <Object Type="File">Acknowledge.svg</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="false">Clear.svg</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="false">Export.svg</Object>
+    <Object Type="File">Alarm.svg</Object>
+    <Object Type="File">AlarmHistory.svg</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="false">Detail.svg</Object>
+    <Object Type="File">7.png</Object>
+    <Object Type="File">6.png</Object>
+    <Object Type="File">5.png</Object>
+    <Object Type="File">4.png</Object>
+    <Object Type="File">2.png</Object>
+    <Object Type="File">1.png</Object>
+    <Object Type="File">9.png</Object>
+    <Object Type="File">3.png</Object>
+    <Object Type="File">8.png</Object>
+  </Objects>
+</Package>

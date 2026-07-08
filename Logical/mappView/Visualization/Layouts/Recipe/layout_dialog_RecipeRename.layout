@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ldef:Layout id="layout_dialog_RecipeRename" height="200" width="400" xmlns:ldef="http://www.br-automation.com/iat2015/layoutDefinition/v2">
+  <Areas>
+    <Area id="areaContent" height="100" width="400" left="0" top="0" zIndex="0" />
+    <Area id="areaButton" left="0" top="100" width="400" height="100" zIndex="1" />
+  </Areas>
+</ldef:Layout>

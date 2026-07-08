@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompoundWidget id="ButtonState" width="650" height="145" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Widgets>
+		<Widget xsi:type="widgets.brease.ToggleButton" id="Data" top="0" left="22" width="146" height="55" zIndex="1" value="true" borderStyle="groove" borderWidth="1px" cornerRadius="0px 10px 10px 0px" borderColor="rgba(0, 0, 0, 1) rgba(0, 0, 0, 1) rgba(0, 0, 0, 1) rgba(0, 0, 0, 0)" textColor="rgba(0, 0, 0, 1)" checkedTextColor="rgba(0, 0, 0, 1)" checkedBackGroundGradient="linear-gradient(to bottom, #64cd66 0%,#64cd66 100%)" />
+		<Widget xsi:type="widgets.brease.ToggleButton" id="LedState" top="0" left="0" width="22" height="55" zIndex="0" value="true" borderWidth="1px" cornerRadius="10px 0px 0px 10px" disabledBackColor="rgba(241, 241, 241, 1)" disabledBackGroundGradient="linear-gradient(to bottom, #aeaeae 0%,#aeaeae 100%)" borderColor="rgba(0, 0, 0, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 1) rgba(0, 0, 0, 1)" disabledBorderColor="rgba(0, 0, 0, 1)" fontSize="2px" checkedBackGroundGradient="linear-gradient(to bottom, #37ff00 0%,#37ff00 100%)" disabledCheckedBackGroundGradient="linear-gradient(to bottom, #ffea00 0%,#ffea00 100%)" enable="false" />
+	</Widgets>
+	<Properties>
+		
+		<Property xsi:type="BindableProperty" name="Data" type="Boolean" defaultValue="false" readOnly="false" category="Data">
+			<Description>Değiştirelecek inputu giriniz.</Description>
+			<Mappings>
+				<Mapping widget="Data" property="value" mode="twoWay" />
+			</Mappings>
+		</Property>
+		
+		
+		
+
+		<Property xsi:type="BindableProperty" name="LedState" type="Boolean" defaultValue="false" readOnly="false" category="Data">
+			<Description>Değiştirelecek inputu giriniz.</Description>
+			<Mappings>
+				<Mapping widget="LedState" property="value" mode="twoWay" />
+			</Mappings>
+		</Property>
+		
+		
+	
+		<Property xsi:type="NonBindableProperty" name="DataName" type="String" defaultValue="Button" readOnly="false" category="Appearance" >
+			<Description>Buton Name.</Description>
+			<Mappings>
+				<Mapping widget="Data" property="text"/>
+			</Mappings>
+		</Property>
+	
+		
+		
+		
+		<!-- 
+		Simple non bindable property:
+		Property Attributes
+		xsi:type: NonBindableProperty
+		name: name of the property (not allowed: width, height, top, left, id, enable, visible, zindex, margin, premissionview, permissionoperate, description)
+		<Property xsi:type="NonBindableProperty" name="" type="" defaultValue="" required="">
+		<Description>Description will be shown in property grid.</Description>
+		<Mappings>
+		<Mapping widget="" property=""/>
+		<Mapping widget="" property=""/>
+		</Mappings>
+		</Property>
+    
+		Simple bindable property:
+		<Property xsi:type="BindableProperty" name="" type="" defaultValue="" readOnly="" category="" localizable="" typeRefId="" nodeRefId="">
+		<Description>Description will be shown in property grid.</Description>
+		<Mappings>
+		<Mapping widget="" property="" mode=""/>
+		<Mapping widget="" property="" mode=""/>
+		</Mappings>
+		</Property>
+
+
+		Structure bindable property:
+		<Property xsi:type="StructureBindableProperty" name="" type="" readOnly="" >
+		<Description>Description will be shown in property grid.</Description>
+		<Mappings>
+		<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+		<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+		<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+		</Mappings>
+		</Property>
+		-->
+	</Properties>
+
+	<Events>
+		<!--
+		<Event name="">
+		<Description>Description will be shown in property grid.</Description>
+		<Mappings>
+		<Mapping widget="" event="" />
+		</Mappings>
+		</Event>
+		-->
+	</Events>
+
+	<Actions>
+		<!--
+		<Action name="">
+		<Description>Description will be shown in property grid.</Description>
+		<Mappings>
+		<Mapping widget="" action="" />
+		</Mappings>
+		</Action>
+		-->
+	</Actions>
+
+	<EventBindings>
+		<!-- source and target can only be widgets within the compound widget.
+		<EventBinding id="">
+		<Source xsi:type="widget.Event" widgetRefId="" event="" />
+		<EventHandler condition="">
+		<Action>
+		<Target xsi:type="widget.Action" widgetRefId="">
+		<Method name="" value="" />
+		</Target>
+		</Action>
+		</EventHandler>
+		</EventBinding>
+		-->
+	</EventBindings>
+
+</CompoundWidget>

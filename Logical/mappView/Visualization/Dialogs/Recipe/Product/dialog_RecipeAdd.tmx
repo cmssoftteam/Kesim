@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/dialog_RecipeAdd</prop>
+  </header>
+  <body>
+    <tu tuid="Dialog.Header">
+      <tuv xml:lang="tr">
+        <seg>Reçete Ekle</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Add Recipe</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Ok">
+      <tuv xml:lang="tr">
+        <seg>Tamam</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ok</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Cancel">
+      <tuv xml:lang="tr">
+        <seg>İptal</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cancel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Label.NewRecipeName">
+      <tuv xml:lang="tr">
+        <seg>Yeni reçete ismi:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>New recipe name:</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

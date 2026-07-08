@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/System/Login</prop>
+  </header>
+  <body>
+    <tu tuid="USERNAME">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı adı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Username</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Benutzer</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PASSWORD">
+      <tuv xml:lang="tr">
+        <seg>Şifre</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Password</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Passwort</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LOGIN_SUCCESS">
+      <tuv xml:lang="tr">
+        <seg>Giriş başarılı!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login successful!</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Anmeldung erfolgreich!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LOGIN_FAILED">
+      <tuv xml:lang="tr">
+        <seg>Giriş başarısız oldu!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login failed!</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Anmeldung fehlgeschlagen!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HEADER">
+      <tuv xml:lang="tr">
+        <seg>Giriş gerekli</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login required</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Anmelden erforderlich</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BTN_LOGIN">
+      <tuv xml:lang="tr">
+        <seg>Giriş yap</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Anmelden</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PLACEHOLDER_USERNAME">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı Adınızı Girin</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Enter Username</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Benutzer eingeben</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PLACEHOLDER_PASSWORD">
+      <tuv xml:lang="tr">
+        <seg>Şifrenizi Girin</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Enter Password</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Passwort eingeben</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

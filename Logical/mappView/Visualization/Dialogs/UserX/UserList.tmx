@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/Widgets/UserList</prop>
+  </header>
+  <body>
+    <tu tuid="adduser.CONFIRM_PASSWORD">
+      <tuv xml:lang="tr">
+        <seg>Onayla</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Confirm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.ERROR_HEADER">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı hesap gereklilikleri:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User account requirements:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.FULLNAME">
+      <tuv xml:lang="tr">
+        <seg>İsim</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Name</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.PASSWORD">
+      <tuv xml:lang="tr">
+        <seg>Şifre</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.PASSWORD_PASSWORD_EMPTY">
+      <tuv xml:lang="tr">
+        <seg>Şifre boş olamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Password cannot be empty</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.PASSWORD_PASSWORDS_DIFFERENT">
+      <tuv xml:lang="tr">
+        <seg>Şifreler eşleşmiyor</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Confirm password does not match</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.PASSWORD_USERNAME_EMPTY">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcıadı boş olamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Username must not be empty</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.PLH_CONFIRM_PASSWORD">
+      <tuv xml:lang="tr">
+        <seg>Şifreyi onayla</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Confirm password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.PLH_FULLNAME">
+      <tuv xml:lang="tr">
+        <seg>Ful isim</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Full name</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.PLH_PASSWORD">
+      <tuv xml:lang="tr">
+        <seg>Şifre</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.PLH_USERNAME">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcıadı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Username</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.POLICY_DESC_ALPHANUMERIC">
+      <tuv xml:lang="tr">
+        <seg>Şifrede Alphanumerical karakterler gerekli</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alphanumerical characters are necessary in the password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.POLICY_DESC_MINLENGTH">
+      <tuv xml:lang="tr">
+        <seg>Şifrede {1} yada fazla karakter gerekli</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{1} or more characters required in the password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.POLICY_DESC_MIXEDCASE">
+      <tuv xml:lang="tr">
+        <seg>Şifrede büyük ve küçük harfler gerekli</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Upper- and lowercase letters required in the password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.POLICY_DESC_SPECIALCHAR">
+      <tuv xml:lang="tr">
+        <seg>Şifrede en az bir özel karakter (e.g. $£])  gerekli </seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>At least one special character (e.g. $£]) required in the password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.ROLES_HEADER">
+      <tuv xml:lang="tr">
+        <seg>Uygun roller</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Available roles</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.TITLE">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı ekle</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Add a user</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.USERNAME">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.USERNAME_DESC_MINLENGTH">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcıadı {1} yada daha fazla karakter içermeli</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{1} or more characters required in the username</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.INSUFFICIENT_RIGHTS">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı eklenemiyor, yeterli haklar yok</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cannot add user, insufficient rights</seg>
+      </tuv>
+    </tu>
+    <tu tuid="adduser.USER_ALREADY_EXIST">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı eklenemiyor, kullanıcı zaten mevcut</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cannot add user, user already exists</seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.1">
+      <tuv xml:lang="tr">
+        <seg>Başarılı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Success</seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.-1">
+      <tuv xml:lang="tr">
+        <seg>MpUserX de iç hata</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Internal error in MpUserX</seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.102">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı yetkin değil</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Non authorized user</seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.104">
+      <tuv xml:lang="tr">
+        <seg>Oturum geçerli değil</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Session not valid</seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.106">
+      <tuv xml:lang="tr">
+        <seg>Şifre politikaları karşılanmadı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Password policies not met</seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.200">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı mevcut değil</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User doesn’t exist</seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.201">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı zaten mevcut</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User already exists</seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.202">
+      <tuv xml:lang="tr">
+        <seg>Yetersiz haklar</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Insufficient rights </seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.203">
+      <tuv xml:lang="tr">
+        <seg>Rol mevcut değil</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Role doesn’t exist </seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.204">
+      <tuv xml:lang="tr">
+        <seg>Çok fazla rol</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Too many roles</seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.205">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcıadı boş</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Username empty </seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.206">
+      <tuv xml:lang="tr">
+        <seg>Eyleme izin verilmiyor (merkezi modda/merkezi kullanıcılarda çağrıldığında)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Action not allowed (when called in central mode/on central users)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.207">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı şu anda oturum açmış durumda</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User currently logged in</seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.208">
+      <tuv xml:lang="tr">
+        <seg>Şifre boş</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Password empty</seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.209">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcıadı çok kısa</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Username is too short</seg>
+      </tuv>
+    </tu>
+    <tu tuid="error.STATUS.-3">
+      <tuv xml:lang="tr">
+        <seg>Anonymous silinemez</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Anonymous cannot be deleted</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.BTN_CHANGE_PASSWORD">
+      <tuv xml:lang="tr">
+        <seg>Şifreyi sıfırla</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reset password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.BTN_RESET_LOCK">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı kilitli</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User locked</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.CONFIRM_PASSWORD">
+      <tuv xml:lang="tr">
+        <seg>Onayla</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Confirm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.ERROR_HEADER">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı hesabı gereksinimleri:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User account requirements:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.FULLNAME">
+      <tuv xml:lang="tr">
+        <seg>İsim</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Name</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.PASSWORD">
+      <tuv xml:lang="tr">
+        <seg>Şifre</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.PASSWORD_PASSWORDS_DIFFERENT">
+      <tuv xml:lang="tr">
+        <seg>Şifreyi onayla eşleşmiyor</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Confirm password does not match</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.PLH_CONFIRM_PASSWORD">
+      <tuv xml:lang="tr">
+        <seg>Şifreyi onayla</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Confirm password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.PLH_FULLNAME">
+      <tuv xml:lang="tr">
+        <seg>Ful isim</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Full name</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.PLH_PASSWORD">
+      <tuv xml:lang="tr">
+        <seg>Şifreyi değiştir</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Change password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.POLICY_DESC_ALPHANUMERIC">
+      <tuv xml:lang="tr">
+        <seg>Şifrede alfanümerik karakterler gereklidir</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alphanumerical characters are necessary in the password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.POLICY_DESC_MINLENGTH">
+      <tuv xml:lang="tr">
+        <seg>Şifrede {1} veya daha fazla karakter gerekli</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{1} or more characters required in the password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.POLICY_DESC_MIXEDCASE">
+      <tuv xml:lang="tr">
+        <seg>Şifrede büyük ve küçük harflerin kullanılması zorunludur</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Upper- and lowercase letters required in the password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.POLICY_DESC_SPECIALCHAR">
+      <tuv xml:lang="tr">
+        <seg>Şifrede en az bir özel karakter (örn. $£]) gereklidir</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>At least one special character (e.g. $£]) required in the password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.ROLES_HEADER">
+      <tuv xml:lang="tr">
+        <seg>Mevcut roller</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Available roles</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.TITLE">
+      <tuv xml:lang="tr">
+        <seg>Bir kullanıcıyı değiştir</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Modify a user</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.USERNAME">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.USER_DOES_NOT_EXIST">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı düzenlenemiyor, kullanıcı mevcut değil</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cannot modify user, user does not exist</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.INSUFFICIENT_RIGHTS">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı düzenlenemiyor, yeterli haklar yok</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cannot modify user, insufficient rights</seg>
+      </tuv>
+    </tu>
+    <tu tuid="modifyuser.ACTION_NOT_PERMITTED">
+      <tuv xml:lang="tr">
+        <seg>Eyleme izin verilmiyor (merkezi modda açıldığında / merkezi kullanıcılar için)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Action not permitted (when opened in central mode / for central users)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="deleteuser.CONFIRM_DELETE">
+      <tuv xml:lang="tr">
+        <seg>"{@SnippetSelectedUsername}" kullanıcısını gerçekten silmek istiyor musunuz?</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Do you really want to delete user "{@SnippetSelectedUsername}"?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="deleteuser.TITLE">
+      <tuv xml:lang="tr">
+        <seg>Bir kullanıcıyı sil</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Delete a user</seg>
+      </tuv>
+    </tu>
+    <tu tuid="deleteuser.SUCCESS">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı başarıyla silindi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User successfully deleted</seg>
+      </tuv>
+    </tu>
+    <tu tuid="deleteuser.SESSION_NOT_VALID">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı silinemiyor, oturum geçerli değil</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cannot delete user, session not valid</seg>
+      </tuv>
+    </tu>
+    <tu tuid="deleteuser.USER_DOES_NOT_EXIST">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı silinemiyor, kullanıcı mevcut değil</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cannot delete user, user does not exist</seg>
+      </tuv>
+    </tu>
+    <tu tuid="deleteuser.INSUFFICIENT_RIGHTS">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı silinemiyor, yeterli haklar yok</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cannot delete user, insufficient rights</seg>
+      </tuv>
+    </tu>
+    <tu tuid="deleteuser.CURRENTLY_LOGGED_IN">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı silinemiyor, şu anda oturum açmış kullanıcı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cannot delete user, currently logged-in user</seg>
+      </tuv>
+    </tu>
+    <tu tuid="deleteuser.CANNOT_DELETE_ANONYMOUS">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı silinemez, anonim silinemez.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cannot delete user, anonymous cannot be deleted.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

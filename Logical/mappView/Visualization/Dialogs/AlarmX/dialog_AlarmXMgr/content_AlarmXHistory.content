@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_AlarmXHistory" guid="45bb8ef9-3773-4b6b-ad5f-9eac8f9f322f" height="750" width="1200" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.AlarmHistory" id="AlarmHistory_Table" top="0" left="0" width="1200" height="680" zIndex="0" imagePrefix="Media/AlarmX/Categories/" imageSuffix=".svg" itemsPerPage="3000000" showPagingButtons="false" headerTextAlign="center" textAlign="center">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem_category" width="150" zIndex="0" columnType="category" text="$IAT/dialog_AlarmXMgr/AlarmXHistory.Item.category" />
+        <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem_message" width="650" zIndex="1" text="$IAT/dialog_AlarmXMgr/AlarmXHistory.Item.message" />
+        <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem_code" width="100" zIndex="2" columnType="code" text="$IAT/dialog_AlarmXMgr/AlarmXHistory.Item.code" />
+        <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem_timestamp" width="300" zIndex="3" columnType="timestamp" text="$IAT/dialog_AlarmXMgr/AlarmXHistory.Item.timestamp" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Button" id="Button_Export" top="685" left="220" width="180" height="60" zIndex="1" image="Media/AlarmX/Export.svg" multiLine="true" text="$IAT/dialog_AlarmXMgr/AlarmXHistory.Button.Export" wordWrap="true" imageHeight="40" imageWidth="40" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_Clear" top="685" left="1015" width="180" height="60" zIndex="2" image="Media/AlarmX/Clear.svg" multiLine="true" text="$IAT/dialog_AlarmXMgr/AlarmXHistory.Button.Clear" wordWrap="true" imageHeight="40" imageWidth="40" />
+    <Widget xsi:type="widgets.brease.Image" id="Image_InProgress" top="686" left="435" width="60" height="60" zIndex="3" image="Media/AlarmX/InProgressGray.gif" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_Detail" top="685" left="5" width="180" height="60" zIndex="4" image="Media/AlarmX/Detail.svg" multiLine="true" text="$IAT/dialog_AlarmXMgr/AlarmList.Button.Detail" wordWrap="true" imageHeight="40" imageWidth="40" />
+  </Widgets>
+</Content>

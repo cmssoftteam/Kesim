@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">UserGroup.svg</Object>
+    <Object Type="File">AddUser.svg</Object>
+    <Object Type="File">DeleteUser.svg</Object>
+    <Object Type="File">Login.svg</Object>
+    <Object Type="File">Logout.svg</Object>
+    <Object Type="File">User.svg</Object>
+    <Object Type="File">ImportUser.svg</Object>
+    <Object Type="File">Refresh.svg</Object>
+    <Object Type="File">EditUser.svg</Object>
+    <Object Type="File">ExportUser.svg</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="false">Confirm.svg</Object>
+    <Object Type="File">Cancel.svg</Object>
+    <Object Type="File">WarningRed.svg</Object>
+    <Object Type="File">User1.png</Object>
+  </Objects>
+</Package>

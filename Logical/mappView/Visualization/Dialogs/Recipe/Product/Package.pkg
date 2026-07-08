@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="EmptyMappViewPackage" PackageType="EmptyMappViewPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" TransferedForTargetSourceCompare="true">dialog_RecipeMgr.tmx</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">dialog_RecipeRename.tmx</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">dialog_RecipeAdd.tmx</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">dialog_RecipeMgr</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">dialog_RecipeRename</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">dialog_RecipeAdd</Object>
+  </Objects>
+</Package>

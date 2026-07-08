@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompoundWidget id="AxisDefineMin" width="516" height="124" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Widgets>
+	    <Widget xsi:type="widgets.brease.GroupBox" id="AxisName" top="5" left="2" width="516" height="124" zIndex="0" text="C" backColor="rgba(244, 246, 249, 1)" headerBackColor="rgba(113, 0, 37, 1)" headerGradient="linear-gradient(to bottom, #710025 0%,#710025 100%)" borderColor="rgba(0, 0, 0, 1)" textColor="rgba(255, 255, 255, 1)" fontSize="20px">
+			<Widgets>
+				<Widget xsi:type="widgets.brease.ToggleButton" id="bSelected" top="5" left="5" width="73" height="66" zIndex="0" image="Media/hand-active.png" imageAlign="bottom" value="true" imageHeight="50" imageWidth="50" borderStyle="double" borderWidth="1px" cornerRadius="10px" mouseDownBackColor="rgba(113, 0, 68, 1)" textAlign="center" checkedBackColor="rgba(113, 0, 68, 1)" checkedImageColor="rgba(0, 0, 0, 1)" checkedBackGroundGradient="linear-gradient(to bottom, #64cd66 0%,#64cd66 100%)" />
+				<Widget xsi:type="widgets.brease.NumericInput" id="setVelocity" top="33" left="409" height="39" zIndex="1" unit="{'metric':'C16','imperial':'C16','imperial-us':'C16'}" unitAlign="right" cornerRadius="5px" backColor="rgba(255, 255, 0, 1)" borderColor="rgba(113, 0, 68, 1)" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="18px" unitFontSize="8px" italic="false" shadow="3px 1px 8px -1px rgba(113, 0, 68, 1)" padding="0px 10px 0px 0px" />
+				<Widget xsi:type="widgets.brease.NumericOutput" id="actPos" top="33" left="88" height="39" zIndex="2" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" value="99999" borderWidth="1px" cornerRadius="5px" backColor="rgba(0, 255, 0, 1)" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="18px" unitFontSize="8px" italic="false" padding="0px 10px 0px 0px" />
+				<Widget xsi:type="widgets.brease.NumericOutput" id="actVelocity" top="33" left="194" height="39" zIndex="3" unit="{'metric':'C16','imperial':'C16','imperial-us':'C16'}" unitAlign="right" value="99999" borderWidth="1px" cornerRadius="5px" backColor="rgba(0, 255, 0, 1)" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="18px" unitFontSize="8px" italic="false" padding="0px 10px 0px 0px" />
+				<Widget xsi:type="widgets.brease.NumericInput" id="setPos" top="33" left="303" height="39" zIndex="4" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" value="99999" cornerRadius="5px" backColor="rgba(255, 255, 0, 1)" borderColor="rgba(113, 0, 68, 1)" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="18px" unitFontSize="8px" italic="false" shadow="3px 1px 8px -1px rgba(113, 0, 68, 1)" padding="0px 10px 0px 0px" />
+				<Widget xsi:type="widgets.brease.Label" id="Label1" top="0" left="88" width="100" zIndex="5" text="$IAT/OTM_Language/lblPozisyon" fontSize="16px" />
+				<Widget xsi:type="widgets.brease.Label" id="Label2" top="0" left="194" width="100" zIndex="6" text="$IAT/OTM_Language/lblHiz" fontSize="16px" />
+				<Widget xsi:type="widgets.brease.Label" id="Label3" top="0" left="299" width="100" zIndex="7" text="$IAT/OTM_Language/lblSetPozisyon" fontSize="16px" />
+				<Widget xsi:type="widgets.brease.Label" id="Label4" top="0" left="409" width="100" zIndex="8" text="$IAT/OTM_Language/lblSetHiz" fontSize="16px" />
+			</Widgets>
+		</Widget>
+	</Widgets>
+	<Properties>
+		
+		<Property xsi:type="BindableProperty" name="Selected" type="Boolean" defaultValue="false" readOnly="false" category="Data">
+			<Description>Eksen Seçim Kontrolü.</Description>
+			<Mappings>
+				<Mapping widget="bSelected" property="value" mode="twoWay" />
+			</Mappings>
+		</Property>
+		
+		<Property xsi:type="BindableProperty" name="ActuelPosition" type="Number" defaultValue="0.0" readOnly="false" category="Data">
+			<Description>Aktüel Pos.</Description>
+			<Mappings>
+				<Mapping widget="actPos" property="value" mode="oneWay" />
+			</Mappings>
+		</Property>
+		
+		<Property xsi:type="BindableProperty" name="ActuelVelocity" type="Number" defaultValue="0.0" readOnly="false" category="Data">
+			<Description>Aktüel Hız.</Description>
+			<Mappings>
+				<Mapping widget="actVelocity" property="value" mode="oneWay" />
+			</Mappings>
+		</Property>
+		
+		<Property xsi:type="BindableProperty" name="SetPosition" type="Number" defaultValue="0.0" readOnly="false" category="Data">
+			<Description>Aktüel Pos.</Description>
+			<Mappings>
+				<Mapping widget="setPos" property="value" mode="twoWay" />
+			</Mappings>
+		</Property>
+		
+		
+		<Property xsi:type="BindableProperty" name="SetVelocity" type="Number" defaultValue="0.0" readOnly="false" category="Data">
+			<Description>Aktüel Hız.</Description>
+			<Mappings>
+				<Mapping widget="setVelocity" property="value" mode="twoWay" />
+			</Mappings>
+		</Property>
+		
+		
+		<Property xsi:type="NonBindableProperty" name="AxisName" type="String" defaultValue="Test" readOnly="false" category="Appearance">
+			<Description>Aksen İsmi.</Description>
+			<Mappings>
+				<Mapping widget="AxisName" property="text" />
+			</Mappings>
+		</Property>
+
+		
+		<Property xsi:type="NonBindableProperty" name="SetPositionMaxValue" type="Number" defaultValue="0.0" readOnly="false" category="Behavior">
+			<Description>maxValue.</Description>
+			<Mappings>
+				<Mapping widget="setPos" property="maxValue" />
+			</Mappings>
+		</Property>
+		
+		
+		<Property xsi:type="NonBindableProperty" name="SetPositionMinValue" type="Number" defaultValue="0.0" readOnly="false" category="Behavior">
+			<Description>minValue.</Description>
+			<Mappings>
+				<Mapping widget="setPos" property="minValue" />
+			</Mappings>
+		</Property>
+		
+		
+		<Property xsi:type="NonBindableProperty" name="SetVelocityMaxValue" type="Number" defaultValue="0.0" readOnly="false" category="Behavior">
+			<Description>maxValue.</Description>
+			<Mappings>
+				<Mapping widget="setVelocity" property="maxValue" />
+			</Mappings>
+		</Property>
+		
+		
+		<Property xsi:type="NonBindableProperty" name="SetVelocityMinValue" type="Number" defaultValue="0.0" readOnly="false" category="Behavior">
+			<Description>minValue.</Description>
+			<Mappings>
+				<Mapping widget="setVelocity" property="minValue" />
+			</Mappings>
+		</Property>
+		
+		
+		
+		<Property xsi:type="NonBindableProperty" name="Unit" type="MeasurementSystemUnit" defaultValue="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" readOnly="false" category="Behavior">
+			<Description>minValue.</Description>
+			<Mappings>
+				<Mapping widget="setPos" property="unit" />
+				<Mapping widget="actPos" property="unit" />
+			</Mappings>
+		</Property>
+		
+		<Property xsi:type="NonBindableProperty" name="VelocityUnit" type="MeasurementSystemUnit" defaultValue="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" readOnly="false" category="Behavior">
+			<Description>minValue.</Description>
+			<Mappings>
+				<Mapping widget="setVelocity" property="unit" />
+				<Mapping widget="actVelocity" property="unit" />
+				
+			</Mappings>
+		</Property>
+		
+		<Property xsi:type="BindableProperty" name="Blocked" type="Boolean" defaultValue="true" readOnly="false" category="Behavior">
+			<Description>Eksen Seçimelemz Durumu.</Description>
+			<Mappings>
+				<Mapping widget="AxisName" property="enable" mode="twoWay" />
+			</Mappings>
+		</Property>
+	
+		
+	
+		
+		
+		
+    <!-- 
+    Simple non bindable property:
+    Property Attributes
+    xsi:type: NonBindableProperty
+    name: name of the property (not allowed: width, height, top, left, id, enable, visible, zindex, margin, premissionview, permissionoperate, description)
+    <Property xsi:type="NonBindableProperty" name="" type="" defaultValue="" required="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" property=""/>
+        <Mapping widget="" property=""/>
+      </Mappings>
+    </Property>
+    
+    Simple bindable property:
+    <Property xsi:type="BindableProperty" name="" type="" defaultValue="" readOnly="" category="" localizable="" typeRefId="" nodeRefId="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" property="" mode=""/>
+        <Mapping widget="" property="" mode=""/>
+      </Mappings>
+    </Property>
+
+
+    Structure bindable property:
+		<Property xsi:type="StructureBindableProperty" name="" type="" readOnly="" >
+			<Description>Description will be shown in property grid.</Description>
+			<Mappings>
+				<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+				<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+				<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+			</Mappings>
+		</Property>
+    -->
+  </Properties>
+
+  <Events>
+    <!--
+    <Event name="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" event="" />
+      </Mappings>
+    </Event>
+    -->
+  </Events>
+
+  <Actions>
+    <!--
+    <Action name="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" action="" />
+      </Mappings>
+    </Action>
+    -->
+  </Actions>
+
+  <EventBindings>
+    <!-- source and target can only be widgets within the compound widget.
+    <EventBinding id="">
+      <Source xsi:type="widget.Event" widgetRefId="" event="" />
+      <EventHandler condition="">
+        <Action>
+          <Target xsi:type="widget.Action" widgetRefId="">
+            <Method name="" value="" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    -->
+  </EventBindings>
+
+</CompoundWidget>

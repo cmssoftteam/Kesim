@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/dialog_UserXExport</prop>
+  </header>
+  <body>
+    <tu tuid="Dialog.Header">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcıları Aktar</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Users Export</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.Export.Header">
+      <tuv xml:lang="tr">
+        <seg>Kullanıcı Listesi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User List</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MessageBox.Export.Message">
+      <tuv xml:lang="tr">
+        <seg>Aktarım başarılı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Export successful</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Confirm">
+      <tuv xml:lang="tr">
+        <seg>Onayla</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Confirm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Button.Cancel">
+      <tuv xml:lang="tr">
+        <seg>İptal</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cancel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Label.FileName">
+      <tuv xml:lang="tr">
+        <seg>Aktarılacak Dosya İsmi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Export File Name</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

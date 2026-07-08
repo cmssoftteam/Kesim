@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="DialogPackage" PackageType="DialogPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" TransferedForTargetSourceCompare="true">dialog_AlarmXMgr.tmx</Object>
+    <Object Type="File" Description="Dialog">dialog_AlarmXMgr.dialog</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">content_AlarmXMgr.content</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">content_AlarmXList.content</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">content_AlarmXHistory.content</Object>
+  </Objects>
+</Package>

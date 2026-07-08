@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ddef:Dialog xmlns:ddef="http://www.br-automation.com/iat2015/dialogDefinition/v2" id="dialog_RecipeMgr" layoutRefId="layout_dialog_RecipeMgr">
+  <Assignments>
+    <Assignment type="Content" baseContentRefId="content_RecipeMgr" areaRefId="areaContent" />
+  </Assignments>
+</ddef:Dialog>

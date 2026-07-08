@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_RecipeAddMach" guid="9c748026-368f-41fd-a203-aea72b17fc49" height="100" width="400" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label_NewRecipeName" top="22" left="7" width="196" height="60" zIndex="0" text="$IAT/dialog_RecipeAdd/Label.NewRecipeName" textAlign="right" fontSize="22px" />
+    <Widget xsi:type="widgets.brease.TextInput" id="TextInput_NewRecipeName" top="36" left="202" width="195" zIndex="1" textAlign="left" />
+  </Widgets>
+</Content>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vdef:Visualization id="vis_0" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+  <StartPage pageRefId="page_Main" />
+  <Pages>
+    <Page refId="page_Main" />
+  </Pages>
+  <Navigations />
+  <BindingsSets />
+  <EventBindingsSets />
+  <EventScriptsSets />
+  <Dialogs>
+    <Dialog refId="dialog_AlarmXMgr" />
+    <Dialog refId="dialog_AlarmXDetail" />
+    <Dialog refId="dialog_UserXMgr" />
+    <Dialog refId="dialog_UserXError" />
+    <Dialog refId="dialog_UserXExport" />
+    <Dialog refId="dialog_UserXImport" />
+    <Dialog refId="dialog_RecipeMgr" />
+    <Dialog refId="dialog_RecipeRename" />
+    <Dialog refId="dialog_RecipeAdd" />
+    <Dialog refId="dialog_RecipeMgrMach" />
+    <Dialog refId="dialog_RecipeRenameMach" />
+    <Dialog refId="dialog_RecipeAddMach" />
+  </Dialogs>
+  <Contents>
+    <Content refId="content_Header" />
+    <Content refId="content_Navigation" />
+    <Content refId="P0001_StartPage" />
+    <Content refId="content_Button" />
+    <Content refId="content_AlarmXMgr" />
+    <Content refId="content_AlarmXList" />
+    <Content refId="content_AlarmXHistory" />
+    <Content refId="content_AlarmXDetail" />
+    <Content refId="content_UserXMgr" />
+    <Content refId="content_UserXList" />
+    <Content refId="content_UserXError" />
+    <Content refId="content_UserXExport" />
+    <Content refId="content_UserXImport" />
+    <Content refId="content_RecipeMgr" />
+    <Content refId="content_RecipeRename" />
+    <Content refId="content_RecipeRenameButton" />
+    <Content refId="content_RecipeAdd" />
+    <Content refId="content_RecipeAddButton" />
+    <Content refId="content_RecipeMgrMach" />
+    <Content refId="content_RecipeRenameMach" />
+    <Content refId="content_RecipeRenameButtonMach" />
+    <Content refId="content_RecipeAddMach" />
+    <Content refId="content_RecipeAddButtonMach" />
+    <Content refId="P0100_Manual" />
+  </Contents>
+  <SnippetsSets />
+  <VariablesSets />
+  <ExpressionsSets />
+  <Configurations>
+    <Configuration key="activityCount" value="false" />
+    <Gestures>
+      <!--<SystemGesture1 touchPoints="2" />
+		  <SystemGesture2 touchPoints="2" />
+		  <SystemGesture3 touchPoints="2" />-->
+    </Gestures>
+    <VirtualKeyboards>
+      <!--<InputProcessing onKeyDown="true" />-->
+    </VirtualKeyboards>
+  </Configurations>
+</vdef:Visualization>

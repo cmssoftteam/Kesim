@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/IO_Forcing_States</prop>
+  </header>
+  <body>
+    <tu tuid="0">
+      <tuv xml:lang="tr">
+        <seg>FORCE WAIT</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>FORCE WAIT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="10">
+      <tuv xml:lang="tr">
+        <seg>FORCE ENABLE FORCE</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>FORCE ENABLE FORCE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="20">
+      <tuv xml:lang="tr">
+        <seg>FORCE WRITE</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>FORCE WRITE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="30">
+      <tuv xml:lang="tr">
+        <seg>FORCE DISABLE SPECIFIC FORCE</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>FORCE DISABLE SPECIFIC FORCE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="40">
+      <tuv xml:lang="tr">
+        <seg>FORCE DISABLE ALL</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>FORCE DISABLE ALL</seg>
+      </tuv>
+    </tu>
+    <tu tuid="99">
+      <tuv xml:lang="tr">
+        <seg>FORCE ERROR</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>FORCE ERROR</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

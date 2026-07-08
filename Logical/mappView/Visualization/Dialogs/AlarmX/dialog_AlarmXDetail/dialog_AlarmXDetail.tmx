@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/dialog_AlarmXDetail</prop>
+  </header>
+  <body>
+    <tu tuid="Dialog.Header">
+      <tuv xml:lang="tr">
+        <seg>Alarm Detayı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alarm Detail</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Label.Alarm.code">
+      <tuv xml:lang="tr">
+        <seg>Kod:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Code:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Label.Alarm.name">
+      <tuv xml:lang="tr">
+        <seg>İsim:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Name:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Label.Alarm.timestamp">
+      <tuv xml:lang="tr">
+        <seg>Zaman:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Time:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Label.Alarm.message">
+      <tuv xml:lang="tr">
+        <seg>Mesaj:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Message:</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="DialogPackage" PackageType="DialogPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" TransferedForTargetSourceCompare="true">dialog_UserXMgr.tmx</Object>
+    <Object Type="File" Description="Dialog">dialog_UserXMgr.dialog</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">content_UserXMgr.content</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">content_UserXList.content</Object>
+  </Objects>
+</Package>

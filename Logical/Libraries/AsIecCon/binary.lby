@@ -7,6 +7,6 @@
     <File>AsIecCon.var</File>
   </Files>
   <Dependencies>
-    <Dependency ObjectName="runtime" />
+    <Dependency ObjectName="astime" />
   </Dependencies>
 </Library>

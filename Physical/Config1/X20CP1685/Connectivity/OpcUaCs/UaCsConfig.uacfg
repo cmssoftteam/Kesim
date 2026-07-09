@@ -7,7 +7,7 @@
       <Property ID="Multicore" Value="1" />
     </Group>
     <Group ID="Network">
-      <Property ID="TcpPort" Value="4840" />
+      <Property ID="TcpPort" Value="4848" />
       <Group ID="Discovery">
         <Property ID="RegisterAtServer" Value="0" />
         <Property ID="ServerUrl" Value="opc.tcp://" />
@@ -27,7 +27,7 @@
           <Property ID="Basic256Sha256" Value="1" />
         </Group>
         <Group ID="Modes">
-          <Property ID="Sign" Value="0" />
+          <Property ID="Sign" Value="1" />
           <Property ID="SignAndEncrypt" Value="1" />
         </Group>
       </Group>
@@ -39,7 +39,7 @@
           <Property ID="Basic256Sha256" Value="1" />
         </Group>
         <Group ID="UserIdentityTokens">
-          <Property ID="AnonymousIdentityToken" Value="0" />
+          <Property ID="AnonymousIdentityToken" Value="1" />
           <Property ID="UserNameIdentityToken" Value="1" />
           <Property ID="X509IdentityToken" Value="0" />
         </Group>

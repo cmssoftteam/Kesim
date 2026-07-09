@@ -1,0 +1,10 @@
+(********************************************************************
+ * COPYRIGHT --  B&R Industrial Automation GmbH 
+ *******************************************************************
+ * Task: MAIN
+ * Author: kay3a 
+ * Created: October 16, 2024/11:08 AM 
+ ********************************************************************)
+VAR
+	Loc : Loc_typ; (**** Bu Task icinde kullanilacak Local degisken*)
+END_VAR

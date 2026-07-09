@@ -568,7 +568,6 @@ _BUR_PUBLIC unsigned short FileIoGetSysError(void);
  #define fiERR_DEVICE_MANAGER 20798U
  #define fiERR_DEVICE_DRIVER 20797U
  #define fiERR_INIT 20796U
- #define fiERR_NETIO_INIT 20737U
  #define fiERR_NETIO_PARAMETERS 20736U
  #define fiERR_INVALID_NBYTES 20735U
  #define fiERR_NETIO_USER 20734U
@@ -644,7 +643,6 @@ _BUR_PUBLIC unsigned short FileIoGetSysError(void);
  _GLOBAL_CONST unsigned short fiERR_DEVICE_MANAGER;
  _GLOBAL_CONST unsigned short fiERR_DEVICE_DRIVER;
  _GLOBAL_CONST unsigned short fiERR_INIT;
- _GLOBAL_CONST unsigned short fiERR_NETIO_INIT;
  _GLOBAL_CONST unsigned short fiERR_NETIO_PARAMETERS;
  _GLOBAL_CONST unsigned short fiERR_INVALID_NBYTES;
  _GLOBAL_CONST unsigned short fiERR_NETIO_USER;

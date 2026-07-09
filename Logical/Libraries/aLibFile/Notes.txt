@@ -1,0 +1,10 @@
+
+
+(* PC de veya CPU da 'C' ye oluşturur *)
+FB_DirCreate.Parameters.DeviceName := 'Device_CNCprg';
+FB_DirCreate.Parameters.DirPath := '/DEVICE=X:\\CNCPrg\';
+
+(* PLC altındaki F ye oluşturur - windows suzlarda *)
+FB_DirCreate.Parameters.DeviceName := 'Device_RECIPE';
+FB_DirCreate.Parameters.DirPath := '/DEVICE=USER_PATH/Recipe';
+

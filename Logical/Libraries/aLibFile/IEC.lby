@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="1.0.0" SubType="IEC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>Notes.txt</File>
+    <File Description="Exported data types" TransferedForTargetSourceCompare="true">FbDirCreate.typ</File>
+    <File Description="Exported data types" TransferedForTargetSourceCompare="true">FbDirDelete.typ</File>
+    <File Description="Exported data types" TransferedForTargetSourceCompare="true">FbDirRead.typ</File>
+    <File Description="Exported data types" TransferedForTargetSourceCompare="true">FbFileCreate.typ</File>
+    <File Description="Exported data types" TransferedForTargetSourceCompare="true">FbFileWrite.typ</File>
+    <File Description="Exported data types" TransferedForTargetSourceCompare="true">FbFileRead.typ</File>
+    <File Description="Exported data types" TransferedForTargetSourceCompare="true">FbFileDelete.typ</File>
+    <File Description="Exported functions and function blocks">aLibFile.fun</File>
+    <File Description="Folder siler." TransferedForTargetSourceCompare="true">FbDirDelete.st</File>
+    <File Description="Folder oluşturur." TransferedForTargetSourceCompare="true">FbDirCreate.st</File>
+    <File Description="Folder içerisindekileri okur." TransferedForTargetSourceCompare="true">FbDirRead.st</File>
+    <File Description="File oluşturur." TransferedForTargetSourceCompare="true">FbFileCreate.st</File>
+    <File Description="File a yazar." TransferedForTargetSourceCompare="true">FbFileWrite.st</File>
+    <File Description="File i okur." TransferedForTargetSourceCompare="true">FbFileRead.st</File>
+    <File Description="File i siler." TransferedForTargetSourceCompare="true">FbFileDelete.st</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="FileIO" />
+    <Dependency ObjectName="AsBrStr" />
+    <Dependency ObjectName="standard" />
+  </Dependencies>
+</Library>

@@ -57,8 +57,7 @@ VAR CONSTANT
 	fiERR_NETIO_USER				: UINT := 20734;		(*error user or password*)
 	fiERR_INVALID_NBYTES			: UINT := 20735;		(*error invalid number of bytes*)
 	fiERR_NETIO_PARAMETERS			: UINT := 20736;		(*error invalid parameters to establish a connection*)
-	fiERR_NETIO_INIT				: UINT := 20737;		(*error network file system initialization failed*)
-
+	
 	fiERR_INIT  					: UINT := 20796;		(*error init*)
 	fiERR_DEVICE_DRIVER  			: UINT := 20797;		(*error device driver*)
 	fiERR_DEVICE_MANAGER  			: UINT := 20798;		(*error device manager*)

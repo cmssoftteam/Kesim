@@ -9,8 +9,6 @@ extern "C"
 #endif
 
 #include <bur/plctypes.h>
-  
-#include <runtime.h>
 
 #ifndef _BUR_PUBLIC
 #define _BUR_PUBLIC

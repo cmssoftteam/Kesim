@@ -1,8 +1,3 @@
-
 VAR
-
-END_VAR
-
-VAR CONSTANT
-
+	fbTableUpDown_0 : fbTableUpDown;
 END_VAR

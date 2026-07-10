@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/Language</prop>
+  </header>
+  <body>
+    <tu tuid="txtStart">
+      <tuv xml:lang="tr">
+        <seg>Başla</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Start</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtCNCProgram">
+      <tuv xml:lang="tr">
+        <seg>CNC Program</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>CNC Program</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtStop">
+      <tuv xml:lang="tr">
+        <seg>Dur</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Stop</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtGo">
+      <tuv xml:lang="tr">
+        <seg>Git</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Go</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtSpeed">
+      <tuv xml:lang="tr">
+        <seg>Hız</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Speed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtPathSpeed">
+      <tuv xml:lang="tr">
+        <seg>İşleme Hızı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Path Speed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtManual">
+      <tuv xml:lang="tr">
+        <seg>Manual</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Manual</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtAutoSquaring">
+      <tuv xml:lang="tr">
+        <seg>Oto Gönyeleme</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Auto Squaring</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtPosition">
+      <tuv xml:lang="tr">
+        <seg>Pozisyon</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Position</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtSignal">
+      <tuv xml:lang="tr">
+        <seg>Sinyal</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Signal</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtTestProgram">
+      <tuv xml:lang="tr">
+        <seg>Test Program</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Test Program</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtConveyorDown">
+      <tuv xml:lang="tr">
+        <seg>Konveyor Aşağı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Conveyor Down</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txttxtConveyorFault">
+      <tuv xml:lang="tr">
+        <seg>Konveyor Hata</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Conveyor Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtConveyorOn">
+      <tuv xml:lang="tr">
+        <seg>Konveyor Açık</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Conveyor Up</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtFanMotorFault">
+      <tuv xml:lang="tr">
+        <seg>Fan Motoru Arıza</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Fan Motor Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtFanPedal">
+      <tuv xml:lang="tr">
+        <seg>Fan Pedal</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Fan Pedal</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtXAxisRef">
+      <tuv xml:lang="tr">
+        <seg>X Eksen Ref</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X Axis Ref</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtYAxisRef">
+      <tuv xml:lang="tr">
+        <seg>Y Eksen Ref</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Y Axis Ref</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtCAxisRef">
+      <tuv xml:lang="tr">
+        <seg>C Eksen Ref</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>C Axis Ref</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtGlassEntranceSensor">
+      <tuv xml:lang="tr">
+        <seg>Cam Giriş Sensor</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Glass Entrance Sensor</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtGlassExitSensor">
+      <tuv xml:lang="tr">
+        <seg>Cam Çıkış Sensor</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Glass Exit Sensor</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtGlassInLeftSide">
+      <tuv xml:lang="tr">
+        <seg>Cam Sol Tarafta</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Glass In Left Side</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtGlassInRightSide">
+      <tuv xml:lang="tr">
+        <seg>Cam Sağ Tarafta</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Glass In Right Side</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtHeadLimitDown">
+      <tuv xml:lang="tr">
+        <seg>Kafa Aşağı Limit</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Head Limit Down</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtLeftCarrierDown">
+      <tuv xml:lang="tr">
+        <seg>Sol Gönye Geride</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Left Carrier Down</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtXAxisTrigger">
+      <tuv xml:lang="tr">
+        <seg>X Eksen Triger</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X Axis Trigger</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtYAxisTrigger">
+      <tuv xml:lang="tr">
+        <seg>Y Eksen Triger</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Y Axis Trigger</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtSquareSystemLimit">
+      <tuv xml:lang="tr">
+        <seg>Gönyeleme Sistem Limit</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Square System Limit</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtLowAirPressure">
+      <tuv xml:lang="tr">
+        <seg>Hava Düşük</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Low Air Pressure</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtNegativeButton">
+      <tuv xml:lang="tr">
+        <seg>Negatif Buton</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Negative Button</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtPauseButton">
+      <tuv xml:lang="tr">
+        <seg>Beklet Buton</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pause Button</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtPhaseRelayFault">
+      <tuv xml:lang="tr">
+        <seg>Faz Sırası Hatalı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Phase Relay Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtPositiveButton">
+      <tuv xml:lang="tr">
+        <seg>Pozitif Buton</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Positive Button</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtXPosLimit">
+      <tuv xml:lang="tr">
+        <seg>X + Limit</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X + Limit</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtResetButton">
+      <tuv xml:lang="tr">
+        <seg>Reset Buton</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reset Button</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtSafetyPhotocells">
+      <tuv xml:lang="tr">
+        <seg>Güvenlik Fotoseli</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Safety Photocells</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtSetPressureReached">
+      <tuv xml:lang="tr">
+        <seg>Basınça Ulaşıldı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Set Pressure Reached</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtStartButton">
+      <tuv xml:lang="tr">
+        <seg>Başla Buton</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Start Button</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtXNegLimit">
+      <tuv xml:lang="tr">
+        <seg>X - Limit</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X - Limit</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtCuttingHeadDown">
+      <tuv xml:lang="tr">
+        <seg>Elmas Aşağı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cutting Head Down</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtSquareSystemForward">
+      <tuv xml:lang="tr">
+        <seg>Gönyeleme İleri</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Square System Forward</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtConveyorUp">
+      <tuv xml:lang="tr">
+        <seg>Konveyör Yukarı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Conveyor Up</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtTank1">
+      <tuv xml:lang="tr">
+        <seg>Tank 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Tank 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtLowEMotorStart">
+      <tuv xml:lang="tr">
+        <seg>Low-E Motor Çalış</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Low E Motor Start</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtConveyorForward">
+      <tuv xml:lang="tr">
+        <seg>Konveyor İleri</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Conveyor Forward</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtConveyorBackward">
+      <tuv xml:lang="tr">
+        <seg>Konveyor Geri</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Conveyor Backward</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtLoweMotorPiston">
+      <tuv xml:lang="tr">
+        <seg>Low E Motor Aşağı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Low E Motor Piston</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtTank2">
+      <tuv xml:lang="tr">
+        <seg>Tank 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Tank 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtSetPressure">
+      <tuv xml:lang="tr">
+        <seg>Set Basınç</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Set Pressure</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtInput">
+      <tuv xml:lang="tr">
+        <seg>Girişler</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Input</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtOutput">
+      <tuv xml:lang="tr">
+        <seg>Çıkışlar</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Output</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtReference">
+      <tuv xml:lang="tr">
+        <seg>Referans</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reference</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtTransferPiston">
+      <tuv xml:lang="tr">
+        <seg>Transfer Piston</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Transfer Piston</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtStartFan">
+      <tuv xml:lang="tr">
+        <seg>Start Fan</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Start Fan</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

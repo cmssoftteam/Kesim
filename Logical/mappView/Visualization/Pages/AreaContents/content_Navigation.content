@@ -4,7 +4,7 @@
     <Widget xsi:type="widgets.brease.ButtonBar" id="ButtonBar1" top="9" left="5" width="138" height="819" zIndex="0">
       <Widgets>
         <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton1" top="5" left="21" width="99" height="102" zIndex="0" image="Media/home-page.png" imageAlign="top" pageId="pageId1" text="Ana Sayfa" fontSize="13px" bold="true" />
-        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton2" top="121" left="21" width="99" height="102" zIndex="1" pageId="pageId1" text="Manual" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton2" top="121" left="21" width="99" height="102" zIndex="1" image="Media/CMS/ManualPage.png" imageAlign="top" pageId="pageId1" text="Manual" imageHeight="60" imageWidth="60" />
         <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton3" top="237" left="21" width="99" height="102" zIndex="2" pageId="pageId1" text="NavigationButton3" />
         <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton4" top="353" left="21" width="99" height="102" zIndex="3" pageId="pageId1" text="Setting" />
         <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton5" top="469" left="21" width="99" height="102" zIndex="4" pageId="pageId1" text="Alarm" />

@@ -27,7 +27,7 @@
       <Property ID="TargetFile[13]" Value="mappView.Visualization.Dialogs.Recipe.Product.dialog_RecipeMgr.tmx" />
       <Property ID="TargetFile[14]" Value="mappView.Visualization.Dialogs.Recipe.Product.dialog_RecipeAdd.tmx" />
       <Property ID="TargetFile[15]" Value="mappView.Visualization.Dialogs.Recipe.Product.dialog_RecipeRename.tmx" />
-      <Property ID="TargetFile[16]" Value="mappView.Resources.Texts.OTM_Language.tmx" />
+      <Property ID="TargetFile[16]" Value="mappView.Resources.Texts.Language.tmx" />
       <Property ID="TargetFile[17]" Value="Source.Infastructure.AlarmX.Alerts.tmx" />
     </Group>
   </Element>

@@ -4,7 +4,7 @@
     <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="16" left="13" width="379" height="196" zIndex="0" text="$IAT/OTM_Language/txtCNCProgram">
       <Widgets />
     </Widget>
-    <Widget xsi:type="widgets.brease.MotionPad" id="MotionPad1" top="12" left="459" width="1170" height="700" zIndex="1" mpLink="gMpLink_CncXYZ" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.MotionPad" id="MotionPad1" top="12" left="459" width="621" height="63" zIndex="1" mpLink="gMpLink_CncXYZ" fontSize="20px" />
     <Widget xsi:type="widgets.brease.Button" id="Button_Program_Save" top="732" left="939" zIndex="2" text="Save" />
     <Widget xsi:type="widgets.brease.Button" id="Button_Program_Open" top="732" left="1079" zIndex="3" text="Open" />
     <Widget xsi:type="widgets.brease.Button" id="Button_Program_Run" top="733" left="736" width="180" height="50" zIndex="4" text="Run" />

@@ -38,6 +38,7 @@
     <EventBindingsSet refId="content_AlarmXHistory" />
     <EventBindingsSet refId="content_AlarmXList" />
     <EventBindingsSet refId="content_Header" />
+    <EventBindingsSet refId="content_Navigation" />
   </EventBindingsSets>
   <EventScriptsSets />
   <Dialogs>
@@ -85,26 +86,26 @@
   </SnippetsSets>
   <VariablesSets>
     <VariablesSet refId="AlarmX" />
-		<VariablesSet refId="UserX" />
+    <VariablesSet refId="UserX" />
   </VariablesSets>
   <ExpressionsSets />
-	<Configurations>
-		<Configuration key="bootProgressBar" value="true" />
-		<Configuration key="zoom" value="true" />
-		<!--<Configuration key="favicon" value="Media\mappFrameworkSymbols\Logos\BnR_Logo.ico" />-->
-		<Configuration key="bootColor" value="rgba(217, 218, 221, 1)" />
-		<!--<Configuration key="bootLogo" value="Media\mappFrameworkSymbols\Logos\BnR_Logo.svg" />-->
-		<Configuration key="bootLogo" value="Media\CMS\Logo_.png" />
-		<Configuration key="favicon" value="Media\CMS\Logo_.png" />
-		<Configuration key="activityCount" value="false" />
-		<Gestures>
-			<!--<SystemGesture1 touchPoints="2" />
+  <Configurations>
+    <Configuration key="bootProgressBar" value="true" />
+    <Configuration key="zoom" value="true" />
+    <!--<Configuration key="favicon" value="Media\mappFrameworkSymbols\Logos\BnR_Logo.ico" />-->
+    <Configuration key="bootColor" value="rgba(217, 218, 221, 1)" />
+    <!--<Configuration key="bootLogo" value="Media\mappFrameworkSymbols\Logos\BnR_Logo.svg" />-->
+    <Configuration key="bootLogo" value="Media\CMS\Logo_.png" />
+    <Configuration key="favicon" value="Media\CMS\Logo_.png" />
+    <Configuration key="activityCount" value="false" />
+    <Gestures>
+      <!--<SystemGesture1 touchPoints="2" />
 
 			<SystemGesture2 touchPoints="2" />
 			<SystemGesture3 touchPoints="2" />-->
-		</Gestures>
-		<VirtualKeyboards>
-			<!--<InputProcessing onKeyDown="true" />-->
-		</VirtualKeyboards>
-	</Configurations>
+    </Gestures>
+    <VirtualKeyboards>
+      <!--<InputProcessing onKeyDown="true" />-->
+    </VirtualKeyboards>
+  </Configurations>
 </vdef:Visualization>

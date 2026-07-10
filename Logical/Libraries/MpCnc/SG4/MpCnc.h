@@ -1,6 +1,6 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
-/* MpCnc 6.5.1 */
+/* MpCnc 6.7.2 */
 
 #ifndef _MPCNC_
 #define _MPCNC_
@@ -9,7 +9,7 @@ extern "C"
 {
 #endif
 #ifndef _MpCnc_VERSION
-#define _MpCnc_VERSION 6.5.1
+#define _MpCnc_VERSION 6.7.2
 #endif
 
 #include <bur/plctypes.h>
@@ -19,17 +19,17 @@ extern "C"
 #endif
 
 #ifdef _SG4
-#include <McAxGroup.h> 
+#include <McAxGroup.h>
 #include <MpBase.h>
 #endif
- 
+
 #ifdef _SG3
-#include <McAxGroup.h> 
+#include <McAxGroup.h>
 #include <MpBase.h>
 #endif
- 
+
 #ifdef _SGC
-#include <McAxGroup.h> 
+#include <McAxGroup.h>
 #include <MpBase.h>
 #endif
 

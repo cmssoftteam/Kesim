@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="TextConfig" Type="TextConfig">
+    <Group ID="Languages">
+      <Property ID="UserDefaultLanguage" Value="en" />
+      <Property ID="UserFallbackLanguage" Value="en" />
+      <Group ID="TargetLanguages">
+        <Property ID="TargetLanguage[1]" Value="en" />
+        <Property ID="TargetLanguage[2]" Value="tr" />
+        <Property ID="TargetLanguage[3]" Value="" />
+      </Group>
+    </Group>
+    <Group ID="TargetFiles">
+      <Property ID="TargetFile[1]" Value="mappView.Visualization.Dialogs.AlarmX.dialog_AlarmXMgr.dialog_AlarmXMgr.tmx" />
+      <Property ID="TargetFile[2]" Value="mappView.Visualization.Dialogs.AlarmX.dialog_AlarmXDetail.dialog_AlarmXDetail.tmx" />
+      <Property ID="TargetFile[3]" Value="mappView.Visualization.Dialogs.UserX.UserXDisabled.tmx" />
+      <Property ID="TargetFile[4]" Value="mappView.Visualization.Dialogs.UserX.SystemLogin.tmx" />
+      <Property ID="TargetFile[5]" Value="mappView.Visualization.Dialogs.UserX.SystemDialog.tmx" />
+      <Property ID="TargetFile[6]" Value="mappView.Visualization.Dialogs.UserX.UserList.tmx" />
+      <Property ID="TargetFile[7]" Value="mappView.Visualization.Dialogs.UserX.dialog_UserXMgr.dialog_UserXMgr.tmx" />
+      <Property ID="TargetFile[8]" Value="mappView.Visualization.Dialogs.UserX.dialog_UserXError.dialog_UserXError.tmx" />
+      <Property ID="TargetFile[9]" Value="mappView.Visualization.Dialogs.UserX.dialog_UserXExport.dialog_UserXExport.tmx" />
+      <Property ID="TargetFile[10]" Value="mappView.Visualization.Dialogs.UserX.dialog_UserXImport.dialog_UserXImport.tmx" />
+      <Property ID="TargetFile[11]" Value="mappView.Resources.Texts.ForceIO.IO_Forcing_States.tmx" />
+      <Property ID="TargetFile[12]" Value="mappView.Resources.Texts.ForceIO.IO_Module_names.tmx" />
+      <Property ID="TargetFile[13]" Value="mappView.Visualization.Dialogs.Recipe.Product.dialog_RecipeMgr.tmx" />
+      <Property ID="TargetFile[14]" Value="mappView.Visualization.Dialogs.Recipe.Product.dialog_RecipeAdd.tmx" />
+      <Property ID="TargetFile[15]" Value="mappView.Visualization.Dialogs.Recipe.Product.dialog_RecipeRename.tmx" />
+      <Property ID="TargetFile[16]" Value="mappView.Resources.Texts.OTM_Language.tmx" />
+      <Property ID="TargetFile[17]" Value="Source.Infastructure.AlarmX.Alerts.tmx" />
+    </Group>
+  </Element>
+</Configuration>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="developer" Type="User">
+    <Property ID="Password" Value="$argon2id$v=19$m=512,t=70,p=1$Ks2VAc2Yxgpk$y3e3lssTY4n80/kB9Yp95Outv5sJ+UZQSTrkC5QeyfA" Description="1" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="BR_Engineer" />
+      <Property ID="Role[2]" Value="AdministratorBR" />
+    </Group>
+  </Element>
+  <Element ID="admin" Type="User">
+    <Property ID="Password" Value="$argon2id$v=19$m=512,t=70,p=1$GBWfW2IqFqMf$fz//Zsjlqx0fKVLzPBEKLqOo12HT7vAocekFE60tOu4" Description="1" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="BR_Engineer" />
+      <Property ID="Role[2]" Value="AdministratorCU" />
+    </Group>
+  </Element>
+  <Element ID="supervisor" Type="User">
+    <Property ID="Password" Value="$argon2id$v=19$m=512,t=70,p=1$vjFdtkCIIetN$xysryjJUu5kjgzWX39s/Jm9nx8Zmnyeae0KR9f8/c6M" Description="1" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="BR_Engineer" />
+      <Property ID="Role[2]" Value="Supervisor" />
+    </Group>
+  </Element>
+  <Element ID="operator" Type="User">
+    <Property ID="Password" Value="$argon2id$v=19$m=512,t=70,p=1$yqfdTnH+0jtN$9sL6x1Tp37uzNNdzwLm2SBJbz2EPa1FBEt/14inWp4Q" Description="1" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="BR_Engineer" />
+      <Property ID="Role[2]" Value="Operator" />
+    </Group>
+  </Element>
+  <Element ID="anonymous" Type="User">
+    <Property ID="Password" Value="$argon2id$v=19$m=512,t=70,p=1$TZyu3lgEgM2n$bouolVrox+dPfkBMR/hLQusAdfumyRnXH08P2effLX8" Description="1" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="BR_Engineer" />
+      <Property ID="Role[2]" Value="Operator" />
+    </Group>
+  </Element>
+</Configuration>

@@ -4,5 +4,12 @@
   <Objects>
     <Object Type="File">vis_0.vis</Object>
     <Object Type="File">Config.mappviewcfg</Object>
+    <Object Type="File">OpcUaServer.uaserver</Object>
+    <Object Type="File">P0001_StartPage.binding</Object>
+    <Object Type="File">P0001_StartPage.eventbinding</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">UserX</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">Recipe</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">AlarmX</Object>
+    <Object Type="File">content_Header.eventbinding</Object>
   </Objects>
 </Package>

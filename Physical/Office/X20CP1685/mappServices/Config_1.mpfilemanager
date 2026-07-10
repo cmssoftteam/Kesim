@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="FileManagement" Type="mpfilemanager">
+    <Group ID="mapp.Gen">
+      <Property ID="Enable" Value="TRUE" />
+      <Property ID="EnableCockpit" Value="TRUE" />
+      <Property ID="Audit" Value="TRUE" />
+      <Property ID="Parent" />
+    </Group>
+    <Group ID="FileManager">
+      <Selector ID="USB" Value="0" />
+      <Group ID="Devices">
+        <Group ID="0">
+          <Property ID="DeviceName" Value="DEV_CNC" />
+          <Property ID="Text" Value="DEVICE_CNC" />
+        </Group>
+      </Group>
+      <Group ID="Access">
+        <Group ID="0">
+          <Property ID="Folder" Value="*" />
+        </Group>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

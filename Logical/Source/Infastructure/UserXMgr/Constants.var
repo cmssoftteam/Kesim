@@ -1,0 +1,14 @@
+(********************************************************************
+ * COPYRIGHT --  B&R Industrial Automation GmbH 
+ *******************************************************************
+ * Task: UserX
+ * Author: kay3a 
+ * Created: October 2, 2024/3:55 PM 
+ ********************************************************************)
+(**)
+(**** Alarm Category Constants*)
+VAR CONSTANT
+	USER_LIST_MAX_SELECTION : USINT := 20; (*Maxiumum selections on the User List *)
+	USER_LIST_RANGE_START : USINT := 0; (*Range start (used for UserXMgrUIConnect)*)
+	USER_LIST_RANGE_END : USINT := 20; (*Range end (used for UserXMgrUIConnect)*)
+END_VAR

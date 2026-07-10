@@ -4,5 +4,14 @@
     <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="16" left="13" width="379" height="196" zIndex="0" text="$IAT/OTM_Language/txtCNCProgram">
       <Widgets />
     </Widget>
+    <Widget xsi:type="widgets.brease.MotionPad" id="MotionPad1" top="12" left="459" width="1170" height="700" zIndex="1" mpLink="gMpLink_CncXYZ" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_Program_Save" top="732" left="939" zIndex="2" text="Save" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_Program_Open" top="732" left="1079" zIndex="3" text="Open" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_Program_Run" top="733" left="736" width="180" height="50" zIndex="4" text="Run" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power" top="515" left="2" width="180" height="50" zIndex="5" text="Power" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Home" top="570" left="1" width="180" height="50" zIndex="6" text="Home" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_ErrorReset" top="515" left="189" width="180" height="50" zIndex="7" text="ErrorReset" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput_StatusID" top="579" left="192" width="180" zIndex="8" textAlign="left" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput_StatusID1" top="791" left="990" width="180" zIndex="9" textAlign="left" />
   </Widgets>
 </Content>

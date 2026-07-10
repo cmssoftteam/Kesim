@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="content_AlarmXList" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="content_AlarmXList.Button_Detail.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="content_AlarmXList" widgetRefId="Button_Detail" event="Click" />
+      <Operand datatype="ANY_INT" name="Operand_SelectedAlarm_code">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedAlarm_code">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="Operand_SelectedAlarm_code = 0">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ShowMessageBox" type="OK" message="$IAT/dialog_AlarmXMgr/MessageBox.AlarmSelect.Message" header="$IAT/dialog_AlarmXMgr/MessageBox.AlarmSelect.Header" icon="Warning" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="Operand_SelectedAlarm_code &gt; 0">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialog_AlarmXDetail" headerText="$IAT/dialog_AlarmXDetail/Dialog.Header" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="content_AlarmXList.AlarmList_Table.ItemClick">
+      <Source xsi:type="widgets.brease.AlarmList.Event" contentRefId="content_AlarmXList" widgetRefId="AlarmList_Table" event="ItemClick" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="SelectedAlarm_code">
+                <Method xsi:type="session.VariableAction.SetValueNumber" value="=code" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="SelectedAlarm_name">
+                <Method xsi:type="session.VariableAction.SetValueString" value="=name" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="SelectedAlarm_messsage">
+                <Method xsi:type="session.VariableAction.SetValueString" value="=message" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="3">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="SelectedAlarm_timestamp">
+                <Method xsi:type="session.VariableAction.SetValueString" value="=timestamp" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="content_AlarmXList.AlarmList_Table.ItemDoubleClick">
+      <Source xsi:type="widgets.brease.AlarmList.Event" contentRefId="content_AlarmXList" widgetRefId="AlarmList_Table" event="ItemDoubleClick" />
+      <Operand datatype="ANY_INT" name="Operand_SelectedAlarm_code">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedAlarm_code">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="Operand_SelectedAlarm_code = 0">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ShowMessageBox" type="OK" message="$IAT/dialog_AlarmXMgr/MessageBox.AlarmSelect.Message" header="$IAT/dialog_AlarmXMgr/MessageBox.AlarmSelect.Header" icon="Warning" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="Operand_SelectedAlarm_code &gt; 0">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialog_AlarmXDetail" headerText="$IAT/dialog_AlarmXDetail/Dialog.Header" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

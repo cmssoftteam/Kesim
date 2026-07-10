@@ -1,6 +1,6 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
-/* MpAxis 6.5.1 */
+/* MpAxis 6.7.2 */
 
 #ifndef _MPAXIS_
 #define _MPAXIS_
@@ -9,7 +9,7 @@ extern "C"
 {
 #endif
 #ifndef _MpAxis_VERSION
-#define _MpAxis_VERSION 6.5.1
+#define _MpAxis_VERSION 6.7.2
 #endif
 
 #include <bur/plctypes.h>
@@ -19,21 +19,21 @@ extern "C"
 #endif
 
 #ifdef _SG4
-#include <McAxis.h> 
-#include <MpBase.h> 
 #include <McBase.h>
+#include <McAxis.h>
+#include <MpBase.h>
 #endif
- 
+
 #ifdef _SG3
-#include <McAxis.h> 
-#include <MpBase.h> 
 #include <McBase.h>
+#include <McAxis.h>
+#include <MpBase.h>
 #endif
- 
+
 #ifdef _SGC
-#include <McAxis.h> 
-#include <MpBase.h> 
 #include <McBase.h>
+#include <McAxis.h>
+#include <MpBase.h>
 #endif
 
 /* Datatypes and datatypes of function blocks */
@@ -276,7 +276,8 @@ typedef enum MpAXBDrvCtrlModEnum
 typedef enum MpAXBDrvCtrlFFwdModEnum
 {	mcAXB_FF_MODE_STD = 0,
 	mcAXB_FF_MODE_PRED_SPD = 1,
-	mcAXB_FF_MODE_TWO_MASS_MDL = 2
+	mcAXB_FF_MODE_TWO_MASS_MDL = 2,
+	mcAXB_FF_MODE_FRICT_COMP = 3
 } MpAXBDrvCtrlFFwdModEnum;
 
 typedef enum MpAXBDrvCtrlFdbkModEnum
@@ -317,6 +318,11 @@ typedef enum MpAXBLoopFltrLimLimTypEnum
 typedef enum MpAXBDrvCtrlCurModEnum
 {	mcAXB_CUR_CTRL_MODE_STD = 0
 } MpAXBDrvCtrlCurModEnum;
+
+typedef enum MpAXBDrvHomeBlkDistUnitEnum
+{	mcAXB_HOME_BL_DIST_MEAS_UNIT = 0,
+	mcAXB_HOME_BL_DIST_ENC_REV = 1
+} MpAXBDrvHomeBlkDistUnitEnum;
 
 typedef enum MpAXBDrvStopReacQstopEnum
 {	mcAXB_QSTOP_RCT_DEC_LIM = 0,
@@ -986,6 +992,9 @@ typedef struct MpAXBDrvCtrlFFwdType
 	float Inertia;
 	float AccelerationFilterTime;
 	float PredictionTime;
+	float ActivationSpeed;
+	float DeactivationLagError;
+	float TimeConstant;
 } MpAXBDrvCtrlFFwdType;
 
 typedef struct MpAXBDrvCtrlFdbkType
@@ -1115,6 +1124,7 @@ typedef struct MpAXBDrvHomeType
 	double Position;
 	enum McSwitchEnum ReferencePulse;
 	double ReferencePulseBlockingDistance;
+	enum MpAXBDrvHomeBlkDistUnitEnum BlockingDistanceUnit;
 	float StartVelocity;
 	float HomingVelocity;
 	float Acceleration;

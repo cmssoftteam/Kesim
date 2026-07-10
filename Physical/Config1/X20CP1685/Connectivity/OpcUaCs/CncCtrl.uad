@@ -8,6 +8,9 @@
     <EngineeringUnitAliases />
   </Aliases>
   <Module Name="&lt;Default&gt;">
+    <GlobalVariables Name="Global Variables">
+      <Variable Name="FirstVariable" />
+    </GlobalVariables>
     <Task Name="CncCtrl">
       <Variable Name="Loc">
         <Variable Name="FB">

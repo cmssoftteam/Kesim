@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="MappMotionConfiguration" Type="mappmotioncfg">
+    <Group ID="Processing">
+      <Property ID="ProcessingTaskClass" Value="1" />
+      <Group ID="ExplicitComputationOrder">
+        <Selector ID="Axis" Value="NotUsed" />
+      </Group>
+    </Group>
+    <Group ID="Logger">
+      <Selector ID="SelectiveLogging" Value="NotUsed" />
+    </Group>
+    <Group ID="SharedAlarms">
+      <Selector ID="Axis" Value="MpAlarmX" />
+      <Selector ID="ACOPOSmultiAuxiliarySupplyModule" Value="MpAlarmX" />
+      <Selector ID="ACOPOSmultiPowerSupplyModule" Value="MpAlarmX" />
+      <Selector ID="AxesGroup" Value="MpAlarmX" />
+      <Selector ID="Assembly" Value="MpAlarmX" />
+      <Selector ID="Segment" Value="MpAlarmX" />
+      <Selector ID="Sector" Value="MpAlarmX" />
+      <Selector ID="Shuttle" Value="MpAlarmX" />
+      <Selector ID="CamOperations" Value="MpAlarmX" />
+    </Group>
+    <Group ID="McAcpDrv">
+      <Property ID="POWERLINKCyclesPerParID" Value="2" />
+    </Group>
+  </Element>
+</Configuration>

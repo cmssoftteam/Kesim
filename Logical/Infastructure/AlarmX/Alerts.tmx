@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">AlarmX/Alerts</prop>
+  </header>
+  <body>
+    <tu tuid="Alert.0">
+      <tuv xml:lang="tr">
+        <seg>Acil stop butonuna basıldı.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pressed E-Stop button.</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.1">
+      <tuv xml:lang="tr">
+        <seg>Faz Rölesi Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Phase Order Relay</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.10">
+      <tuv xml:lang="tr">
+        <seg>Çıkış 3 Konveyor Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit 3 Conveyor Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.100">
+      <tuv xml:lang="tr">
+        <seg>Otomatik moda geiçlemiyor, Sensorleri kontrol edin</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Automatic mode error - in machine is unexpected glass</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.1000">
+      <tuv xml:lang="tr">
+        <seg>Makina Otomatikte Degil!!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Machine is not AUTO Mode</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.1001">
+      <tuv xml:lang="tr">
+        <seg>Exit-2 KopruReferanslama Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-2 Bridge Homing Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.1002">
+      <tuv xml:lang="tr">
+        <seg>Exit-3 KopruReferanslama Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-3 Bridge Homing Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.1003">
+      <tuv xml:lang="tr">
+        <seg>Exit-4 KopruReferanslama Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-4 Bridge Homing Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.101">
+      <tuv xml:lang="tr">
+        <seg>Vakum Sinyalini veya Geride Sinyalini Kontrol Edin</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Vacuum Error, Check the Vacuum Sensors</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.102">
+      <tuv xml:lang="tr">
+        <seg>Spatula_SmallPiston Sensor Error</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Spatula_SmallPiston Sensor Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.1020">
+      <tuv xml:lang="tr">
+        <seg>Beyaz İlaç Bitmek Üzere !!!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>White material silo is empty !!!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.1021">
+      <tuv xml:lang="tr">
+        <seg>Siyah İlaç Bitmek Üzere !!!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Blak material silo is empty</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.1022">
+      <tuv xml:lang="tr">
+        <seg>Hidrolik Parametrelerini Kontrol Edin</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Wrong hydraulic calibration - some of speed is zero</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.1024">
+      <tuv xml:lang="tr">
+        <seg>İlaç Donabilir İlaç Alınız.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The Material may freeze. Take your material</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.1025">
+      <tuv xml:lang="tr">
+        <seg>Makina Karışımda. Temizlik, Dolum veya Karışım Alınız.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Machine Mixing. Clean, Fill, or Mix.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.103">
+      <tuv xml:lang="tr">
+        <seg>SPATULA Sensorlerini Kontrol Edin</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPATULA Sensors TimeOut, Please Chek Piston Sensors!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.104">
+      <tuv xml:lang="tr">
+        <seg>SPATULA Sensorlerini Kontrol Edin</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPATULA Sensors TimeOut, Please Chek Piston Sensors!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.105">
+      <tuv xml:lang="tr">
+        <seg>SPATULA Sensorlerini Kontrol Edin</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPATULA Sensors TimeOut, Please Chek Piston Sensors!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.106">
+      <tuv xml:lang="tr">
+        <seg>Kafa-Kopru Sensorlerini Kontrol Edin</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SEALING_IO_NOT_PARKED, Please Check the Head Sensors</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.107">
+      <tuv xml:lang="tr">
+        <seg>Referans Yapılmadı Sealing</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Sealing Inputs Not Parked, Check the Head and Bridge Sensors</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.108">
+      <tuv xml:lang="tr">
+        <seg>Çıkış Unitesinde Cam var!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>One of EXIT Units has detected glass</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.109">
+      <tuv xml:lang="tr">
+        <seg>Giriş Unitesinde Cam var!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>One of ENTRY Units has detected glass</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.11">
+      <tuv xml:lang="tr">
+        <seg>Çıkış 4 Konveyor Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit 4 Conveyor Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.110">
+      <tuv xml:lang="tr">
+        <seg>İlaç Çekme Unitesinde Cam Algılandı!!!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Seal Unit glass detected</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.111">
+      <tuv xml:lang="tr">
+        <seg>Vacum Geride veya Vakum Sinyalini Kontrol Edin!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Vacuum Is Back Signal or Vacuum Signal Error!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.112">
+      <tuv xml:lang="tr">
+        <seg>Girişteki Camın Eni Ölçülemedi. Buffer Boş Kontrol</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry Glass Size Buffer Empty Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.113">
+      <tuv xml:lang="tr">
+        <seg>Girişteki Cam Boy Bilgisi Hatalı. Buffer Dolu</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry Glass Size Buffer Full Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.114">
+      <tuv xml:lang="tr">
+        <seg>Derinlik Ölçme Hala Cam Üzerinde, Cam Köşesi Yanlış Algılanmış</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Depth Finger still on glass, Please Check Glass Corner Sensors</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.115">
+      <tuv xml:lang="tr">
+        <seg>Köşe Dolumda Hydrolik Unite Arızası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Hydraulic Pressure Fault on Corner Filling</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.116">
+      <tuv xml:lang="tr">
+        <seg>Derinlik Ölçme Ölçme Sınırının Dışına Çıktı!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Depth Finger is out of range </seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.117">
+      <tuv xml:lang="tr">
+        <seg>Derinlik Ölçme Kalibre Edilmesi Gerekli, Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Depth Finger needs to be calibrate for Auto Mode</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.118">
+      <tuv xml:lang="tr">
+        <seg>Maksimum Dolum Süresi Aşıldı. Sensor ve basınc kontrol ediniz.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Maximum Filling TimeOut Check the Hydraulic Up-Down Sensors</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.119">
+      <tuv xml:lang="tr">
+        <seg>Çıkış Ünitesi Senkronizasyondan Çıkamadı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Gear Out Error Exit Units, Call CMS Service</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.12">
+      <tuv xml:lang="tr">
+        <seg>Çıkış 5 Konveyor Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit 5 Conveyor Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.13">
+      <tuv xml:lang="tr">
+        <seg>Çıkış 6 Konveyor Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit 6 Conveyor Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.14">
+      <tuv xml:lang="tr">
+        <seg>Çıkış 7 Konveyor Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit 7 Conveyor Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.15">
+      <tuv xml:lang="tr">
+        <seg>Çıkış 8 Konveyor Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit 8 Conveyor Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.16">
+      <tuv xml:lang="tr">
+        <seg>Y Kafa Eksen Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Y Head Axis Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.17">
+      <tuv xml:lang="tr">
+        <seg>C Eksen Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>C Axis Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.18">
+      <tuv xml:lang="tr">
+        <seg>Z Eksen Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Z Axis Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.19">
+      <tuv xml:lang="tr">
+        <seg>Hidrolik Motor Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Hydralic Motor Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.2">
+      <tuv xml:lang="tr">
+        <seg>Hava Yetersiz!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Air Pressure Fault!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.20">
+      <tuv xml:lang="tr">
+        <seg>Vakum Ekseni Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Vacuum Axis Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.200">
+      <tuv xml:lang="tr">
+        <seg>Giriş-1 Kalınlık Eksen Hatasi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry Unit-1 Thickness Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.201">
+      <tuv xml:lang="tr">
+        <seg>Giriş-1 Kalınlık Parametreleri Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry Unit-1 Thickness Parametres Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.202">
+      <tuv xml:lang="tr">
+        <seg>Giriş-1 Kalınlık Enkoder Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry Unit-1 Thickness Encoder Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.203">
+      <tuv xml:lang="tr">
+        <seg>Giriş-1 Kalınlık Sinyal Hatasi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry Unit-1 Sensors Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.204">
+      <tuv xml:lang="tr">
+        <seg>Giriş-1 Refranslama Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry Unit-1 Homing Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.205">
+      <tuv xml:lang="tr">
+        <seg>Giriş-1 Cam Durdurma Sensoru camı İki kere gördü</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry Unit-1 Glass Stop Sensor Blinked, Check Sensor or Glass Dirty</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.206">
+      <tuv xml:lang="tr">
+        <seg>Kafa Sensoru Cam Kurtuldu Hatası(İki kere gördü)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Head Y Glass Sensor Blinked,Check Sensor or Glass Dirty</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.21">
+      <tuv xml:lang="tr">
+        <seg>Çıkış 1 Köprü Eksen Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit 1 Bridge Axis Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.22">
+      <tuv xml:lang="tr">
+        <seg>Giriş ve Çıkışları Sensorleri Kontrol Ediniz.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Parking is not possible - Check Inputs on Conveyors</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.23">
+      <tuv xml:lang="tr">
+        <seg>İlaç Dolum uzun sürdü. Hidrolik Sensorleri kontrol edin</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Filling is taking too long. Check sensors on Hydraulic System</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.24">
+      <tuv xml:lang="tr">
+        <seg>İlaç Siyahta ve Donabilir!!!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Mixed Material in mixer can be frozen!!!</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.25">
+      <tuv xml:lang="tr">
+        <seg>Referans Zaman Aşımı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Homing Timeout. Check Sensors</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.250">
+      <tuv xml:lang="tr">
+        <seg>Giriş-2 Kalınlık Sıfırlama Hatasi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry Unit-2 Homing Timeout Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.251">
+      <tuv xml:lang="tr">
+        <seg>Giriş-2 Kalınlık Sürücü Hatasi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry Unit-2 Driver Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.252">
+      <tuv xml:lang="tr">
+        <seg>Giriş-2 Kalınlık Parametreleri Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry Unit-2 Thickness Parametres Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.253">
+      <tuv xml:lang="tr">
+        <seg>Giriş-2 Kalınlık Enkoder Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry Unit-2 Thickness Encoder Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.254">
+      <tuv xml:lang="tr">
+        <seg>Giriş-2 Kalınlık Sinyal Hatasi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry Unit-2 Sensors Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.255">
+      <tuv xml:lang="tr">
+        <seg>Giriş-2 Refranslama Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry Unit-2 Homing Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.26">
+      <tuv xml:lang="tr">
+        <seg>C veya Z Eksen Enkoderleri Ayarlanması Gerekli!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>C or Z Motor Encoders needs to be adjust!!!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.27">
+      <tuv xml:lang="tr">
+        <seg>Cam-Çıta Kalınlık Bilgilerini Kontrol Edin!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Glass Thickness or Spacer Values are wrong!!! Check the parameters</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.28">
+      <tuv xml:lang="tr">
+        <seg>Vakum Ekseni Limite Ulaştı!!!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Vacuum Axis is reached to limit!!!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.3">
+      <tuv xml:lang="tr">
+        <seg>Eksenlere Güç Verilemiyor</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Power On Problem</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.300">
+      <tuv xml:lang="tr">
+        <seg>Exit-1Kalınlık Sıfırlama Hatasi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-1 Homing Timeout. Check Sensors</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.301">
+      <tuv xml:lang="tr">
+        <seg>Exit-1 Kalınlık Sürücü Hatasi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-1 Driver Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.302">
+      <tuv xml:lang="tr">
+        <seg>Exit-1 Kalınlık Parametreleri Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-1 Thickness Parametres Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.303">
+      <tuv xml:lang="tr">
+        <seg>Exit-1 Kalınlık Enkoder Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-1 Thickness Encoder Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.304">
+      <tuv xml:lang="tr">
+        <seg>Exit-1 Köprü Referans Zaman Aşımı!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-1 Bridge Homing TimeOut!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.305">
+      <tuv xml:lang="tr">
+        <seg>Exit-1 Köprü Servo Sürücü Arıza!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-1 Bridge Servo Drive Error!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.306">
+      <tuv xml:lang="tr">
+        <seg>ALERT_EX_1_BRD_CPT_NOT_DETECT</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ALERT_EX_1_BRD_CPT_NOT_DETECT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.307">
+      <tuv xml:lang="tr">
+        <seg>Exit-1 Köprü Sensorlerden Yanlış Sinyal Geliyor.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-1 Bridge Glass Edge Sensors Error! Check Sensors!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.308">
+      <tuv xml:lang="tr">
+        <seg>Exit-1 Köprü FB Adreleme Pointer Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-1 Bridge Pointer Adressing Error. Call CMS Service</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.309">
+      <tuv xml:lang="tr">
+        <seg>Exit-1 Sensorlerden Yanlış Sinyal Geliyor.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-1 Sensors Error! Check Sensors!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.310">
+      <tuv xml:lang="tr">
+        <seg>Exit-1 Sensorlerden Yanlış Sinyal Geliyor.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-1 Sensors Error! Check Sensors!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.311">
+      <tuv xml:lang="tr">
+        <seg>Exit-1 Sensorlerden Yanlış Sinyal Geliyor.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-1 Sensors Error! Check Sensors!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.312">
+      <tuv xml:lang="tr">
+        <seg>Çıkış-1 Giriş Sensorü Camın Kenarını iki kez gördü</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-1 Entry Sensor Blinked when the Glass Edge Detected</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.350">
+      <tuv xml:lang="tr">
+        <seg>Exit-2 KopruReferanslama Sensoru Görmedi Zaman Aşımı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-2 Bridge Homing Sensor Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.351">
+      <tuv xml:lang="tr">
+        <seg>Exit-2 Kopru Sürücü Arıza</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-2 Bridge Driver Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.352">
+      <tuv xml:lang="tr">
+        <seg>Exit-2 Kalınlık Referanslama Arıza</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-2 Thickness Homing Error!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.353">
+      <tuv xml:lang="tr">
+        <seg>Exit-2 Konveyor Sürücü Arıza</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-2 Conveyor Driver Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.354">
+      <tuv xml:lang="tr">
+        <seg>Exit-2 Kalınlık Parametreleri Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-2 Thickness Parametres Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.355">
+      <tuv xml:lang="tr">
+        <seg>Exit-2 Kalınlık Enkoder Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-2 Thickness Encoder Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.356">
+      <tuv xml:lang="tr">
+        <seg>Exit-2 Köprü Parametreleri Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-2 BridgeParametres Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.357">
+      <tuv xml:lang="tr">
+        <seg>Exit-2 Köprü Enkoder Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-2 Bridge Encoder Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.358">
+      <tuv xml:lang="tr">
+        <seg>Exit-2 Sensorlerden Yanlış Sinyal Geliyor.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-2 Sensors Error! Check Sensors!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.359">
+      <tuv xml:lang="tr">
+        <seg>Exit-2 Sensorlerden Yanlış Sinyal Geliyor.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-2 Sensors Error! Check Sensors!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.4">
+      <tuv xml:lang="tr">
+        <seg>Giriş-1 Konveyor Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry-1 Conveyor Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.400">
+      <tuv xml:lang="tr">
+        <seg>Exit-3 KopruReferanslama Sensoru Görmedi Zaman Aşımı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-3 Bridge Homing Sensor Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.401">
+      <tuv xml:lang="tr">
+        <seg>Exit-3 Kopru Sürücü Arıza</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-3 Bridge Driver Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.402">
+      <tuv xml:lang="tr">
+        <seg>Exit-3 Kalınlık Referanslama Arıza</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-3 Thickness Homing Error!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.403">
+      <tuv xml:lang="tr">
+        <seg>Exit-3 Konveyor Sürücü Arıza</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-3 Conveyor Driver Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.404">
+      <tuv xml:lang="tr">
+        <seg>Exit-3 Kalınlık Parametreleri Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-3 Thickness Parametres Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.405">
+      <tuv xml:lang="tr">
+        <seg>Exit-3 Kalınlık Enkoder Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-3 Thickness Encoder Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.406">
+      <tuv xml:lang="tr">
+        <seg>Exit-3 Köprü Parametreleri Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-3 BridgeParametres Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.407">
+      <tuv xml:lang="tr">
+        <seg>Exit-3 Köprü Enkoder Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-3 Bridge Encoder Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.408">
+      <tuv xml:lang="tr">
+        <seg>Exit-3 Sensorlerden Yanlış Sinyal Geliyor.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-3 Sensors Error! Check Sensors!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.409">
+      <tuv xml:lang="tr">
+        <seg>Exit-3 Sensorlerden Yanlış Sinyal Geliyor.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-3 Sensorlerden Yanlış Sinyal Geliyor.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.450">
+      <tuv xml:lang="tr">
+        <seg>Exit-4 KopruReferanslama Sensoru Görmedi Zaman Aşımı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-4 Bridge Homing Sensor Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.451">
+      <tuv xml:lang="tr">
+        <seg>Exit-4 Kopru Sürücü Arıza</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-4 Bridge Driver Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.452">
+      <tuv xml:lang="tr">
+        <seg>Exit-4 Kalınlık Referanslama Arıza</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-4 Thickness Homing Error!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.453">
+      <tuv xml:lang="tr">
+        <seg>Exit-4 Konveyor Sürücü Arıza</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit-4 Conveyor Driver Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.454">
+      <tuv xml:lang="tr">
+        <seg>Exit-4 Kalınlık Parametreleri Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-4 Thickness Parametres Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.455">
+      <tuv xml:lang="tr">
+        <seg>Exit-4 Kalınlık Enkoder Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-4 Thickness Encoder Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.456">
+      <tuv xml:lang="tr">
+        <seg>Exit-4 Köprü Parametreleri Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-4 BridgeParametres Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.457">
+      <tuv xml:lang="tr">
+        <seg>Exit-4 Köprü Enkoder Hatali- Otomatik Çalışılamaz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit Unit-4 Bridge Encoder Wrong</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.5">
+      <tuv xml:lang="tr">
+        <seg>Giriş 2 Konveyor Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry 2 Conveyor Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.6">
+      <tuv xml:lang="tr">
+        <seg>Giriş 3 Konveyor Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry 3 Conveyor Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.7">
+      <tuv xml:lang="tr">
+        <seg>Giriş 4 Konveyor Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Entry 4 Conveyor Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.8">
+      <tuv xml:lang="tr">
+        <seg>Çıkış 1 Konveyor Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit 1 Conveyor Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.9">
+      <tuv xml:lang="tr">
+        <seg>Çıkış 2 Konveyor Hatası</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Exit 2 Conveyor Fault</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.900">
+      <tuv xml:lang="tr">
+        <seg>Hidrolik Motor Çalışmaya Hazır Değil!!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Hydr. Axis is not ready to start</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.901">
+      <tuv xml:lang="tr">
+        <seg>Seçili Hidrolik Unite Hatalı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Wrong value of selected hydraulic unit unit</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.902">
+      <tuv xml:lang="tr">
+        <seg>Hidrolik Unite Hızı 0, Parametreleri kontrol edin</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Hydraulic pump speed is zero. Check the parameters!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.903">
+      <tuv xml:lang="tr">
+        <seg>Hidrolik Unite Dolum Yönü değişmiyor, Yukarı-Aşağı Sensorleri kontrol edin.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>No change of pump move direction - check up and down sensors</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.904">
+      <tuv xml:lang="tr">
+        <seg>A veya B Dolum Zamanı Aşıldı. Sensorleri veya basıncı kontrol edin</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Filling - filling of A or B material is taking too long - check pressure sensors</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.905">
+      <tuv xml:lang="tr">
+        <seg>Hydraulic Pompa Hızı Yükselemiyor</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Speeding up pump is taking too long</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.906">
+      <tuv xml:lang="tr">
+        <seg>İstenen İlaç Basıncına Ulaşılamadı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reaching set pressure is taking too long</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.907">
+      <tuv xml:lang="tr">
+        <seg>Dozlama sırasında sistemde malzeme tükendi.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>During dosing system ran out of material</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.908">
+      <tuv xml:lang="tr">
+        <seg>Silindir Aşağı Indi fakat Basınca Ulaşılamadı.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Filling pressure is reached, but hydraulic cilinder is not in down position</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.909">
+      <tuv xml:lang="tr">
+        <seg>A1 Basıncı Yüksek!!!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>A1 component pressure is too high</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.910">
+      <tuv xml:lang="tr">
+        <seg>B1 Basıncı Yüksek!!!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>B1 component pressure is too high</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.911">
+      <tuv xml:lang="tr">
+        <seg>A2 Basıncı Yüksek!!!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>A2 component pressure is too high</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.912">
+      <tuv xml:lang="tr">
+        <seg>B2 Basıncı Yüksek!!!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>B2 component pressure is too high</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.913">
+      <tuv xml:lang="tr">
+        <seg>Hidrolik Servo Motor Arıza!!!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Hydraulic pump servo is in error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.914">
+      <tuv xml:lang="tr">
+        <seg>Giriş veya Çıkıştaki Camlari Kaldırin, İlaç Donacak!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Material in mixer is to long - Make Cleaning or Dossing</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.1005">
+      <tuv xml:lang="tr">
+        <seg>1. Kenar İçin Maksimum Derinlik Aşıldı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1.Edge Maximum Depth for Exceeded</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.1006">
+      <tuv xml:lang="tr">
+        <seg>2. Kenar İçin Maksimum Derinlik Aşıldı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>2.Edge Maximum Depth for Exceeded</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.1007">
+      <tuv xml:lang="tr">
+        <seg>3. Kenar İçin Maksimum Derinlik Aşıldı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>3.Edge Maximum Depth for Exceeded</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alert.1008">
+      <tuv xml:lang="tr">
+        <seg>4. Kenar İçin Maksimum Derinlik Aşıldı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>4.Edge Maximum Depth for Exceeded</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

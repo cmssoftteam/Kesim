@@ -1,0 +1,20 @@
+(********************************************************************
+ * COPYRIGHT --  B&R Industrial Automation GmbH 
+ *******************************************************************
+ * Task: UserX
+ * Author: kay3a 
+ * Created: October 3, 2024/4:59 PM 
+ ********************************************************************)
+(**)
+(**** Local variables*)
+VAR
+	Loc : Loc_typ; (**** Bu Task icinde kullanilacak Local degisken*)
+END_VAR
+(**)
+(**)
+(**)
+(*Temp Variables*)
+VAR
+	temp : STRING[255]; (*Temporary string holder for checking file names*)
+	i : USINT; (*Index*)
+END_VAR

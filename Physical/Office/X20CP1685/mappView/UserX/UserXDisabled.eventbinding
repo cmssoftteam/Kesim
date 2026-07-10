@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="UserXDisabled" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="EventBinding_UserXDisabled_Clicked">
+      <Source xsi:type="clientSystem.Event" event="DisabledClick" />
+      <EventHandler condition="hasPermission = FALSE">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ShowMessageBox" type="OK" message="$IAT/UserXDisabled/MessageBox.Message.UserLevel" header="$IAT/UserXDisabled/MmessageBox.Header.UserLevel" icon="Hand" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

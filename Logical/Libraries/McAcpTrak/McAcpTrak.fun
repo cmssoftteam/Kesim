@@ -401,6 +401,24 @@ FUNCTION_BLOCK MC_BR_AsmStop_AcpTrak (*Stops all shuttles on the assembly and pe
 	END_VAR
 END_FUNCTION_BLOCK
 
+FUNCTION_BLOCK  MC_BR_AsmRestoreShData_AcpTrak (*Restores shuttle data and manages the variable containing shuttle data.*)
+	VAR_INPUT
+		Assembly : REFERENCE TO McAssemblyType; (*The assembly reference establishes the connection between the function block and the assembly.*)
+		Execute : BOOL;  (*Execution of the function block is started on a rising edge of the input.*)
+		AdvancedParameters : McAcpTrakAdvRestoreShDataType; (*Structure for using advanced functions.*)
+	END_VAR
+	VAR_OUTPUT
+		Done : BOOL; (*Execution successful, function block completed.*)
+		Busy : BOOL; (*Function block is active and must continue to be called.*)
+		Error : BOOL; (*An error occurred during execution.*)
+		ErrorID : DINT; (*Error number.*)
+		Info :  McAcpTrakAdvRestoreShInfoType; (*Output data of the function block*)
+	END_VAR
+	VAR
+		Internal : McInternalType;
+	END_VAR
+END_FUNCTION_BLOCK
+
 FUNCTION_BLOCK MC_BR_BarrierCommand_AcpTrak (*Opens or closes user-defined barriers or enables the ticket system for it.*)
 	VAR_INPUT
 		ProcessPoint : REFERENCE TO McProcessPointType; (*The ProcessPoint reference provides the link between the function block and the process point.*)
@@ -1535,3 +1553,4 @@ FUNCTION_BLOCK MC_BR_TrgPointReadInfo_AcpTrak (*Returns information about a trig
 		Internal : McInternalType;
 	END_VAR
 END_FUNCTION_BLOCK
+

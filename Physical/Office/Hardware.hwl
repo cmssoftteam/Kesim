@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Office.Hardware.hw" LastWriteTime="07/10/2026 11:19:01" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="8EI8X8HWT10.xxxx-1" Type="8EI8X8HWT10.xxxx-1" X="250" Y="249" />
+    <Module Name="X20CP1685" Type="X20CP1685" X="100" Y="100" />
+  </Modules>
+  <Links>
+    <Link From="8EI8X8HWT10.xxxx-1" To="X20CP1685" FromPort="PLK1" ToPort="IF3" IsRoutedByUser="False">
+      <Point X="257.7" Y="259.5" />
+      <Point X="257.7" Y="259.5" />
+      <Point X="249.700012" Y="259.5" />
+      <Point X="156" Y="259.5" />
+      <Point X="156" Y="200" />
+      <Point X="156" Y="187" />
+      <Point X="156" Y="187" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

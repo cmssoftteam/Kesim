@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gMpLink_PackMLSyncUnit_CORE" Type="mppackmlsynchronizedunit">
+    <Group ID="Settings">
+      <Property ID="StartupActiveMode" Value="1" />
+      <Property ID="BlockingModule" />
+      <Property ID="StarvingModule" />
+      <Property ID="AbortedByModule" />
+      <Property ID="WaitingForModule" />
+      <Property ID="ResetCommands" Value="1" />
+    </Group>
+    <Group ID="Modes">
+      <Group ID="Mode[1]">
+        <Property ID="ModeID" Value="1" />
+        <Property ID="Name" Value="Mode[3]" />
+        <Selector ID="State[2]">
+          <Property ID="ChangeModeAllowed" Value="TRUE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[3]">
+          <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+        </Selector>
+        <Selector ID="State[4]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[5]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+          <Selector ID="State[13]">
+            <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+          </Selector>
+          <Selector ID="State[14]">
+            <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+          </Selector>
+        </Selector>
+        <Selector ID="State[6]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[9]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[11]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+          <Selector ID="State[10]">
+            <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+          </Selector>
+          <Selector ID="State[12]">
+            <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+          </Selector>
+        </Selector>
+        <Selector ID="State[15]">
+          <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+        </Selector>
+        <Selector ID="State[17]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+          <Selector ID="State[16]">
+            <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+          </Selector>
+        </Selector>
+        <Selector ID="State[31]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+        </Selector>
+      </Group>
+      <Group ID="Mode[2]">
+        <Property ID="ModeID" Value="2" />
+        <Property ID="Name" Value="Production" />
+        <Selector ID="State[2]">
+          <Property ID="ChangeModeAllowed" Value="TRUE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[3]">
+          <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+        </Selector>
+        <Selector ID="State[4]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[5]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+          <Selector ID="State[13]">
+            <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+          </Selector>
+          <Selector ID="State[14]">
+            <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+          </Selector>
+        </Selector>
+        <Selector ID="State[6]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[9]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[11]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+          <Selector ID="State[10]">
+            <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+          </Selector>
+          <Selector ID="State[12]">
+            <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+          </Selector>
+        </Selector>
+        <Selector ID="State[15]">
+          <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+        </Selector>
+        <Selector ID="State[17]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+          <Selector ID="State[16]">
+            <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+          </Selector>
+        </Selector>
+        <Selector ID="State[31]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+        </Selector>
+      </Group>
+      <Group ID="Mode[3]">
+        <Property ID="ModeID" Value="3" />
+        <Property ID="Name" Value="Mode[2]" />
+        <Selector ID="State[2]">
+          <Property ID="ChangeModeAllowed" Value="TRUE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[3]">
+          <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+        </Selector>
+        <Selector ID="State[4]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[5]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+          <Selector ID="State[13]">
+            <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+          </Selector>
+          <Selector ID="State[14]">
+            <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+          </Selector>
+        </Selector>
+        <Selector ID="State[6]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[9]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[11]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+          <Selector ID="State[10]">
+            <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+          </Selector>
+          <Selector ID="State[12]">
+            <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+          </Selector>
+        </Selector>
+        <Selector ID="State[15]">
+          <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+        </Selector>
+        <Selector ID="State[17]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+          <Selector ID="State[16]">
+            <Property ID="StateCompleteRequiredForStop" Value="TRUE" />
+          </Selector>
+        </Selector>
+        <Selector ID="State[31]">
+          <Property ID="ChangeModeAllowed" Value="FALSE" />
+          <Property ID="StateCompleteRequired" Value="FALSE" />
+        </Selector>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

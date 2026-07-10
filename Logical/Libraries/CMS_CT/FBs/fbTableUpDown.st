@@ -1,10 +1,18 @@
 
 (* Table Up Down Movement for OCKM And Breaker *)
 FUNCTION_BLOCK fbTableUpDown
+
+	//|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯		
+	//|               Table Is Ready To Cut       	
+	//|_________________________________________________________________________			
+	Out.ReadyToWork := 
+	In.Sensors.TableSquaresAreBack AND In.Sensors.TableIsDown AND 
+	In.ParkPos AND NOT In.Sensors.TableIsUp AND 
+	NOT In.Sensors.TableUpSlow AND In.ParkPos;	
 	
 	IF Enable = FALSE THEN
 		brsmemset( ADR(Out.Hyd),0,SIZEOF(Out.Hyd) ); 
-		Out.ReadyToCut  := FALSE;
+		Out.ReadyToWork := FALSE;
 		Step			:= 0;
 		RETURN;
 	ELSE
@@ -18,13 +26,11 @@ FUNCTION_BLOCK fbTableUpDown
 			Step		:= 50;
 		END_IF;	
 		
-		//|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯		
-		//|               Table Is Ready To Cut       	
-		//|_________________________________________________________________________			
-		Out.ReadyToCut := 
-		In.Sensors.TableSquaresAreBack AND In.Sensors.TableIsDown AND 
-		In.ParkPos AND NOT In.Sensors.TableIsUp AND 
-		NOT In.Sensors.TableUpSlow AND In.ParkPos;
+		IF ( Step <> 10 ) AND ( Step <> 40 ) THEN
+			Out.CommandBusy := TRUE;
+		ELSE
+			Out.CommandBusy := FALSE;			
+		END_IF	
 		
 		CASE Step OF
 			0: // INIT
@@ -33,7 +39,7 @@ FUNCTION_BLOCK fbTableUpDown
 				Out.Stoped 	:= FALSE;
 				brsmemset( ADR(Out.Hyd),0,SIZEOF(Out.Hyd) ); 
 				Step 		:= 10;
-			10:
+			10: // Wait Cmd
 				IF In.Cmd.Up OR In.Cmd.Down  THEN
 					IF In.Sensors.TableSquaresAreBack THEN
 						Step 		:= 999;
@@ -108,10 +114,10 @@ FUNCTION_BLOCK fbTableUpDown
 				brsmemset( ADR(Out.Hyd),0,SIZEOF(Out.Hyd) ); 				
 				Step 			:= 40; // Command Done				
 				
-			999:
+			999: // Error
 				Out.Error := TRUE;
 				brsmemset( ADR(Out.Hyd),0,SIZEOF(Out.Hyd) ); 
-				Out.ReadyToCut  := FALSE;
+				Out.ReadyToWork  := FALSE;
 				IF In.Cmd.Reset THEN
 					Step := 0;
 				END_IF;	
@@ -119,16 +125,16 @@ FUNCTION_BLOCK fbTableUpDown
 		END_CASE;	
 		
 		// Hydraulic Motor Output
-		TOF_Hyd.IN 		:= Out.Hyd.UpValve OR Out.Hyd.DownValve OR Out.Hyd.UpSlowValve OR Out.Hyd.UpSlowValve ;
-		TOF_Hyd.PT 		:= T#3s;
-		Out.Hyd.HydStart := TOF_Hyd.Q;
+		Loc.TOF_Hyd.IN 		:= Out.Hyd.UpValve OR Out.Hyd.DownValve OR Out.Hyd.UpSlowValve OR Out.Hyd.UpSlowValve ;
+		Loc.TOF_Hyd.PT 		:= T#3s;
+		Out.Hyd.HydStart 	:= Loc.TOF_Hyd.Q;
 		
-		TOF_Hyd(); 
+		Loc.TOF_Hyd(); 
 		
 		
 	END_IF;	
 	
-	FirstInStep := OldStep <> Step;
-	OldStep 	:= Step;
+	Loc.FirstInStep := Loc.OldStep <> Step;
+	Loc.OldStep 	:= Step;
 	
 END_FUNCTION_BLOCK

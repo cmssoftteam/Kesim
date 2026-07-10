@@ -10,7 +10,7 @@ TYPE
 	END_STRUCT;
 	fbTableUpDownOut_type : 	STRUCT 
 		Hyd : fbTableUpDownOutHyd_type;
-		ReadyToCut : BOOL;
+		ReadyToWork : BOOL;
 		Stoped : BOOL;
 		CommandDone : USINT;
 		CommandBusy : USINT;
@@ -49,4 +49,9 @@ TYPE
 		HOMING_IS_REQUIRED := 50,
 		TABLE_MOTOR_FAULT := 60
 		);
+	fbTableUpDownLoc_type : 	STRUCT 
+		FirstInStep : BOOL;
+		OldStep : UINT;
+		TOF_Hyd : TOF;
+	END_STRUCT;
 END_TYPE

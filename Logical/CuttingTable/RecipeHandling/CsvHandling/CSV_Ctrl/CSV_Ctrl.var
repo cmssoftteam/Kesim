@@ -1,0 +1,41 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: CSV_Ctrl
+ * File: CSV_Ctrl.var
+ * Author: blanca-gutim
+ * Created: December 06, 2012
+ ********************************************************************
+ * Local variables of program CSV_Ctrl
+ ********************************************************************)
+(**)
+(*================================================
+Program variables
+================================================*)
+VAR
+	TaskName : STRING[20]; (*Name of the actual task, used for error handling*)
+	MainState : emu_CSVControl_State; (*Main state for the control of the state machine*)
+	ErrorState : emu_CSVControl_State; (*Variable used to identify in wich state an error occurs*)
+	OldInputs : CSV_Ctrl_In_typ; (*Variable used to detect edges in the inputs*)
+	StateStrings : ARRAY[0..15] OF STRING[32]; (*Array with the names of the possible states (update if the number of states is increased)*)
+	pVarNames : ARRAY[0..C_NR_VARIABLES_CSVFILE_MINUS1] OF UDINT; (*Addresses of the variables that are part of the CSV file*)
+	VarSizes : ARRAY[0..C_NR_VARIABLES_CSVFILE_MINUS1] OF UDINT; (*Sizes of the variables that are part of the CSV file*)
+	ToSearchFileName : STRING[255] := ''; (*File name to search by the FUB*)
+END_VAR
+(**)
+(*================================================*)
+(*Constants*)
+(*================================================*)
+(**)
+(**)
+(*===========================================================================================================================================================*)
+(*FUB´S DECLARATION*)
+(*===========================================================================================================================================================*)
+VAR
+	Init_CSVHandling : CSV_Init; (*Calculate the necessary size of the memory to save the CSV-file on the compact flash and allocate the memory*)
+	ReadFile_CSVHandling : CSV_ReadFile; (*Read a CSV-file*)
+	Search_CSVHandling : CSV_Search; (*Search the specified variable (structure) and create the completed CSV_File entries in the RAM*)
+	SearchFileName_CSVHandling : SearchFileName; (*Searching for a file name*)
+	WriteFile_CSVHandling : CSV_WriteFile; (*Create a CSV-File with the entries, which are created form CSV_Search() *)
+	TON_Init : TON;
+END_VAR

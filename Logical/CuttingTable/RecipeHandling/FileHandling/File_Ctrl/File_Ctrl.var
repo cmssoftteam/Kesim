@@ -1,0 +1,43 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: File_Ctrl
+ * File: File_Ctrl.var
+ * Author: blanca-gutim
+ * Created: December 06, 2012
+ ********************************************************************
+ * Local variables of program File_Ctrl
+ ********************************************************************)
+(**)
+(*================================================
+Program variables
+================================================*)
+VAR
+	TaskName : STRING[20]; (*Name of the actual task, used for error handling*)
+	MainState : emu_FileControl_State; (*Main state for the control of the state machine*)
+	ErrorState : emu_FileControl_State; (*Variable used to identify in wich state an error occurs*)
+	kk : UDINT; (*Variable used as counter in FOR loops*)
+	jj : UDINT; (*Variable used as counter in FOR loops*)
+	ii : UDINT; (*Variable used as counter in FOR loops*)
+	OldInputs : File_Ctrl_In_typ; (*Variable used to detect edges in the inputs*)
+	StateStrings : ARRAY[0..15] OF STRING[32]; (*Array with the names of the possible states (update if the number of states is increased)*)
+	usbNodeList : ARRAY[0..C_USB_DEVICES_MAX_MINUS1] OF UDINT; (*List of USB nodes*)
+	USBDetectionIF : usb_detec_typ; (*Variable with the interface for the USB detection*)
+END_VAR
+(**)
+(*===========================================================================================================================================================*)
+(*FUB´S DECLARATION*)
+(*===========================================================================================================================================================*)
+VAR
+	DevLink_FileHandling : DevLink; (*FUB: links file device*)
+	DevMemInfo_FileHandling : DevMemInfo; (*FUB: gets information about the file device*)
+	DevUnlink_FileHandling : DevUnlink; (*FUB: unlinks file devices*)
+	DirClose_FileHandling : DirClose; (*FUB: closes a directory*)
+	DirCreate_FileHandling : DirCreate; (*FUB: creates a directory*)
+	DirOpen_FileHandling : DirOpen; (*FUB: opens a directory*)
+	DirReadEx_FileHandling : DirReadEx; (*FUB: Reads the individual file or directory names in a directory*)
+	FileDelete_FileHandling : FileDelete; (*FUB: deletes a file*)
+	UsbNodeListGet_USBDetec : UsbNodeListGet; (*FUB: get list of USB nodes*)
+	UsbNodeGet_USBDetec2 : UsbNodeGet; (*FUB: get information of an specific USB node*)
+	UsbNodeGet_USBDetec1 : UsbNodeGet; (*FUB: get information of an specific USB node*)
+END_VAR

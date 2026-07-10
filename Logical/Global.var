@@ -1,4 +1,0 @@
-VAR
-	FirstVariable : USINT;
-	gParameters : USINT;
-END_VAR

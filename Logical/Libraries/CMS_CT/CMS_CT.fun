@@ -57,9 +57,7 @@ END_FUNCTION_BLOCK
 		Out : {REDUND_UNREPLICABLE} fbTableUpDownOut_type;
 	END_VAR
 	VAR
-		OldStep : UINT;
-		FirstInStep : BOOL;
-		TOF_Hyd : TOF;
+		Loc : fbTableUpDownLoc_type;
 		Step : UINT;
 	END_VAR
 END_FUNCTION_BLOCK

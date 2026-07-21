@@ -4,5 +4,6 @@
   <Objects>
     <Object Type="Program" Language="IEC">Kesim</Object>
     <Object Type="Program" Language="IEC" TransferedForTargetSourceCompare="true">CncCtrl</Object>
+    <Object Type="Package">Infastructure</Object>
   </Objects>
 </Package>

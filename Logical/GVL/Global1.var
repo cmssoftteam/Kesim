@@ -1,0 +1,4 @@
+VAR
+	gAlert : gAlertType;
+	FirstVariable : USINT;
+END_VAR

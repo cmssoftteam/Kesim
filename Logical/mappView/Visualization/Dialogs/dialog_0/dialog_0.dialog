@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ddef:Dialog xmlns:ddef="http://www.br-automation.com/iat2015/dialogDefinition/v2" id="dialog_0" layoutRefId="layout_Params">
+<ddef:Dialog xmlns:ddef="http://www.br-automation.com/iat2015/dialogDefinition/v2" id="dialog_0" layoutRefId="layout_Params" sizeMode="contain">
   <Assignments>
     <Assignment type="Content" baseContentRefId="Content_Params" areaRefId="areaParams" />
   </Assignments>

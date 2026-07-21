@@ -54,10 +54,10 @@
     <Dialog refId="dialog_RecipeMgrMach" />
     <Dialog refId="dialog_RecipeRenameMach" />
     <Dialog refId="dialog_RecipeAddMach" />
+    <Dialog refId="dialog_0" />
   </Dialogs>
   <Contents>
     <Content refId="content_Header" />
-    <Content refId="content_Navigation" />
     <Content refId="P0001_StartPage" />
     <Content refId="content_Button" />
     <Content refId="content_AlarmXMgr" />
@@ -80,6 +80,21 @@
     <Content refId="content_RecipeAddMach" />
     <Content refId="content_RecipeAddButtonMach" />
     <Content refId="P0100_Manual" />
+    <Content refId="P0200_HW_Config" />
+    <Content refId="P0210_SDM" />
+    <Content refId="P0300_LengthParameters" />
+    <Content refId="P0310_MotorSetups" />
+    <Content refId="P0320_IO_Force" />
+    <Content refId="P0330_MachineSetup" />
+    <Content refId="P0340_MotionStatus" />
+    <Content refId="P0400_SystemInformation" />
+    <Content refId="P0410_CompanyInformation" />
+    <Content refId="P0500_Cockpit" />
+    <Content refId="P0300_DriveParameters" />
+    <Content refId="P0300_PressureParameters" />
+    <Content refId="P0500_Widget" />
+    <Content refId="content_Navigation" />
+    <Content refId="Content_Params" />
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="User" />
@@ -88,7 +103,12 @@
     <VariablesSet refId="AlarmX" />
     <VariablesSet refId="UserX" />
   </VariablesSets>
-  <ExpressionsSets />
+	<ExpressionsSets />
+	<StartTheme themeRefId="BuRTheme" />
+	<Themes>
+		<Theme refId="BuRTheme" />
+		<Theme refId="BuRThemeFlatDark" />
+	</Themes>
   <Configurations>
     <Configuration key="bootProgressBar" value="true" />
     <Configuration key="zoom" value="true" />

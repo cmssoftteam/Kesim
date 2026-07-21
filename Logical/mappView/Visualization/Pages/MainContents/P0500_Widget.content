@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="P0500_Widget" guid="02bc9911-8343-48c5-bc8d-fa83a79c6d27" height="840" width="1770" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.ButtonBar" id="ButtonBar1" top="0" left="126" width="502" height="838" zIndex="0">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton1" top="90" left="52" width="126" height="120" zIndex="0" text="ToggleButton1" cornerRadius="100px" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton2" top="222" left="187" width="126" height="120" zIndex="1" text="ToggleButton2" cornerRadius="100px" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton3" top="359" left="329" width="126" height="120" zIndex="2" text="ToggleButton3" cornerRadius="100px" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton4" top="478" left="183" width="126" height="120" zIndex="3" text="ToggleButton4" cornerRadius="100px" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton5" top="590" left="52" width="126" height="120" zIndex="4" text="ToggleButton5" cornerRadius="100px" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

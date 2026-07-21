@@ -437,5 +437,253 @@
         <seg>Start Fan</seg>
       </tuv>
     </tu>
+    <tu tuid="txtServices">
+      <tuv xml:lang="tr">
+        <seg>Servis</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Services</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtSetting">
+      <tuv xml:lang="tr">
+        <seg>Ayarlar</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Setting</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtHomePage">
+      <tuv xml:lang="tr">
+        <seg>Ana Sayfa</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Home Page</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtMachineInfo">
+      <tuv xml:lang="tr">
+        <seg>Makine Bilgisi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Machine Info</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtRestart">
+      <tuv xml:lang="tr">
+        <seg>Yeniden Başlat</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Restart</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtPause">
+      <tuv xml:lang="tr">
+        <seg>Beklet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pause</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtOrigin">
+      <tuv xml:lang="tr">
+        <seg>Orjin</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Origin</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtOriginLowe">
+      <tuv xml:lang="tr">
+        <seg>Orjin Low-E</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Origin Low-E</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtTransferFromLoader">
+      <tuv xml:lang="tr">
+        <seg>Arabadan Transfer</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Transfer From Loader</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtReferans">
+      <tuv xml:lang="tr">
+        <seg>Referans</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reference</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtPressureFeedbackActive">
+      <tuv xml:lang="tr">
+        <seg>Basınç Bekleme Aktif</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pressure Feedback Active</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtPark">
+      <tuv xml:lang="tr">
+        <seg>Park</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Park</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtSimulation">
+      <tuv xml:lang="tr">
+        <seg>Simülasyon</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Simulation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtRefresh">
+      <tuv xml:lang="tr">
+        <seg>Yenile</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Refresh</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtNetwrok">
+      <tuv xml:lang="tr">
+        <seg>Ağ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Network</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtCF">
+      <tuv xml:lang="tr">
+        <seg>CF</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>CF</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtUSB">
+      <tuv xml:lang="tr">
+        <seg>USB</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>USB</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtFTP">
+      <tuv xml:lang="tr">
+        <seg>FTP</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>FTP</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtOilSelection">
+      <tuv xml:lang="tr">
+        <seg>Yağ Seçimi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Oil Selection</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtMachineType">
+      <tuv xml:lang="tr">
+        <seg>Makina Tipi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Machine Type</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtLoaderType">
+      <tuv xml:lang="tr">
+        <seg>Yükleme Tipi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Loader Type</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtOckmWFYM">
+      <tuv xml:lang="tr">
+        <seg>FYM ve OCKM Aktif</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>OCKM with FYM</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtMultiturnEncoder">
+      <tuv xml:lang="tr">
+        <seg>Multiturn Enkoder</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Multiturn Encoder</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtHoldingBrakers">
+      <tuv xml:lang="tr">
+        <seg>Motor Freni</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Holding Brakers</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtLabeler">
+      <tuv xml:lang="tr">
+        <seg>Etiketleme</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Labeler</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtInkjet">
+      <tuv xml:lang="tr">
+        <seg>Inkjet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Inkjet</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtLinearMotorRev-1">
+      <tuv xml:lang="tr">
+        <seg>Linear Motor Rev-1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Linear Motor Rev-1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtLinearMotorRev-2">
+      <tuv xml:lang="tr">
+        <seg>Linear Motor Rev-2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Linear Motor Rev-2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtOCKMTransferToBt">
+      <tuv xml:lang="tr">
+        <seg>OCKM- Kırıcıya Transfer</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>OCKM Transfer To BT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtConfirm">
+      <tuv xml:lang="tr">
+        <seg>Onayla</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Confirm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtUndo">
+      <tuv xml:lang="tr">
+        <seg>Geri Al</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Undo</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

@@ -1,17 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Content id="P0001_StartPage" guid="055241f4-4d76-4305-a477-c83f1f87a97e" height="840" width="1770" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Content id="P0001_StartPage" guid="055241f4-4d76-4305-a477-c83f1f87a97e" height="840" width="1770" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
   <Widgets>
-    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="16" left="13" width="379" height="196" zIndex="0" text="$IAT/OTM_Language/txtCNCProgram">
-      <Widgets />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="7" left="14" width="330" height="183" zIndex="0" text="$IAT/Language/txtCNCProgram" borderColor="rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox1" top="20" left="15" width="166" height="51" zIndex="0" dataProvider="[{'value':'0','text':'$IAT/Language/txtNetwrok'},{'value':'1','text':'$IAT/Language/txtCF'},{'value':'2','text':'$IAT/Language/txtUSB'},{'value':'3','text':'$IAT/Language/txtFTP'}]" selectedValue="0" activeBackColor="rgba(128, 128, 128, 1)" />
+        <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox2" top="81" left="15" width="300" height="51" zIndex="1" activeBackColor="rgba(128, 128, 128, 1)" />
+        <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton1" top="19" left="195" width="120" height="48" zIndex="2" text="$IAT/Language/txtRefresh" />
+      </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.MotionPad" id="MotionPad1" top="12" left="459" width="621" height="63" zIndex="1" mpLink="gMpLink_CncXYZ" fontSize="20px" />
-    <Widget xsi:type="widgets.brease.Button" id="Button_Program_Save" top="732" left="939" zIndex="2" text="Save" />
-    <Widget xsi:type="widgets.brease.Button" id="Button_Program_Open" top="732" left="1079" zIndex="3" text="Open" />
-    <Widget xsi:type="widgets.brease.Button" id="Button_Program_Run" top="733" left="736" width="180" height="50" zIndex="4" text="Run" />
-    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power" top="515" left="2" width="180" height="50" zIndex="5" text="Power" />
-    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Home" top="570" left="1" width="180" height="50" zIndex="6" text="Home" />
-    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_ErrorReset" top="515" left="189" width="180" height="50" zIndex="7" text="ErrorReset" />
-    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput_StatusID" top="579" left="192" width="180" zIndex="8" textAlign="left" />
-    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput_StatusID1" top="791" left="990" width="180" zIndex="9" textAlign="left" />
+    <Widget xsi:type="widgets.brease.MotionPad" id="MotionPad1" top="196" left="14" width="666" height="189" zIndex="1" mpLink="gMpLink_CncXYZ" borderStyle="solid" borderWidth="3px" borderColor="rgba(0, 0, 0, 1)" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_Program_Save" top="762" left="423" width="156" zIndex="2" text="Save" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_Program_Open" top="799" left="424" width="156" zIndex="3" text="Open" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_Program_Run" top="692" left="412" width="180" height="50" zIndex="4" text="Run" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power" top="714" left="13" width="180" height="50" zIndex="5" text="Power" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Home" top="769" left="12" width="180" height="50" zIndex="6" text="Home" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_ErrorReset" top="714" left="200" width="180" height="50" zIndex="7" text="ErrorReset" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput_StatusID" top="778" left="203" width="180" zIndex="8" textAlign="left" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox2" top="391" left="11" width="669" height="291" zIndex="9">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power1" top="8" left="4" width="97" height="126" zIndex="0" multiLine="true" text="$IAT/Language/txtRestart" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" fontSize="14px" shadow="8px 8px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power2" top="8" left="112" width="97" height="126" zIndex="1" multiLine="true" text="$IAT/Language/txtStart" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" fontSize="14px" shadow="8px 8px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power3" top="10" left="220" width="97" height="126" zIndex="2" multiLine="true" text="$IAT/Language/txtStop" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" fontSize="14px" shadow="8px 8px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power4" top="10" left="327" width="97" height="126" zIndex="3" multiLine="true" text="$IAT/Language/txtPause" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" fontSize="14px" shadow="8px 8px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power5" top="11" left="435" width="97" height="126" zIndex="4" multiLine="true" text="$IAT/Language/txtPark" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" fontSize="14px" shadow="8px 8px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power6" top="11" left="545" width="96" height="45" zIndex="5" multiLine="true" text="$IAT/Language/txtOrigin" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" fontSize="14px" shadow="8px 8px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power7" top="92" left="548" width="96" height="45" zIndex="6" multiLine="true" text="$IAT/Language/txtOriginLowe" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" fontSize="14px" shadow="8px 8px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power8" top="148" left="549" width="96" height="45" zIndex="7" multiLine="true" text="$IAT/Language/txtTransferFromLoader" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" fontSize="14px" shadow="8px 8px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power9" top="148" left="4" width="97" height="126" zIndex="8" multiLine="true" text="$IAT/Language/txtReferans" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" fontSize="14px" shadow="8px 8px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power10" top="148" left="112" width="94" height="126" zIndex="9" multiLine="true" text="$IAT/Language/txtSimulation" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" fontSize="14px" shadow="8px 8px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power11" top="148" left="220" width="94" height="126" zIndex="10" multiLine="true" text="$IAT/Language/txtPressureFeedbackActive" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" fontSize="14px" shadow="8px 8px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power12" top="148" left="327" width="94" height="126" zIndex="11" multiLine="true" text="$IAT/Language/txtAutoSquaring" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" fontSize="14px" shadow="8px 8px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox3" top="6" left="350" width="330" height="183" zIndex="10" text="$IAT/Language/txtOilSelection" borderColor="rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power13" top="24" left="21" width="105" height="84" zIndex="0" multiLine="true" text="$IAT/Language/txtTank1" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" fontSize="25px" shadow="8px 8px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.SequencerTable" id="SequencerTable1" top="5" left="702" width="460" height="339" zIndex="11">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.SequencerTableItemImageList" id="SequencerTableItemImageList1" zIndex="0" columnWidth="120" imageList="['']" text="SequencerTableItemImageList1" />
+        <Widget xsi:type="widgets.brease.SequencerTableItemImageList" id="SequencerTableItemImageList2" zIndex="1" imageList="['']" text="SequencerTableItemImageList2" />
+        <Widget xsi:type="widgets.brease.SequencerTableItemImageList" id="SequencerTableItemImageList3" zIndex="2" imageList="['']" text="SequencerTableItemImageList3" />
+        <Widget xsi:type="widgets.brease.SequencerTableItemImageList" id="SequencerTableItemImageList4" zIndex="3" imageList="['']" text="SequencerTableItemImageList4" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.SequencerTable" id="SequencerTable2" top="6" left="1199" width="547" height="336" zIndex="12">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.SequencerTableItemImageList" id="SequencerTableItemImageList5" zIndex="0" columnWidth="120" imageList="['']" text="SequencerTableItemImageList5" />
+        <Widget xsi:type="widgets.brease.SequencerTableItemImageList" id="SequencerTableItemImageList6" zIndex="1" imageList="['']" text="SequencerTableItemImageList6" />
+        <Widget xsi:type="widgets.brease.SequencerTableItemImageList" id="SequencerTableItemImageList7" zIndex="2" imageList="['']" text="SequencerTableItemImageList7" />
+        <Widget xsi:type="widgets.brease.SequencerTableItemImageList" id="SequencerTableItemImageList8" zIndex="3" imageList="['']" text="SequencerTableItemImageList8" />
+        <Widget xsi:type="widgets.brease.SequencerTableItemImageList" id="SequencerTableItemImageList9" zIndex="4" imageList="['']" text="SequencerTableItemImageList9" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="356" left="702" width="1044" height="460" zIndex="13" />
   </Widgets>
 </Content>

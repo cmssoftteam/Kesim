@@ -17,9 +17,6 @@
 <Source xsi:type="opcUa" refId="::CncCtrl:Loc.FB.Cnc3Axis.StatusID" attribute="value" />
 <Target xsi:type="brease" contentRefId="P0001_StartPage" widgetRefId="NumericOutput_StatusID" attribute="value" />
 </Binding>
-<Binding mode="twoWay">
-<Source xsi:type="opcUa" refId="::AsGlobalPV:FirstVariable" attribute="value" />
-<Target xsi:type="brease" contentRefId="P0001_StartPage" widgetRefId="NumericOutput_StatusID1" attribute="value" />
-</Binding>
+
 </Bindings>
 </BindingsSet>

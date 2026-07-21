@@ -5,5 +5,6 @@
     <Object Type="Package" TransferedForTargetSourceCompare="true">AlarmX</Object>
     <Object Type="Package" TransferedForTargetSourceCompare="true">UserX</Object>
     <Object Type="Package" TransferedForTargetSourceCompare="true">Recipe</Object>
+    <Object Type="File">layout_Params.layout</Object>
   </Objects>
 </Package>

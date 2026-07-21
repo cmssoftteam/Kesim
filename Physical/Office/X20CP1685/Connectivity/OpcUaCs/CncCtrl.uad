@@ -7,23 +7,5 @@
     <EURangesAliases />
     <EngineeringUnitAliases />
   </Aliases>
-  <Module Name="&lt;Default&gt;">
-    <Task Name="CncCtrl">
-      <Variable Name="Loc">
-        <Variable Name="FB">
-          <Variable Name="Cnc3Axis">
-            <Variable Name="X" />
-            <Variable Name="Y" />
-            <Variable Name="Z" />
-            <Variable Name="Power" />
-            <Variable Name="Home" />
-            <Variable Name="ErrorReset" />
-            <Variable Name="StatusID" />
-            <Variable Name="PowerOn" />
-            <Variable Name="IsHomed" />
-          </Variable>
-        </Variable>
-      </Variable>
-    </Task>
-  </Module>
+  <Module Name="&lt;Default&gt;" />
 </OpcUaSource>

@@ -19,7 +19,7 @@ FUNCTION_BLOCK fbTableUpDown
 		
 		IF In.Sensors.TableMotFault THEN
 			Step 		:= 999;
-			Out.ErrorID := TABLE_MOTOR_FAULT;			
+			Out.ErrorID := TABLE_MOTOR_FAULT;
 		END_IF;
 		
 		IF In.Cmd.Stop AND NOT Out.Error THEN		
@@ -115,9 +115,9 @@ FUNCTION_BLOCK fbTableUpDown
 				Step 			:= 40; // Command Done				
 				
 			999: // Error
-				Out.Error := TRUE;
+				Out.Error 		:= TRUE;
 				brsmemset( ADR(Out.Hyd),0,SIZEOF(Out.Hyd) ); 
-				Out.ReadyToWork  := FALSE;
+				Out.ReadyToWork	:= FALSE;
 				IF In.Cmd.Reset THEN
 					Step := 0;
 				END_IF;	
@@ -130,6 +130,16 @@ FUNCTION_BLOCK fbTableUpDown
 		Out.Hyd.HydStart 	:= Loc.TOF_Hyd.Q;
 		
 		Loc.TOF_Hyd(); 
+		
+		// Bypass Valfi varsa bu sekilde yumusak çalisir.
+		Out.Hyd.BypassValve := Loc.TONOF_Bypass.Q;
+		
+		
+		Loc.TONOF_Bypass.Input 		:= Out.Hyd.UpValve OR Out.Hyd.DownValve;
+		Loc.TONOF_Bypass.TON_Time 	:= T#1s;
+		Loc.TONOF_Bypass.TOF_Time	:= T#0s;
+		Loc.TONOF_Bypass();
+		
 		
 		
 	END_IF;	

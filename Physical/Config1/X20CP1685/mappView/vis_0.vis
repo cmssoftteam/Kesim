@@ -7,7 +7,9 @@
   <Navigations />
   <BindingsSets />
   <EventBindingsSets />
-  <EventScriptsSets />
+  <EventScriptsSets>
+    <EventScriptsSet refId="content_Navigation" />
+  </EventScriptsSets>
   <Dialogs>
     <Dialog refId="dialog_AlarmXMgr" />
     <Dialog refId="dialog_AlarmXDetail" />

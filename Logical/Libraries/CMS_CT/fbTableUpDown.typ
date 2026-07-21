@@ -52,6 +52,7 @@ TYPE
 	fbTableUpDownLoc_type : 	STRUCT 
 		FirstInStep : BOOL;
 		OldStep : UINT;
+		TONOF_Bypass : fbTONOF;
 		TOF_Hyd : TOF;
 	END_STRUCT;
 END_TYPE

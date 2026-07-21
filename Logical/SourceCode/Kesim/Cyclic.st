@@ -1,5 +1,8 @@
 
 PROGRAM _CYCLIC
 	(* Insert code here *)
-	FirstVariable ;
+
+	 
+	
+	fbTableUpDown_0();
 END_PROGRAM

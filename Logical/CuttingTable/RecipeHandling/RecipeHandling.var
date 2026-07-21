@@ -1,0 +1,45 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Package: RecipeHandling
+ * File: RecipeHandling.var
+ * Author: blanca-gutim
+ * Created: December 04, 2012
+ ********************************************************************
+ * Variables of package RecipeHandling
+ ********************************************************************)
+(**)
+(*========================================================================================================*)
+(*Program variables*)
+(*========================================================================================================*)
+VAR
+	gRecipe_Ctrl : Recipe_Ctrl_typ := (0); (*Recipe control interface*)
+END_VAR
+(**)
+(*========================================================================================================*)
+(*Recipe handling constants*)
+(*========================================================================================================*)
+VAR CONSTANT
+	C_MAX_BUFFER_SIZE_MINUS1 : UINT := 99; (*Maximun size of buffers minus 1 for list of files, directories and dates and times*)
+	C_MAX_DEVICE_PARAM_LENGHT : UINT := 255; (*Maximun lenght of the device parameter string*)
+	C_MAX_OBJECT_NAME_LENGHT : UINT := 45; (*Maximun lenght of the directory or file name*)
+	C_FILE_EXTENSION_LOW : STRING[10] := '.csv'; (*File extension for the recipe handling in lower case*)
+	C_FILE_EXTENSION : STRING[10] := '.CSV'; (*File extension for the recipe handling upper case (the csv file handling saves the files with this extension)*)
+	C_MAX_NR_ELEMENTS_IN_DIR_MINUS1 : USINT := 99; (*Maximum number of elements in a directory*)
+	C_FILE_DEVICE_CF : USINT := 0; (*Index of the CF when it is working as file device*)
+	C_FILE_DEVICE_USB : USINT := 1; (*Index of the USB when it is working as file device*)
+	C_FILE_DEVICE_FTP : USINT := 2; (*Index of the CF when it is working as file device*)
+	C_FILE_DEVICE_NETWORK : USINT := 3; (*Index of the shared folder in the Network when it is working as file device*)
+	C_GCODE_DEVICE_NETWORK : USINT := 0; (*Index of the shared folder in the Network when it is working as file device*)
+	C_GCODE_DEVICE_CF : USINT := 1; (*Index of the CF when it is working as file device*)
+	C_GCODE_DEVICE_USB : USINT := 2; (*Index of the USB when it is working as file device*)
+	C_GCODE_DEVICE_FTP : USINT := 3; (*Index of the CF when it is working as file device*)
+	C_USB_DEVICES_MAX_MINUS1 : USINT := 1; (*Maximum number of USB devices supported in the PLC minus 1*)
+	C_SEPARATOR : USINT := 59; (*Separator for CSV files - ; (ASCII code of the character)*)
+	C_NR_VARIABLES_CSVFILE_MINUS1 : USINT := 0; (*Number of variables that are part of the CSV file minus 1*)
+	C_FILE_NAME_START : STRING[60] := 'CSV_File_'; (*Start of the file name*)
+	C_SHOW_VAR_NAME_OPTION : BOOL := FALSE; (*Show the complete name of the variables (TRUE) or just a part of it (FALSE)*)
+	C_MAX_LINKED_FILE_DEVICES_MINUS1 : USINT := 1; (*Maximun number of linked files devices minus 1*)
+	C_PING_NETWORK_DEVICE_TIMEOUT : UINT := 500; (*Timeout for the PING command when the network device is used*)
+	C_USER_DIRECTORY : STRING[10] := 'UserFiles'; (*Name for the user files in the CF*)
+END_VAR

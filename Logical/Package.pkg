@@ -6,6 +6,11 @@
     <Object Type="Package" Description="Global libraries">Libraries</Object>
     <Object Type="Package" TransferedForTargetSourceCompare="true">Source</Object>
     <Object Type="File">Project.language</Object>
+    <Object Type="Package" Description="Global libraries">Libraries</Object>
+    <Object Type="Package">SourceCode</Object>
+    <Object Type="File" Description="Global data types">Parameters.typ</Object>
+    <Object Type="File" Description="Global variables">Parameters.var</Object>
     <Object Type="Package">mappView</Object>
+    <Object Type="Package" Description="Cutting table program">CuttingTable</Object>
   </Objects>
 </Package>

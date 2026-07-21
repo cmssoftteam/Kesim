@@ -104,5 +104,7 @@
     <LibraryObject Name="AsIoTrc" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="operator" Source="Libraries.operator.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="AsIecCon" Source="Libraries.AsIecCon.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="CMS_CT" Source="Libraries.CMS_CT.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+
   </Libraries>
 </SwConfiguration>

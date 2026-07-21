@@ -1,0 +1,33 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: Recipe_Ctrl
+ * File: Recipe_Ctrl.var
+ * Author: blanca-gutim
+ * Created: December 04, 2012
+ ********************************************************************
+ * Local variables of program Recipe_Ctrl
+ ********************************************************************)
+VAR
+	pAuto_Ctrl : REFERENCE TO Auto_Ctrl_typ;
+END_VAR
+(**)
+(*================================================
+Program variables
+================================================*)
+VAR
+	uAdr : UDINT := 0;
+	uSize : UDINT := 0;
+	stat : UINT := 0;
+	TaskName : STRING[20]; (*Name of the actual task, used for error handling*)
+	StateStrings : ARRAY[0..15] OF STRING[32]; (*Array with the names of the possible states (update if the number of states is increased)*)
+	OldInputs : Recipe_Ctrl_In_typ; (*Variable used to detect edges in the inputs*)
+	OldOutputStatus : Recipe_Ctrl_Out_Stat_typ; (*Variable used to detect edges in the output status*)
+	MainState : emu_RecipeControl_State; (*Main state for the control of the state machine*)
+	ErrorState : emu_RecipeControl_State; (*Variable used to identify in wich state an error occurs*)
+	IcmpPing_NetworkDevice : IcmpPing; (*FUB: Send a PING command to the network device*)
+	SaveFileName : STRING[C_MAX_OBJECT_NAME_LENGHT]; (*Auxiliar variable used to store the name of recipes during the sorting procedure*)
+	Changed : BOOL; (*Variable to control the sorting procedure of the recipes*)
+	ii : UDINT; (*Variable used as counter in FOR loops*)
+	kk : UDINT; (*Variable used as counter in FOR loops*)
+END_VAR

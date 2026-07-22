@@ -2,7 +2,7 @@
 <?AutomationStudio FileVersion="4.9"?>
 <Package SubType="DialogPackage" PackageType="DialogPackage" xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
-    <Object Type="File" Description="Dialog">dialog_0.dialog</Object>
-    <Object Type="File">Content_Params.content</Object>
+    <Object Type="File" Description="Dialog">dialog_Services.dialog</Object>
+    <Object Type="File">content_Services.content</Object>
   </Objects>
 </Package>

@@ -26,7 +26,17 @@
       <EventHandler>
         <Action>
           <Target xsi:type="clientSystem.Action">
-            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialog_0" horizontalPos="100px" verticalPos="80px" autoClose="true" />
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialog_Params" horizontalPos="160px" verticalPos="120px" autoClose="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="content_Navigation.ToggleButton4.Click">
+      <Source xsi:type="widgets.brease.ToggleButton.Event" contentRefId="content_Navigation" widgetRefId="ToggleButton4" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialog_Services" horizontalPos="160px" verticalPos="120px" autoClose="true" />
           </Target>
         </Action>
       </EventHandler>

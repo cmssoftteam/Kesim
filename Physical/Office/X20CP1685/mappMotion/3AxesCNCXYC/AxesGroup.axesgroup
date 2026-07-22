@@ -14,7 +14,7 @@
             <Property ID="AxisRef" Value="gMpLink_AxisQY" />
           </Group>
           <Group ID="JointAxis[3]">
-            <Property ID="Name" Value="QZ" />
+            <Property ID="Name" Value="QC" />
             <Property ID="AxisRef" Value="gMpLink_AxisQC" />
           </Group>
         </Group>
@@ -27,6 +27,5 @@
         <Property ID="FeatureRef[2]" Value="Feature_Jogging" />
       </Group>
     </Selector>
-    <Selector ID="Alarms" Value="None" />
   </Element>
 </Configuration>

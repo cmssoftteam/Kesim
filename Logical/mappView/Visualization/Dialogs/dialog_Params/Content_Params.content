@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="Content_Params" guid="b825f05c-9648-473c-9883-14fb5fcb04e5" height="840" width="150" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.ButtonBar" id="ButtonBar2" top="9" left="8" width="135" height="823" zIndex="0">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ToggleButton" id="HomePage" top="9" left="15" width="108" height="102" zIndex="0" image="Media/CMS/adjustment_12432571.png" imageAlign="top" multiLine="true" text="$IAT/Language/txtParameters" wordWrap="true" borderWidth="2px" cornerRadius="30px" backGroundGradient="linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(229,229,229,1) 100%)" borderColor="rgba(0, 0, 0, 1)" checkedBackGroundGradient="linear-gradient(to bottom, #bcb7ca 0%,#bcb7ca 100%)" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ManualPage" top="251" left="15" width="108" height="102" zIndex="1" image="Media/CMS/motor_12539789.png" imageAlign="top" multiLine="true" text="$IAT/Language/txtMotorSetup" wordWrap="true" borderWidth="2px" cornerRadius="30px" backGroundGradient="linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(229,229,229,1) 100%)" borderColor="rgba(0, 0, 0, 1)" checkedBackGroundGradient="linear-gradient(to bottom, #bcb7ca 0%,#bcb7ca 100%)" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton3" top="371" left="15" width="108" height="102" zIndex="2" image="Media/CMS/installation.png" imageAlign="top" multiLine="true" text="$IAT/Language/txtMachineSetup" wordWrap="true" borderWidth="2px" cornerRadius="30px" backGroundGradient="linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(229,229,229,1) 100%)" borderColor="rgba(0, 0, 0, 1)" checkedBackGroundGradient="linear-gradient(to bottom, #bcb7ca 0%,#bcb7ca 100%)" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton4" top="492" left="15" width="108" height="102" zIndex="3" image="Media/CMS/status_4727553.png" imageAlign="top" multiLine="true" text="$IAT/Language/txtMotionStatus" wordWrap="true" borderWidth="2px" cornerRadius="30px" backGroundGradient="linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(229,229,229,1) 100%)" borderColor="rgba(0, 0, 0, 1)" checkedBackGroundGradient="linear-gradient(to bottom, #bcb7ca 0%,#bcb7ca 100%)" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="HomePage1" top="130" left="15" width="108" height="102" zIndex="4" image="Media/CMS/IO.png" imageAlign="top" multiLine="true" text="$IAT/Language/txtIOForce" wordWrap="true" borderWidth="2px" cornerRadius="30px" backGroundGradient="linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(229,229,229,1) 100%)" borderColor="rgba(0, 0, 0, 1)" checkedBackGroundGradient="linear-gradient(to bottom, #bcb7ca 0%,#bcb7ca 100%)" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

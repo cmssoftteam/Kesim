@@ -1,4 +1,309 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Content id="P0300_LengthParameters" guid="a676b9a7-55be-4a31-9d2f-cc2af540cee5" height="840" width="1770" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Widgets />
+  <Widgets>
+    <Widget xsi:type="widgets.brease.TabControl" id="TabControl1" top="0" left="0" width="1768" height="840" zIndex="0">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem1" left="0" width="590" height="60" zIndex="0" text="$IAT/Language/txtLenghtParameters" fontSize="35px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="6" left="8" width="468" height="452" zIndex="0" text="$IAT/Language/txtTimers">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.Label" id="Label1" top="18" left="15" width="298" height="45" zIndex="0" text="$IAT/Language/HeadUp" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="18" left="315" width="138" height="46" zIndex="1" maxValue="10" unit="{'metric':'SEC','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label2" top="75" left="15" width="298" height="45" zIndex="2" text="$IAT/Language/HeadDown" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput2" top="75" left="315" width="138" height="46" zIndex="3" maxValue="10" unit="{'metric':'SEC','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label3" top="131" left="15" width="298" height="45" zIndex="4" text="$IAT/Language/WaitPressure" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput3" top="131" left="315" width="138" height="46" zIndex="5" maxValue="10" unit="{'metric':'SEC','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label4" top="188" left="15" width="298" height="45" zIndex="6" text="$IAT/Language/LoweAbove" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput4" top="188" left="315" width="138" height="46" zIndex="7" maxValue="10" unit="{'metric':'SEC','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label5" top="244" left="15" width="298" height="45" zIndex="8" text="$IAT/Language/LoweBelow" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput5" top="244" left="315" width="138" height="46" zIndex="9" maxValue="10" unit="{'metric':'SEC','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label6" top="301" left="15" width="298" height="45" zIndex="10" text="$IAT/Language/Stretching" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput6" top="301" left="315" width="138" height="46" zIndex="11" maxValue="10" unit="{'metric':'SEC','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label7" top="357" left="15" width="298" height="45" zIndex="12" text="$IAT/Language/SquareForward" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput7" top="357" left="315" width="138" height="46" zIndex="13" maxValue="20" unit="{'metric':'SEC','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox2" top="7" left="488" width="468" height="766" zIndex="1" text="$IAT/Language/txtPosition">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.Label" id="Label8" top="11" left="15" width="298" height="45" zIndex="0" text="$IAT/Language/XLaser" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput8" top="11" left="315" width="138" height="46" zIndex="1" maxValue="1000" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label9" top="68" left="15" width="298" height="45" zIndex="2" text="$IAT/Language/YOffsetLaser" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput9" top="68" left="315" width="138" height="46" zIndex="3" maxValue="1000" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label10" top="124" left="15" width="298" height="45" zIndex="4" text="$IAT/Language/LoweDiamondX" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput10" top="124" left="315" width="138" height="46" zIndex="5" maxValue="1000" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label11" top="181" left="15" width="298" height="45" zIndex="6" text="$IAT/Language/LoweDiamondY" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput11" top="181" left="315" width="138" height="46" zIndex="7" maxValue="1000" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label12" top="237" left="15" width="298" height="45" zIndex="8" text="$IAT/Language/XHome" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput12" top="237" left="315" width="138" height="46" zIndex="9" maxValue="1000" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label13" top="294" left="15" width="298" height="45" zIndex="10" text="$IAT/Language/YHome" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput13" top="294" left="315" width="138" height="46" zIndex="11" maxValue="1000" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label14" top="350" left="15" width="298" height="45" zIndex="12" text="$IAT/Language/Y1Distance" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput14" top="350" left="315" width="138" height="46" zIndex="13" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label20" top="402" left="15" width="298" height="45" zIndex="14" text="$IAT/Language/X2Distance" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput20" top="402" left="315" width="138" height="46" zIndex="15" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label21" top="455" left="15" width="298" height="45" zIndex="16" text="$IAT/Language/X3Distance" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput21" top="455" left="315" width="138" height="46" zIndex="17" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label22" top="512" left="15" width="298" height="45" zIndex="18" text="$IAT/Language/XTransferStart" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput22" top="512" left="315" width="138" height="46" zIndex="19" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label23" top="568" left="15" width="298" height="45" zIndex="20" text="$IAT/Language/YTransferStart" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput23" top="568" left="315" width="138" height="46" zIndex="21" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label24" top="619" left="14" width="298" height="45" zIndex="22" text="$IAT/Language/XTransferEnd" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput24" top="619" left="314" width="138" height="46" zIndex="23" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label25" top="673" left="12" width="298" height="45" zIndex="24" text="$IAT/Language/YTransferEnd" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput25" top="673" left="312" width="138" height="46" zIndex="25" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox3" top="459" left="7" width="469" height="314" zIndex="2" text="$IAT/Language/txtPosition">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.Label" id="Label15" top="3" left="15" width="298" height="45" zIndex="0" text="$IAT/Language/XGlass" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput15" top="3" left="315" width="138" height="46" zIndex="1" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label16" top="60" left="15" width="298" height="45" zIndex="2" text="$IAT/Language/YGlass" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput16" top="60" left="315" width="138" height="46" zIndex="3" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label17" top="116" left="15" width="298" height="45" zIndex="4" text="$IAT/Language/CGlass" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput17" top="116" left="315" width="138" height="46" zIndex="5" maxValue="360" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label18" top="167" left="14" width="298" height="45" zIndex="6" text="$IAT/Language/YGlassRight" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput18" top="167" left="314" width="138" height="46" zIndex="7" maxValue="1000" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label19" top="221" left="12" width="298" height="45" zIndex="8" text="$IAT/Language/Speed" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput19" top="221" left="312" width="138" height="46" zIndex="9" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" unitAlign="right" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox4" top="9" left="968" width="468" height="766" zIndex="3" text="$IAT/Language/txtPosition">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.Label" id="Label26" top="11" left="15" width="298" height="45" zIndex="0" text="$IAT/Language/YGlassPushEnd" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput26" top="11" left="315" width="138" height="46" zIndex="1" unit="{'metric':'SEC','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label27" top="68" left="15" width="298" height="45" zIndex="2" text="$IAT/Language/TransferSpeed" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput27" top="68" left="315" width="138" height="46" zIndex="3" unit="{'metric':'P1','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label28" top="124" left="15" width="298" height="45" zIndex="4" text="$IAT/Language/SquaringSpeed" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput28" top="124" left="315" width="138" height="46" zIndex="5" unit="{'metric':'P1','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label29" top="181" left="15" width="298" height="45" zIndex="6" text="$IAT/Language/ParkSpeed" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput29" top="181" left="315" width="138" height="46" zIndex="7" unit="{'metric':'P1','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label30" top="237" left="15" width="298" height="45" zIndex="8" text="$IAT/Language/txtAutoSquaring" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput30" top="237" left="315" width="138" height="46" zIndex="9" unit="{'metric':'P1','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label31" top="294" left="15" width="298" height="45" zIndex="10" text="$IAT/Language/XSafeLoad" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput31" top="294" left="315" width="138" height="46" zIndex="11" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label32" top="350" left="15" width="298" height="45" zIndex="12" text="$IAT/Language/YSafeLoad" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput32" top="350" left="315" width="138" height="46" zIndex="13" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label33" top="402" left="15" width="298" height="45" zIndex="14" text="$IAT/Language/CHomeOffsetPosition" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput33" top="402" left="315" width="138" height="46" zIndex="15" maxValue="360" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label34" top="455" left="15" width="298" height="45" zIndex="16" text="$IAT/Language/LowEHomePos" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput34" top="455" left="315" width="138" height="46" zIndex="17" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label38" top="663" left="12" width="298" height="45" zIndex="18" text="$IAT/Language/Units" />
+                <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="19" x1="-1" x2="469" y1="62" y2="62" lineColor="rgba(0, 0, 0, 1)" />
+                <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="20" x1="0" x2="467" y1="290" y2="290" lineColor="rgba(0, 0, 0, 1)" />
+                <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox1" top="655" left="203" width="244" height="61" zIndex="21" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox5" top="9" left="1442" width="307" height="765" zIndex="4" text="$IAT/Language/txtPosition">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power1" top="24" left="88" width="127" height="101" zIndex="0" multiLine="true" text="$IAT/Language/SingleStep" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" textColor="rgba(0, 0, 0, 1)" fontSize="22px" shadow="10px 8px 15px -3px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+                <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power2" top="138" left="88" width="127" height="101" zIndex="1" multiLine="true" text="$IAT/Language/txtReferans" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" textColor="rgba(0, 0, 0, 1)" fontSize="22px" shadow="10px 8px 15px -3px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+                <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power3" top="253" left="92" width="127" height="101" zIndex="2" multiLine="true" text="$IAT/Language/NegativeOverride" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" textColor="rgba(0, 0, 0, 1)" fontSize="22px" shadow="10px 8px 15px -3px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+                <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power4" top="368" left="92" width="127" height="101" zIndex="3" multiLine="true" text="$IAT/Language/txtOrigin" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" textColor="rgba(0, 0, 0, 1)" fontSize="22px" shadow="10px 8px 15px -3px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
+              </Widgets>
+            </Widget>
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem2" left="0" width="590" height="60" zIndex="1" text="$IAT/Language/txtDriveParameters" fontSize="35px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox6" top="131" left="354" width="456" height="248" zIndex="0" text="X">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput35" top="23" left="303" width="138" height="46" zIndex="0" unit="{'metric':'SEC','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label35" top="28" left="11" width="290" height="39" zIndex="1" text="$IAT/Language/NegativeLimit" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput36" top="81" left="303" width="138" height="46" zIndex="2" unit="{'metric':'SEC','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label36" top="86" left="11" width="290" height="39" zIndex="3" text="$IAT/Language/PositiveLimit" />
+                <Widget xsi:type="widgets.brease.Button" id="Button1" top="140" left="302" width="132" height="56" zIndex="4" text="$IAT/Language/Save" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox7" top="131" left="822" width="456" height="248" zIndex="1" text="Y">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput37" top="23" left="303" width="138" height="46" zIndex="0" unit="{'metric':'SEC','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label37" top="28" left="11" width="290" height="39" zIndex="1" text="$IAT/Language/NegativeLimit" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput38" top="81" left="303" width="138" height="46" zIndex="2" unit="{'metric':'SEC','imperial':'SEC','imperial-us':'SEC'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label39" top="86" left="11" width="290" height="39" zIndex="3" text="$IAT/Language/PositiveLimit" />
+                <Widget xsi:type="widgets.brease.Button" id="Button2" top="140" left="302" width="132" height="56" zIndex="4" text="$IAT/Language/Save" />
+              </Widgets>
+            </Widget>
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem3" left="0" width="590" height="60" zIndex="2" text="$IAT/Language/txtPressureParameters" fontSize="35px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox8" top="90" left="2" width="350" height="342" zIndex="0" text="T19">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.Label" id="Label40" top="1" left="5" width="206" height="45" zIndex="0" text="M190" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput39" top="1" left="200" width="138" height="46" zIndex="1" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label41" top="50" left="5" width="206" height="45" zIndex="2" text="R0-30 M191" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput40" top="50" left="200" width="138" height="46" zIndex="3" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label42" top="99" left="5" width="206" height="45" zIndex="4" text="R30-100 M192" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput41" top="99" left="200" width="138" height="46" zIndex="5" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label43" top="150" left="5" width="206" height="45" zIndex="6" text="R100-300 M193" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput42" top="150" left="200" width="138" height="46" zIndex="7" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label44" top="201" left="5" width="206" height="45" zIndex="8" text="R300-500 M194" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput43" top="201" left="200" width="138" height="46" zIndex="9" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label45" top="253" left="5" width="206" height="45" zIndex="10" text="R300-999 M195" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput44" top="253" left="200" width="138" height="46" zIndex="11" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox9" top="8" left="2" width="1762" height="80" zIndex="1">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.Label" id="Label46" top="11" left="15" width="168" height="61" zIndex="0" multiLine="true" text="$IAT/Language/PressureCalibration" wordWrap="true" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput45" top="19" left="179" width="160" height="46" zIndex="1" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label47" top="8" left="347" width="170" height="61" zIndex="2" multiLine="true" text="$IAT/Language/PressureOffset" wordWrap="true" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput46" top="16" left="509" width="160" height="46" zIndex="3" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label48" top="8" left="675" width="194" height="61" zIndex="4" multiLine="true" text="$IAT/Language/HeadDownPresure" wordWrap="true" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput47" top="14" left="877" width="160" height="46" zIndex="5" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label49" top="8" left="1041" width="158" height="61" zIndex="6" multiLine="true" text="$IAT/Language/VinylCutPressure" wordWrap="true" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput48" top="16" left="1217" width="160" height="46" zIndex="7" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label50" top="10" left="1421" width="176" height="61" zIndex="8" multiLine="true" text="$IAT/Language/LoweDownPressure" wordWrap="true" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput49" top="18" left="1595" width="160" height="46" zIndex="9" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox10" top="435" left="2" width="350" height="342" zIndex="2" text="T6">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.Label" id="Label51" top="1" left="5" width="206" height="45" zIndex="0" text="M190" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput50" top="1" left="200" width="138" height="46" zIndex="1" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label52" top="50" left="5" width="206" height="45" zIndex="2" text="R0-30 M191" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput51" top="50" left="200" width="138" height="46" zIndex="3" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label53" top="99" left="5" width="206" height="45" zIndex="4" text="R30-100 M192" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput52" top="99" left="200" width="138" height="46" zIndex="5" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label54" top="150" left="5" width="206" height="45" zIndex="6" text="R100-300 M193" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput53" top="150" left="200" width="138" height="46" zIndex="7" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label55" top="201" left="5" width="206" height="45" zIndex="8" text="R300-500 M194" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput54" top="201" left="200" width="138" height="46" zIndex="9" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label56" top="253" left="5" width="206" height="45" zIndex="10" text="R300-999 M195" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput55" top="253" left="200" width="138" height="46" zIndex="11" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox11" top="90" left="355" width="350" height="342" zIndex="3" text="T15">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.Label" id="Label57" top="1" left="5" width="206" height="45" zIndex="0" text="M190" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput56" top="1" left="200" width="138" height="46" zIndex="1" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label58" top="50" left="5" width="206" height="45" zIndex="2" text="R0-30 M191" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput57" top="50" left="200" width="138" height="46" zIndex="3" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label59" top="99" left="5" width="206" height="45" zIndex="4" text="R30-100 M192" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput58" top="99" left="200" width="138" height="46" zIndex="5" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label60" top="150" left="5" width="206" height="45" zIndex="6" text="R100-300 M193" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput59" top="150" left="200" width="138" height="46" zIndex="7" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label61" top="201" left="5" width="206" height="45" zIndex="8" text="R300-500 M194" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput60" top="201" left="200" width="138" height="46" zIndex="9" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label62" top="253" left="5" width="206" height="45" zIndex="10" text="R300-999 M195" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput61" top="253" left="200" width="138" height="46" zIndex="11" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox12" top="435" left="355" width="350" height="342" zIndex="4" text="T5">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.Label" id="Label63" top="1" left="5" width="206" height="45" zIndex="0" text="M190" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput62" top="1" left="200" width="138" height="46" zIndex="1" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label64" top="50" left="5" width="206" height="45" zIndex="2" text="R0-30 M191" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput63" top="50" left="200" width="138" height="46" zIndex="3" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label65" top="99" left="5" width="206" height="45" zIndex="4" text="R30-100 M192" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput64" top="99" left="200" width="138" height="46" zIndex="5" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label66" top="150" left="5" width="206" height="45" zIndex="6" text="R100-300 M193" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput65" top="150" left="200" width="138" height="46" zIndex="7" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label67" top="201" left="5" width="206" height="45" zIndex="8" text="R300-500 M194" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput66" top="201" left="200" width="138" height="46" zIndex="9" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label68" top="253" left="5" width="206" height="45" zIndex="10" text="R300-999 M195" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput67" top="253" left="200" width="138" height="46" zIndex="11" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox13" top="90" left="708" width="350" height="342" zIndex="5" text="T12">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.Label" id="Label69" top="1" left="5" width="206" height="45" zIndex="0" text="M190" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput68" top="1" left="200" width="138" height="46" zIndex="1" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label70" top="50" left="5" width="206" height="45" zIndex="2" text="R0-30 M191" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput69" top="50" left="200" width="138" height="46" zIndex="3" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label71" top="99" left="5" width="206" height="45" zIndex="4" text="R30-100 M192" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput70" top="99" left="200" width="138" height="46" zIndex="5" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label72" top="150" left="5" width="206" height="45" zIndex="6" text="R100-300 M193" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput71" top="150" left="200" width="138" height="46" zIndex="7" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label73" top="201" left="5" width="206" height="45" zIndex="8" text="R300-500 M194" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput72" top="201" left="200" width="138" height="46" zIndex="9" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label74" top="253" left="5" width="206" height="45" zIndex="10" text="R300-999 M195" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput73" top="253" left="200" width="138" height="46" zIndex="11" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox14" top="435" left="708" width="350" height="342" zIndex="6" text="T4">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.Label" id="Label75" top="1" left="5" width="206" height="45" zIndex="0" text="M190" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput74" top="1" left="200" width="138" height="46" zIndex="1" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label76" top="50" left="5" width="206" height="45" zIndex="2" text="R0-30 M191" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput75" top="50" left="200" width="138" height="46" zIndex="3" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label77" top="99" left="5" width="206" height="45" zIndex="4" text="R30-100 M192" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput76" top="99" left="200" width="138" height="46" zIndex="5" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label78" top="150" left="5" width="206" height="45" zIndex="6" text="R100-300 M193" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput77" top="150" left="200" width="138" height="46" zIndex="7" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label79" top="201" left="5" width="206" height="45" zIndex="8" text="R300-500 M194" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput78" top="201" left="200" width="138" height="46" zIndex="9" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label80" top="253" left="5" width="206" height="45" zIndex="10" text="R300-999 M195" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput79" top="253" left="200" width="138" height="46" zIndex="11" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox15" top="90" left="1061" width="350" height="342" zIndex="7" text="T10">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.Label" id="Label81" top="1" left="5" width="206" height="45" zIndex="0" text="M190" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput80" top="1" left="200" width="138" height="46" zIndex="1" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label82" top="50" left="5" width="206" height="45" zIndex="2" text="R0-30 M191" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput81" top="50" left="200" width="138" height="46" zIndex="3" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label83" top="99" left="5" width="206" height="45" zIndex="4" text="R30-100 M192" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput82" top="99" left="200" width="138" height="46" zIndex="5" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label84" top="150" left="5" width="206" height="45" zIndex="6" text="R100-300 M193" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput83" top="150" left="200" width="138" height="46" zIndex="7" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label85" top="201" left="5" width="206" height="45" zIndex="8" text="R300-500 M194" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput84" top="201" left="200" width="138" height="46" zIndex="9" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label86" top="253" left="5" width="206" height="45" zIndex="10" text="R300-999 M195" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput85" top="253" left="200" width="138" height="46" zIndex="11" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox16" top="435" left="1061" width="350" height="342" zIndex="8" text="T3">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.Label" id="Label87" top="1" left="5" width="206" height="45" zIndex="0" text="M190" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput86" top="1" left="200" width="138" height="46" zIndex="1" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label88" top="50" left="5" width="206" height="45" zIndex="2" text="R0-30 M191" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput87" top="50" left="200" width="138" height="46" zIndex="3" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label89" top="99" left="5" width="206" height="45" zIndex="4" text="R30-100 M192" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput88" top="99" left="200" width="138" height="46" zIndex="5" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label90" top="150" left="5" width="206" height="45" zIndex="6" text="R100-300 M193" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput89" top="150" left="200" width="138" height="46" zIndex="7" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label91" top="201" left="5" width="206" height="45" zIndex="8" text="R300-500 M194" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput90" top="201" left="200" width="138" height="46" zIndex="9" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label92" top="253" left="5" width="206" height="45" zIndex="10" text="R300-999 M195" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput91" top="253" left="200" width="138" height="46" zIndex="11" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox17" top="90" left="1414" width="350" height="342" zIndex="9" text="T8">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.Label" id="Label93" top="1" left="5" width="206" height="45" zIndex="0" text="M190" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput92" top="1" left="200" width="138" height="46" zIndex="1" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label94" top="50" left="5" width="206" height="45" zIndex="2" text="R0-30 M191" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput93" top="50" left="200" width="138" height="46" zIndex="3" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label95" top="99" left="5" width="206" height="45" zIndex="4" text="R30-100 M192" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput94" top="99" left="200" width="138" height="46" zIndex="5" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label96" top="150" left="5" width="206" height="45" zIndex="6" text="R100-300 M193" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput95" top="150" left="200" width="138" height="46" zIndex="7" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label97" top="201" left="5" width="206" height="45" zIndex="8" text="R300-500 M194" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput96" top="201" left="200" width="138" height="46" zIndex="9" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label98" top="253" left="5" width="206" height="45" zIndex="10" text="R300-999 M195" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput97" top="253" left="200" width="138" height="46" zIndex="11" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox18" top="435" left="1414" width="350" height="342" zIndex="10" text="T2">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.Label" id="Label99" top="1" left="5" width="206" height="45" zIndex="0" text="M190" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput98" top="1" left="200" width="138" height="46" zIndex="1" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label100" top="50" left="5" width="206" height="45" zIndex="2" text="R0-30 M191" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput99" top="50" left="200" width="138" height="46" zIndex="3" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label101" top="99" left="5" width="206" height="45" zIndex="4" text="R30-100 M192" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput100" top="99" left="200" width="138" height="46" zIndex="5" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label102" top="150" left="5" width="206" height="45" zIndex="6" text="R100-300 M193" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput101" top="150" left="200" width="138" height="46" zIndex="7" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label103" top="201" left="5" width="206" height="45" zIndex="8" text="R300-500 M194" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput102" top="201" left="200" width="138" height="46" zIndex="9" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+                <Widget xsi:type="widgets.brease.Label" id="Label104" top="253" left="5" width="206" height="45" zIndex="10" text="R300-999 M195" />
+                <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput103" top="253" left="200" width="138" height="46" zIndex="11" maxValue="6" unit="{'metric':'BAR','imperial':'BAR','imperial-us':'BAR'}" unitAlign="right" />
+              </Widgets>
+            </Widget>
+          </Widgets>
+        </Widget>
+      </Widgets>
+    </Widget>
+  </Widgets>
 </Content>

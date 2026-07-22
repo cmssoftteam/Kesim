@@ -685,5 +685,438 @@
         <seg>Undo</seg>
       </tuv>
     </tu>
+    <tu tuid="txtLenghtParameters">
+      <tuv xml:lang="tr">
+        <seg>Mesafe Parameterleri</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Lenght Parameters</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtDriveParameters">
+      <tuv xml:lang="tr">
+        <seg>Sürücü Parametreleri</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Drive Parameters</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtPressureParameters">
+      <tuv xml:lang="tr">
+        <seg>Basınç Parametreleri</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pressure Parameters</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtIOForce">
+      <tuv xml:lang="tr">
+        <seg>IO İzleme</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>IO Watch</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtMotorSetup">
+      <tuv xml:lang="tr">
+        <seg>Motor Kurulum</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Motor Setup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtMotionStatus">
+      <tuv xml:lang="tr">
+        <seg>Motor Durumu</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Motion Status</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtMachineSetup">
+      <tuv xml:lang="tr">
+        <seg>Machine Kurulum</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Machine Setup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtParameters">
+      <tuv xml:lang="tr">
+        <seg>Parametreler</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Parameters</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtSelection">
+      <tuv xml:lang="tr">
+        <seg>Seçimler</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Selection</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtTimers">
+      <tuv xml:lang="tr">
+        <seg>Zamanlar</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Timers</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HeadUp">
+      <tuv xml:lang="tr">
+        <seg>Elmas Yukarı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Head Up</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HeadDown">
+      <tuv xml:lang="tr">
+        <seg>Elmas Aşağı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Head Down</seg>
+      </tuv>
+    </tu>
+    <tu tuid="WaitPressure">
+      <tuv xml:lang="tr">
+        <seg>Basınca Ulaşma</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Wait Pressure</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LoweAbove">
+      <tuv xml:lang="tr">
+        <seg>Low-E Motor Aşağı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Low-E Above</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LoweBelow">
+      <tuv xml:lang="tr">
+        <seg>Low-E Aşağı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Low-E Below</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Stretching">
+      <tuv xml:lang="tr">
+        <seg>Yağ Germe</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Stretching</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SquareForward">
+      <tuv xml:lang="tr">
+        <seg>Kesim Gönyeler İleri</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Square Forward</seg>
+      </tuv>
+    </tu>
+    <tu tuid="XGlass">
+      <tuv xml:lang="tr">
+        <seg>X Cam</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X Glass</seg>
+      </tuv>
+    </tu>
+    <tu tuid="YGlass">
+      <tuv xml:lang="tr">
+        <seg>Y Cam</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Y Glass</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CGlass">
+      <tuv xml:lang="tr">
+        <seg>C Cam</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>C Glass</seg>
+      </tuv>
+    </tu>
+    <tu tuid="YGlassRight">
+      <tuv xml:lang="tr">
+        <seg>Y1 Cam</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Y Glass Right</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Speed">
+      <tuv xml:lang="tr">
+        <seg>Hız</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Speed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="XLaser">
+      <tuv xml:lang="tr">
+        <seg>X Sensor</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X Laser</seg>
+      </tuv>
+    </tu>
+    <tu tuid="YOffsetLaser">
+      <tuv xml:lang="tr">
+        <seg>Y Sensor Ofset</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Y Offset Laser</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LoweDiamondX">
+      <tuv xml:lang="tr">
+        <seg>Low-E Fırça X</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Low-E Diamond X</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LoweDiamondY">
+      <tuv xml:lang="tr">
+        <seg>Low-E Fırça Y</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Low-E Diamond Y</seg>
+      </tuv>
+    </tu>
+    <tu tuid="XHome">
+      <tuv xml:lang="tr">
+        <seg>X Home</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X Home</seg>
+      </tuv>
+    </tu>
+    <tu tuid="YHome">
+      <tuv xml:lang="tr">
+        <seg>Y Home</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Y Home</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Y1Distance">
+      <tuv xml:lang="tr">
+        <seg>Y1 Uzaklık</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Y1 Distance</seg>
+      </tuv>
+    </tu>
+    <tu tuid="X2Distance">
+      <tuv xml:lang="tr">
+        <seg>X2 Uzaklık</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X2 Distance</seg>
+      </tuv>
+    </tu>
+    <tu tuid="X3Distance">
+      <tuv xml:lang="tr">
+        <seg>X3 Uzaklık</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X3 Distance</seg>
+      </tuv>
+    </tu>
+    <tu tuid="XTransferStart">
+      <tuv xml:lang="tr">
+        <seg>Kopru X Transfer Başlangıç</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X Transfer Start</seg>
+      </tuv>
+    </tu>
+    <tu tuid="YTransferStart">
+      <tuv xml:lang="tr">
+        <seg>Kopru Y Transfer Başlangıç</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Y Transfer Start</seg>
+      </tuv>
+    </tu>
+    <tu tuid="XTransferEnd">
+      <tuv xml:lang="tr">
+        <seg>X Transfer Son</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X Transfer End</seg>
+      </tuv>
+    </tu>
+    <tu tuid="YTransferEnd">
+      <tuv xml:lang="tr">
+        <seg>Y Transfer Son</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Y Transfer End</seg>
+      </tuv>
+    </tu>
+    <tu tuid="XSquareEnd">
+      <tuv xml:lang="tr">
+        <seg>Köprü X Gön.Son</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>XSquareEnd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="YGlassPushEnd">
+      <tuv xml:lang="tr">
+        <seg>Köprü Y Gön.Son</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Y Glass Push End</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TransferSpeed">
+      <tuv xml:lang="tr">
+        <seg>Transfer Hızı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Transfer Speed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SquaringSpeed">
+      <tuv xml:lang="tr">
+        <seg>Gönyeleme Hızı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Squaring Speed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ParkSpeed">
+      <tuv xml:lang="tr">
+        <seg>Park Hızı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ParkSpeed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AutoSquaring">
+      <tuv xml:lang="tr">
+        <seg>Otm. Gönyeleme</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>AutoSquaring</seg>
+      </tuv>
+    </tu>
+    <tu tuid="XSafeLoad">
+      <tuv xml:lang="tr">
+        <seg>X Köprü Yükleme</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>X Safe Load</seg>
+      </tuv>
+    </tu>
+    <tu tuid="YSafeLoad">
+      <tuv xml:lang="tr">
+        <seg>Y Köprü Yükleme</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Y Safe Load</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CHomeOffsetPosition">
+      <tuv xml:lang="tr">
+        <seg>C Home Ofset</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>C Home Offset Position</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LowEHomePos">
+      <tuv xml:lang="tr">
+        <seg>Low-E Referans Poz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>LowE Home Pos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SingleStep">
+      <tuv xml:lang="tr">
+        <seg>Adım Adım Modu</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Single Step</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NegativeOverride">
+      <tuv xml:lang="tr">
+        <seg>Geriye Kesim</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Negative Override</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Units">
+      <tuv xml:lang="tr">
+        <seg>Birimler</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Units</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NegativeLimit">
+      <tuv xml:lang="tr">
+        <seg>Negatif Limit</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Negatif Limit</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PositiveLimit">
+      <tuv xml:lang="tr">
+        <seg>Pozitif Limit</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Positive Limit</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Save">
+      <tuv xml:lang="tr">
+        <seg>Kaydet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Save</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PressureCalibration">
+      <tuv xml:lang="en">
+        <seg>Pressure Calibration</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PressureOffset">
+      <tuv xml:lang="en">
+        <seg>Pressure Offset</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HeadDownPresure">
+      <tuv xml:lang="en">
+        <seg>Head Down Presure</seg>
+      </tuv>
+    </tu>
+    <tu tuid="VinylCutPressure">
+      <tuv xml:lang="en">
+        <seg>Vinyl Cut Pressure</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LoweDownPressure">
+      <tuv xml:lang="en">
+        <seg>Low-E Down Pressure</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

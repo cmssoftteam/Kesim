@@ -12,5 +12,7 @@
     <Object Type="File">content_Header.eventbinding</Object>
     <Object Type="File">Config.mappviewcfg</Object>
     <Object Type="File">content_Navigation.eventbinding</Object>
+    <Object Type="File">content_Button.binding</Object>
+    <Object Type="File">Content_Params.eventbinding</Object>
   </Objects>
 </Package>

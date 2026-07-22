@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="content_Button" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::CncCtrl:Loc.FB.Cnc3Axis.X" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_Button" widgetRefId="NumericOutput2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::CncCtrl:Loc.FB.Cnc3Axis.Y" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_Button" widgetRefId="NumericOutput5" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::CncCtrl:Loc.FB.Cnc3Axis.Z" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_Button" widgetRefId="NumericOutput8" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

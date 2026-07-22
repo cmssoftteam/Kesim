@@ -14,5 +14,6 @@
     <Object Type="File">content_Navigation.eventbinding</Object>
     <Object Type="File">content_Button.binding</Object>
     <Object Type="File">Content_Params.eventbinding</Object>
+    <Object Type="File">P0500_Widget.binding</Object>
   </Objects>
 </Package>

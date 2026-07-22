@@ -67,6 +67,10 @@ PROGRAM _CYCLIC
 	
 	//|_________________________________________________________________________
 
+	
+	TestX;
+	TestY;
+	
 END_PROGRAM
 
 PROGRAM _EXIT

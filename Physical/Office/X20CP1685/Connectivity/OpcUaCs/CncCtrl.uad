@@ -25,6 +25,8 @@
           </Variable>
         </Variable>
       </Variable>
+      <Variable Name="TestX" />
+      <Variable Name="TestY" />
     </Task>
   </Module>
 </OpcUaSource>

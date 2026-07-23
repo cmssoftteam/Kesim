@@ -8,5 +8,6 @@
     <Object Type="File" TransferedForTargetSourceCompare="true">UserX.uad</Object>
     <Object Type="File" TransferedForTargetSourceCompare="true">RecipeMgr.uad</Object>
     <Object Type="File" TransferedForTargetSourceCompare="true">AlarmXMgr.uad</Object>
+    <Object Type="File">OpcUaCsMap.uad</Object>
   </Objects>
 </Package>

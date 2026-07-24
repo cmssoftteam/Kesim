@@ -40,8 +40,8 @@
     <EventBindingsSet refId="content_AlarmXHistory" />
     <EventBindingsSet refId="content_AlarmXList" />
     <EventBindingsSet refId="content_Header" />
-    <EventBindingsSet refId="content_Navigation" />
     <EventBindingsSet refId="Content_Params" />
+    <EventBindingsSet refId="content_Navigation" />
   </EventBindingsSets>
   <EventScriptsSets />
   <Dialogs>
@@ -93,11 +93,11 @@
     <Content refId="P0340_MotionStatus" />
     <Content refId="P0400_SystemInformation" />
     <Content refId="P0410_CompanyInformation" />
-    <Content refId="P0220_Cockpit" />
     <Content refId="P0500_Widget" />
     <Content refId="content_Navigation" />
-    <Content refId="Content_Params" />
     <Content refId="content_Services" />
+    <Content refId="Content_Params" />
+    <Content refId="P0220_Cockpit" />
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="User" />

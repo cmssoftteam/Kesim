@@ -8,5 +8,6 @@
 VAR
 	TestX : LREAL;
 	TestY : LREAL;
+
 	Loc : Loc_typ; (**** Bu Task icinde kullanilacak Local degisken*)
 END_VAR

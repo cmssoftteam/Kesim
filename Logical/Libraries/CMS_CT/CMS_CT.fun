@@ -61,3 +61,28 @@ END_FUNCTION_BLOCK
 		Step : UINT;
 	END_VAR
 END_FUNCTION_BLOCK
+
+{REDUND_ERROR} FUNCTION_BLOCK fbCuttingTransfer (*Transfer Glass To Cutting OR To Breaker*) (*$GROUP=User,$CAT=User,$GROUPICON=User.png,$CATICON=User.png*)
+	VAR_INPUT
+		inEnable : BOOL;
+		inSimulation : BOOL;
+		inLoaderReadyToTransfer : {REDUND_UNREPLICABLE} BOOL;
+		inCTReadyToTransfer : BOOL;
+		inSensors : fbCuttingTransferSens_type;
+		inReset : BOOL;
+		inGlassTransfer : BOOL;
+	END_VAR
+	VAR_OUTPUT
+		outActive : BOOL;
+		outGlassTransferDone : BOOL;
+		outGlassTransferActive : BOOL;
+		outDO : fbCuttingTransferDO_type;
+		outCommandDone : BOOL;
+		outError : BOOL;
+		outErrorID : fbCuttingTransfeErrorID_type;
+		outState : fbCuttingTransferState_type;
+	END_VAR
+	VAR
+		Loc : fbCuttingTransferLoc_type; (*Local Variables*)
+	END_VAR
+END_FUNCTION_BLOCK

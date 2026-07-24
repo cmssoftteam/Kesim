@@ -2,6 +2,7 @@
 <?AutomationStudio FileVersion="4.9"?>
 <Library SubType="IEC" xmlns="http://br-automation.co.at/AS/Library">
   <Objects>
+    <Object Type="File">fbCuttingTransfer.typ</Object>
     <Object Type="File">fbTableUpDown.typ</Object>
     <Object Type="File" Description="Exported constants">Constants.var</Object>
     <Object Type="File" Description="Exported functions and function blocks">CMS_CT.fun</Object>

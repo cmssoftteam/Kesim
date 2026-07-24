@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Content id="Content_Params" guid="b825f05c-9648-473c-9883-14fb5fcb04e5" height="840" width="150" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Widgets>
+<Content id="Content_Params" guid="52eeb7b2-1e82-4d36-8a24-b961155fa93d" height="840" width="150" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Widgets>
     <Widget xsi:type="widgets.brease.ButtonBar" id="ButtonBar2" top="9" left="8" width="135" height="823" zIndex="0">
       <Widgets>
         <Widget xsi:type="widgets.brease.ToggleButton" id="HomePage" top="9" left="15" width="108" height="102" zIndex="0" image="Media/CMS/adjustment_12432571.png" imageAlign="top" multiLine="true" text="$IAT/Language/txtParameters" wordWrap="true" borderWidth="2px" cornerRadius="30px" backGroundGradient="linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(229,229,229,1) 100%)" borderColor="rgba(0, 0, 0, 1)" checkedBackGroundGradient="linear-gradient(to bottom, #bcb7ca 0%,#bcb7ca 100%)" />
@@ -12,3 +12,4 @@
     </Widget>
   </Widgets>
 </Content>
+

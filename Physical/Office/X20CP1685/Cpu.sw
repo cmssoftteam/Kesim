@@ -3,7 +3,10 @@
 <SwConfiguration CpuAddress="" xmlns="http://br-automation.co.at/AS/SwConfiguration">
   <TaskClass Name="Cyclic#1" />
   <TaskClass Name="Cyclic#2" />
-  <TaskClass Name="Cyclic#3" />
+
+  <TaskClass Name="Cyclic#3">
+    <Task Name="Kesim" Source="SourceCode.Kesim.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+  </TaskClass>
   <TaskClass Name="Cyclic#4">
     <Task Name="AlarmX" Source="SourceCode.Infastructure.AlarmX.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="UserXMgr" Source="SourceCode.Infastructure.UserXMgr.prg" Memory="UserROM" Language="IEC" Debugging="true" />
@@ -93,6 +96,7 @@
     <LibraryObject Name="MpServer" Source="Libraries.MpServer.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="CMS_CT" Source="Libraries.CMS_CT.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="ArSvcReg" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+
     <LibraryObject Name="ArSsl" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="DataObj" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="UaCoal" Source="" Memory="UserROM" Language="Binary" Debugging="true" />

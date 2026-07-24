@@ -3,7 +3,9 @@
 <Configuration>
   <Element ID="gMpLink_AxisQX" Type="axis">
     <Selector ID="BaseType" Value="LinearBounded" />
+
     <Selector ID="MovementLimits" Value="Internal">
+
       <Group ID="Position">
         <Property ID="LowerLimit" Value="-25000.0" />
         <Property ID="UpperLimit" Value="25000.0" />
@@ -42,6 +44,7 @@
   <Element ID="gMpLink_AxisQC" Type="axis">
     <Selector ID="BaseType" Value="RotaryBounded" />
     <Selector ID="MovementLimits" Value="Internal">
+
       <Group ID="Position">
         <Property ID="LowerLimit" Value="-25000.0" />
         <Property ID="UpperLimit" Value="25000.0" />
@@ -57,5 +60,6 @@
       </Selector>
     </Selector>
     <Selector ID="Alarms" Value="None" />
+
   </Element>
 </Configuration>

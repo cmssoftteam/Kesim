@@ -3,7 +3,7 @@
 <Configuration>
   <Element ID="gMpLink_AxisQX" Type="axis">
     <Selector ID="BaseType" Value="LinearBounded" />
-    <Selector ID="MovementLimits" Value="Internal">
+    <Selector ID="MovementLimits">
       <Group ID="Position">
         <Property ID="LowerLimit" Value="-25000.0" />
         <Property ID="UpperLimit" Value="25000.0" />
@@ -18,11 +18,10 @@
         <Property ID="Deceleration" Value="500000.0" />
       </Selector>
     </Selector>
-    <Selector ID="Alarms" Value="None" />
   </Element>
   <Element ID="gMpLink_AxisQY" Type="axis">
     <Selector ID="BaseType" Value="LinearBounded" />
-    <Selector ID="MovementLimits" Value="Internal">
+    <Selector ID="MovementLimits">
       <Group ID="Position">
         <Property ID="LowerLimit" Value="-25000.0" />
         <Property ID="UpperLimit" Value="25000.0" />
@@ -37,11 +36,10 @@
         <Property ID="Deceleration" Value="500000.0" />
       </Selector>
     </Selector>
-    <Selector ID="Alarms" Value="None" />
   </Element>
   <Element ID="gMpLink_AxisQC" Type="axis">
     <Selector ID="BaseType" Value="RotaryBounded" />
-    <Selector ID="MovementLimits" Value="Internal">
+    <Selector ID="MovementLimits">
       <Group ID="Position">
         <Property ID="LowerLimit" Value="-25000.0" />
         <Property ID="UpperLimit" Value="25000.0" />
@@ -56,6 +54,5 @@
         <Property ID="Deceleration" Value="500000.0" />
       </Selector>
     </Selector>
-    <Selector ID="Alarms" Value="None" />
   </Element>
 </Configuration>

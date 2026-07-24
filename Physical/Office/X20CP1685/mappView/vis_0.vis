@@ -21,7 +21,6 @@
     <BindingsSet refId="content_AlarmXHistory" />
     <BindingsSet refId="content_AlarmXDetail" />
     <BindingsSet refId="content_Button" />
-    <BindingsSet refId="P0500_Widget" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="P0001_StartPage" />
@@ -93,11 +92,10 @@
     <Content refId="P0340_MotionStatus" />
     <Content refId="P0400_SystemInformation" />
     <Content refId="P0410_CompanyInformation" />
-    <Content refId="P0220_Cockpit" />
-    <Content refId="P0500_Widget" />
     <Content refId="content_Navigation" />
-    <Content refId="Content_Params" />
     <Content refId="content_Services" />
+    <Content refId="P0220_Cockpit" />
+    <Content refId="Content_Params" />
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="User" />

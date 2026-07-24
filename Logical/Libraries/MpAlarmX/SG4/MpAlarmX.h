@@ -1,6 +1,6 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
-/* MpAlarmX 6.5.1 */
+/* MpAlarmX 6.7.1 */
 
 #ifndef _MPALARMX_
 #define _MPALARMX_
@@ -9,7 +9,7 @@ extern "C"
 {
 #endif
 #ifndef _MpAlarmX_VERSION
-#define _MpAlarmX_VERSION 6.5.1
+#define _MpAlarmX_VERSION 6.7.1
 #endif
 
 #include <bur/plctypes.h>
@@ -99,21 +99,21 @@ typedef enum MpAlarmXErrorEnum
 } MpAlarmXErrorEnum;
 
 typedef enum MpAlarmXCfgEnum
-{	mpALARMX_CFG_QUERIES = 180,
+{	mpALARMX_CFG_CORE = 100,
 	mpALARMX_CFG_MAPPINGS = 101,
+	mpALARMX_CFG_MAPPING = 102,
 	mpALARMX_CFG_DEFAULTMAPPINGS = 103,
-	mpALARMX_CFG_QUERY = 181,
-	mpALARMX_CFG_SNIPPET = 142,
 	mpALARMX_CFG_DEFAULTACTION = 104,
 	mpALARMX_CFG_ALARMLINK = 105,
-	mpALARMX_CFG_CATEGORY = 161,
-	mpALARMX_CFG_CORE = 100,
-	mpALARMX_CFG_CATEGORIES = 160,
-	mpALARMX_CFG_ALARM = 141,
+	mpALARMX_CFG_CATEGORYLINK = 106,
 	mpALARMX_CFG_HISTORY = 120,
 	mpALARMX_CFG_ALARMS = 140,
-	mpALARMX_CFG_MAPPING = 102,
-	mpALARMX_CFG_CATEGORYLINK = 106
+	mpALARMX_CFG_ALARM = 141,
+	mpALARMX_CFG_SNIPPET = 142,
+	mpALARMX_CFG_CATEGORIES = 160,
+	mpALARMX_CFG_CATEGORY = 161,
+	mpALARMX_CFG_QUERIES = 180,
+	mpALARMX_CFG_QUERY = 181
 } MpAlarmXCfgEnum;
 
 typedef enum MpAlarmXCfgCategoryDefinedByEnum
@@ -153,6 +153,17 @@ typedef enum MpAlarmXCfgCoreMemoryEnum
 	mpALARMX_CFG_CORE_ROM_RAM = 2,
 	mpALARMX_CFG_CORE_RAM = 3
 } MpAlarmXCfgCoreMemoryEnum;
+
+typedef enum MpAlarmXCfgHistoryTaskClassEnum
+{	mpALARMX_CFG_HISTORY_TC_CYCLIC_1 = 1,
+	mpALARMX_CFG_HISTORY_TC_CYCLIC_2 = 2,
+	mpALARMX_CFG_HISTORY_TC_CYCLIC_3 = 3,
+	mpALARMX_CFG_HISTORY_TC_CYCLIC_4 = 4,
+	mpALARMX_CFG_HISTORY_TC_CYCLIC_5 = 5,
+	mpALARMX_CFG_HISTORY_TC_CYCLIC_6 = 6,
+	mpALARMX_CFG_HISTORY_TC_CYCLIC_7 = 7,
+	mpALARMX_CFG_HISTORY_TC_CYCLIC_8 = 8
+} MpAlarmXCfgHistoryTaskClassEnum;
 
 typedef enum MpAlarmXCfgHistoryMemoryEnum
 {	mpALARMX_CFG_HISTORY_ROM_DRAM = 0,
@@ -471,6 +482,7 @@ typedef struct MpAlarmXCfgCoreMappingActionType
 typedef struct MpAlarmXCfgCoreGeneralType
 {	plcbit Enable;
 	plcbit EnableCockpit;
+	plcbit EnableOpcUaInterface;
 	enum MpAlarmXCfgCoreTaskClassEnum CyclicTaskClass;
 	plcstring Parent[51];
 } MpAlarmXCfgCoreGeneralType;
@@ -549,6 +561,8 @@ typedef struct MpAlarmXCfgCoreType
 typedef struct MpAlarmXCfgHistoryGeneralType
 {	plcbit Enable;
 	plcbit EnableCockpit;
+	plcbit EnableOpcUaInterface;
+	enum MpAlarmXCfgHistoryTaskClassEnum CyclicTaskClass;
 	plcbit EnableAuditing;
 	plcstring Parent[51];
 } MpAlarmXCfgHistoryGeneralType;
@@ -848,6 +862,10 @@ typedef struct MpAlarmXCfgListType
 	struct MpAlarmXCfgListTextSnippetsType TextSnippets;
 } MpAlarmXCfgListType;
 
+typedef struct MpAlarmXCfgQueryGeneralType
+{	plcbit EnableCockpit;
+} MpAlarmXCfgQueryGeneralType;
+
 typedef struct MpAlarmXCfgQueryPendColType
 {	enum MpAlarmXCfgQueryPendColumnsEnum Column;
 	plcstring ProcessVariable[256];
@@ -960,7 +978,8 @@ typedef struct MpAlarmXCfgQueryDataQueriesType
 } MpAlarmXCfgQueryDataQueriesType;
 
 typedef struct MpAlarmXCfgQueryType
-{	struct MpAlarmXCfgQueryDataQueriesType DataQueries;
+{	struct MpAlarmXCfgQueryGeneralType General;
+	struct MpAlarmXCfgQueryDataQueriesType DataQueries;
 } MpAlarmXCfgQueryType;
 
 typedef struct MpAlarmXCore

@@ -6,6 +6,5 @@
     <Object Type="Package" Description="Widgets">Widgets</Object>
     <Object Type="Package" Description="Resources">Resources</Object>
     <Object Type="Package">Visualization</Object>
-    <Object Type="File">Project.language</Object>
   </Objects>
 </Package>

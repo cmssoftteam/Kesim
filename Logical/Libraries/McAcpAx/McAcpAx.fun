@@ -822,3 +822,20 @@ FUNCTION_BLOCK MC_BR_ReadSafeInData_AcpAx (*reads SafeIN data of an SafeMOTION a
 		Internal : McInternalType; (*internal variable*)
 	END_VAR
 END_FUNCTION_BLOCK
+
+FUNCTION_BLOCK MC_BR_VibrationCtrlStatus_AcpAx (*outputs vibratory control status*)
+	VAR_INPUT
+		Axis : REFERENCE TO McAxisType; (*axis reference*)
+		Enable : BOOL; (*when set limitation is activated*)
+	END_VAR
+    VAR_OUTPUT
+		Valid : BOOL; (*FB output values can be used*)
+		Busy : BOOL; (*FB is active and needs to be called*)
+		Error : BOOL; (*error occurred during operation*)
+		ErrorID : DINT; (*error number*)
+		Status : McAcpAxVibCtrlStatusType; (*Status info*)
+	END_VAR
+    VAR
+		Internal : McInternalType; (*internal variable*)
+    END_VAR
+END_FUNCTION_BLOCK

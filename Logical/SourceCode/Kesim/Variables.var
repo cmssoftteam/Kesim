@@ -1,3 +1,4 @@
 VAR
+	fbCuttingTransfer_0 : fbCuttingTransfer;
 	fbTableUpDown_0 : fbTableUpDown;
 END_VAR

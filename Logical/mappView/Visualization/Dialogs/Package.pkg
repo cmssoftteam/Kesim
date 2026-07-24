@@ -3,8 +3,10 @@
 <Package SubType="DialogsPackage" PackageType="DialogsPackage" xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="Package" Description="AreaContents">AreaContents</Object>
+    <Object Type="Package">dialog_Params</Object>
     <Object Type="Package" TransferedForTargetSourceCompare="true">AlarmX</Object>
     <Object Type="Package" TransferedForTargetSourceCompare="true">UserX</Object>
     <Object Type="Package" TransferedForTargetSourceCompare="true">Recipe</Object>
+    <Object Type="Package">dialog_Services</Object>
   </Objects>
 </Package>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="content_UserXList" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+			<Source xsi:type="session" refId="Login_Password" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_UserXList" widgetRefId="Login_Button" attribute="password" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="Login_UserName" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_UserXList" widgetRefId="Login_Button" attribute="userName" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="Login_Password" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_UserXList" widgetRefId="Password_UserPassword" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="Login_UserName" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_UserXList" widgetRefId="TextInput_UserName" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

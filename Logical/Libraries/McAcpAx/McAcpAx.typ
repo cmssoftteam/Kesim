@@ -93,7 +93,8 @@ TYPE
 		mcACPAX_ACOPOS_MICRO,		 (*ACOPOSmicro*)
 		mcACPAX_ACOPOS_REMOTE, 	 (*ACOPOSremote*)
 		mcACPAX_ACOPOS_MOTOR,		 (*ACOPOSmotor*)
-		mcACPAX_ACOPOS_P3			 (*ACOPOS P3*)
+		mcACPAX_ACOPOS_P3,			 (*ACOPOS P3*)
+		mcACPAX_ACOPOS_XSB			 (*ACOPOS XSB*)
 	);
 
 	McAcpAxModuleTypeEnum :
@@ -225,6 +226,16 @@ TYPE
 	(
 		mcACPAX_SLL_LIMIT_AND_REPORT := 0  (*Limit load (torque) and report limitation status.*)
 	);
+
+	McAcpAxVibCtrlStatusEnum :
+	(
+		mcACPAX_VIBCRL_OFF := 0, (*Vibration control is not active*)
+		mcACPAX_VIBCTRL_IDLE := 1, (*Vibration control is idle*)
+		mcACPAX_VIBCTRL_BOOST := 2, (*Vibration control boost*)
+		mcACPAX_VIBCTRL_OPERATIONAL := 3, (*Vibration control is operational *)
+		mcACPAX_VIBCTRL_BRAKE := 4 (*Vibration control brake*)
+	);
+
 
 	McAcpAxHomingAddTorqLimParType : STRUCT
 		PositiveDirection : REAL; (*Positive torque limit value for homing to blocks. If '0.0' is specified, the value of 'TorqueLimit' is used for positive direction. [Nm]*)
@@ -821,5 +832,15 @@ TYPE
 		Status_SetPosAlive : BOOL; (*Alive-testing of set position is valid*)
 		SafePosition : DINT; (*Safe position*)
 		SafeUserData : DINT; (*Safe speed or safe torque*)
+	END_STRUCT;
+
+
+	McAcpAxVibCtrlStatusType : STRUCT
+		Status : McAcpAxVibCtrlStatusEnum; (*Vibration control status*)
+		PhaseDifference : REAL; (*Difference of the phase (3rd to 1st harmonic)*)
+		Amplitude : REAL; (*Amplitude of 3rd harmonic*)
+		AdditionalAmplitude : REAL; (*Change of the amplitude*)
+		AdditionalFrequency : REAL; (*Change of the frequency*)
+		ReferenceSignal : REAL; (*Reference excitation signal*)
 	END_STRUCT;
 END_TYPE

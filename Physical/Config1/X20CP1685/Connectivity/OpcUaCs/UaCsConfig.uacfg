@@ -9,7 +9,7 @@
     <Group ID="Network">
       <Property ID="TcpPort" Value="4848" />
       <Group ID="Discovery">
-        <Property ID="RegisterAtServer" Value="0" />
+        <Property ID="RegisterAtServer" Value="1" />
         <Property ID="ServerUrl" Value="opc.tcp://" />
         <Property ID="RegistrationInterval" Value="600" />
       </Group>
@@ -20,9 +20,9 @@
     <Group ID="Security">
       <Group ID="MessageSecurity">
         <Group ID="SecurityPolicies">
-          <Property ID="None" Value="0" />
-          <Property ID="Basic128Rsa15" Value="0" />
-          <Property ID="Basic256" Value="0" />
+          <Property ID="None" Value="1" />
+          <Property ID="Basic128Rsa15" Value="1" />
+          <Property ID="Basic256" Value="1" />
           <Property ID="Aes128Sha256RsaOaep" Value="1" />
           <Property ID="Basic256Sha256" Value="1" />
         </Group>
@@ -33,8 +33,8 @@
       </Group>
       <Group ID="Authentication">
         <Group ID="SecurityPolicies">
-          <Property ID="Basic128Rsa15" Value="0" />
-          <Property ID="Basic256" Value="0" />
+          <Property ID="Basic128Rsa15" Value="1" />
+          <Property ID="Basic256" Value="1" />
           <Property ID="Aes128Sha256RsaOaep" Value="1" />
           <Property ID="Basic256Sha256" Value="1" />
         </Group>
@@ -47,6 +47,16 @@
       <Group ID="Authorization">
         <Group ID="AnonymousAccess">
           <Property ID="DefaultRole0" Value="BR_Anonymous" />
+          <Property ID="UserRole0" Value="BR_Engineer" />
+          <Property ID="UserRole1" Value="AdministratorBR" />
+          <Property ID="UserRole2" Value="AdministratorCU" />
+          <Property ID="UserRole3" Value="Operator" />
+          <Property ID="UserRole4" Value="Role" />
+          <Property ID="UserRole5" Value="Supervisor" />
+          <Property ID="UserRole6" Value="BR_Anonymous" />
+          <Property ID="UserRole7" Value="BR_Observer" />
+          <Property ID="UserRole8" Value="BR_SafetyAdmin" />
+          <Property ID="UserRole9" Value="BR_SecurityAdmin" />
         </Group>
       </Group>
       <Property ID="AppCertificateTrustListValidation" Value="1" />

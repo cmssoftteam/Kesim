@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="6.0"?>
+<OpcUaSource FileVersion="10">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <Module Name="&lt;Default&gt;">
+    <Task Name="UserXMgr">
+      <Variable Name="Loc">
+        <Variable Name="Par">
+          <Variable Name="UserXMgrUIConnect">
+            <Variable Name="MessageBox">
+              <Variable Name="Type" />
+              <Variable Name="ErrorNumber" />
+              <Variable Name="Confirm" />
+              <Variable Name="LayerStatus" />
+              <Variable Name="StatusID" />
+              <Variable Name="Cancel" />
+            </Variable>
+            <Variable Name="Export">
+              <Variable Name="ShowDialog" />
+              <Variable Name="Dialog">
+                <Variable Name="Cancel" />
+                <Variable Name="FileName" />
+                <Variable Name="Confirm" />
+              </Variable>
+            </Variable>
+            <Variable Name="Import">
+              <Variable Name="ShowDialog" />
+              <Variable Name="Dialog">
+                <Variable Name="Cancel" />
+                <Variable Name="Confirm" />
+                <Variable Name="FileName" />
+                <Variable Name="List">
+                  <Variable Name="SelectedIndex" />
+                  <Variable Name="FileNames" RecursiveEnable="2" />
+                </Variable>
+                <Variable Name="Users" />
+                <Variable Name="Roles" />
+              </Variable>
+            </Variable>
+          </Variable>
+        </Variable>
+        <Variable Name="Status">
+          <Variable Name="FileDuplicate" />
+          <Variable Name="ExportComplete" />
+          <Variable Name="UserExportDisplayed" />
+        </Variable>
+        <Variable Name="Cmd">
+          <Variable Name="Export" />
+          <Variable Name="ConfirmOverwrite" />
+        </Variable>
+      </Variable>
+    </Task>
+  </Module>
+</OpcUaSource>

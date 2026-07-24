@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="P0001_StartPage" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::CncCtrl:Loc.FB.Cnc3Axis.Power" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0001_StartPage" widgetRefId="ToggleButton_Power" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::CncCtrl:Loc.FB.Cnc3Axis.Home" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0001_StartPage" widgetRefId="ToggleButton_Home" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::CncCtrl:Loc.FB.Cnc3Axis.ErrorReset" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0001_StartPage" widgetRefId="ToggleButton_ErrorReset" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::CncCtrl:Loc.FB.Cnc3Axis.StatusID" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0001_StartPage" widgetRefId="NumericOutput_StatusID" attribute="value" />
+</Binding>
+
+</Bindings>
+</BindingsSet>

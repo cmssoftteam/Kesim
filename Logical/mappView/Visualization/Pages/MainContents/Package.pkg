@@ -4,5 +4,15 @@
   <Objects>
     <Object Type="File">P0001_StartPage.content</Object>
     <Object Type="File">P0100_Manual.content</Object>
+    <Object Type="File">P0200_HW_Config.content</Object>
+    <Object Type="File">P0210_SDM.content</Object>
+    <Object Type="File">P0220_Cockpit.content</Object>
+    <Object Type="File">P0300_LengthParameters.content</Object>
+    <Object Type="File">P0310_MotorSetups.content</Object>
+    <Object Type="File">P0320_IO_Force.content</Object>
+    <Object Type="File">P0330_MachineSetup.content</Object>
+    <Object Type="File">P0340_MotionStatus.content</Object>
+    <Object Type="File">P0400_SystemInformation.content</Object>
+    <Object Type="File">P0410_CompanyInformation.content</Object>
   </Objects>
 </Package>

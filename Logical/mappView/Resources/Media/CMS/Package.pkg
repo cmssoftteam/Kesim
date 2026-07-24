@@ -14,5 +14,6 @@
     <Object Type="File">none.png</Object>
     <Object Type="File">none1.png</Object>
     <Object Type="File">none2.png</Object>
+    <Object Type="File">ManualPage.png</Object>
   </Objects>
 </Package>

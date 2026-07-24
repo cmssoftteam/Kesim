@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vdef:Visualization id="vis_0" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+  <StartPage pageRefId="page_Main" />
+  <Pages>
+    <Page refId="page_Main" />
+  </Pages>
+  <Navigations />
+  <BindingsSets>
+    <BindingsSet refId="P0001_StartPage" />
+    <BindingsSet refId="content_UserXMgr" />
+    <BindingsSet refId="content_UserXImport" />
+    <BindingsSet refId="content_UserXExport" />
+    <BindingsSet refId="content_UserXList" />
+    <BindingsSet refId="content_RecipeAdd" />
+    <BindingsSet refId="content_RecipeRename" />
+    <BindingsSet refId="content_RecipeMgr" />
+    <BindingsSet refId="content_RecipeAddMachMach" />
+    <BindingsSet refId="content_RecipeRenameMachMach" />
+    <BindingsSet refId="content_RecipeMgrMachMach" />
+    <BindingsSet refId="content_AlarmXList" />
+    <BindingsSet refId="content_AlarmXHistory" />
+    <BindingsSet refId="content_AlarmXDetail" />
+    <BindingsSet refId="content_Button" />
+  </BindingsSets>
+  <EventBindingsSets>
+    <EventBindingsSet refId="P0001_StartPage" />
+    <EventBindingsSet refId="UserXDisabled" />
+    <EventBindingsSet refId="content_UserXImport" />
+    <EventBindingsSet refId="content_UserXExport" />
+    <EventBindingsSet refId="UserXAnonymousLogin" />
+    <EventBindingsSet refId="content_UserXError" />
+    <EventBindingsSet refId="content_UserXList" />
+    <EventBindingsSet refId="content_RecipeMgr" />
+    <EventBindingsSet refId="content_RecipeRenameButton" />
+    <EventBindingsSet refId="content_RecipeAddButton" />
+    <EventBindingsSet refId="content_RecipeMgrMachMach" />
+    <EventBindingsSet refId="content_RecipeRenameButtonMachMach" />
+    <EventBindingsSet refId="content_RecipeAddButtonMachMach" />
+    <EventBindingsSet refId="content_AlarmXHistory" />
+    <EventBindingsSet refId="content_AlarmXList" />
+    <EventBindingsSet refId="content_Header" />
+    <EventBindingsSet refId="content_Navigation" />
+    <EventBindingsSet refId="Content_Params" />
+  </EventBindingsSets>
+  <EventScriptsSets />
+  <Dialogs>
+    <Dialog refId="dialog_AlarmXMgr" />
+    <Dialog refId="dialog_AlarmXDetail" />
+    <Dialog refId="dialog_UserXMgr" />
+    <Dialog refId="dialog_UserXError" />
+    <Dialog refId="dialog_UserXExport" />
+    <Dialog refId="dialog_UserXImport" />
+    <Dialog refId="dialog_RecipeMgr" />
+    <Dialog refId="dialog_RecipeRename" />
+    <Dialog refId="dialog_RecipeAdd" />
+    <Dialog refId="dialog_RecipeMgrMach" />
+    <Dialog refId="dialog_RecipeRenameMach" />
+    <Dialog refId="dialog_RecipeAddMach" />
+    <Dialog refId="dialog_Params" />
+    <Dialog refId="dialog_Services" />
+  </Dialogs>
+  <Contents>
+    <Content refId="content_Header" />
+    <Content refId="P0001_StartPage" />
+    <Content refId="content_Button" />
+    <Content refId="content_AlarmXMgr" />
+    <Content refId="content_AlarmXList" />
+    <Content refId="content_AlarmXHistory" />
+    <Content refId="content_AlarmXDetail" />
+    <Content refId="content_UserXMgr" />
+    <Content refId="content_UserXList" />
+    <Content refId="content_UserXError" />
+    <Content refId="content_UserXExport" />
+    <Content refId="content_UserXImport" />
+    <Content refId="content_RecipeMgr" />
+    <Content refId="content_RecipeRename" />
+    <Content refId="content_RecipeRenameButton" />
+    <Content refId="content_RecipeAdd" />
+    <Content refId="content_RecipeAddButton" />
+    <Content refId="content_RecipeMgrMach" />
+    <Content refId="content_RecipeRenameMach" />
+    <Content refId="content_RecipeRenameButtonMach" />
+    <Content refId="content_RecipeAddMach" />
+    <Content refId="content_RecipeAddButtonMach" />
+    <Content refId="P0100_Manual" />
+    <Content refId="P0200_HW_Config" />
+    <Content refId="P0210_SDM" />
+    <Content refId="P0300_LengthParameters" />
+    <Content refId="P0310_MotorSetups" />
+    <Content refId="P0320_IO_Force" />
+    <Content refId="P0330_MachineSetup" />
+    <Content refId="P0340_MotionStatus" />
+    <Content refId="P0400_SystemInformation" />
+    <Content refId="P0410_CompanyInformation" />
+    <Content refId="content_Navigation" />
+    <Content refId="content_Services" />
+    <Content refId="P0220_Cockpit" />
+    <Content refId="Content_Params" />
+  </Contents>
+  <SnippetsSets>
+    <SnippetsSet refId="User" />
+  </SnippetsSets>
+  <VariablesSets>
+    <VariablesSet refId="AlarmX" />
+    <VariablesSet refId="UserX" />
+  </VariablesSets>
+  <ExpressionsSets />
+  <StartTheme themeRefId="BuRTheme" />
+  <Themes>
+    <Theme refId="BuRTheme" />
+    <Theme refId="BuRThemeFlatDark" />
+  </Themes>
+  <Configurations>
+    <Configuration key="bootProgressBar" value="true" />
+    <Configuration key="zoom" value="true" />
+    <!--<Configuration key="favicon" value="Media\mappFrameworkSymbols\Logos\BnR_Logo.ico" />-->
+    <Configuration key="bootColor" value="rgba(217, 218, 221, 1)" />
+    <!--<Configuration key="bootLogo" value="Media\mappFrameworkSymbols\Logos\BnR_Logo.svg" />-->
+    <Configuration key="bootLogo" value="Media\CMS\Logo_.png" />
+    <Configuration key="favicon" value="Media\CMS\Logo_.png" />
+    <Configuration key="activityCount" value="false" />
+    <Gestures>
+      <!--<SystemGesture1 touchPoints="2" />
+
+			<SystemGesture2 touchPoints="2" />
+			<SystemGesture3 touchPoints="2" />-->
+    </Gestures>
+    <VirtualKeyboards>
+      <!--<InputProcessing onKeyDown="true" />-->
+    </VirtualKeyboards>
+  </Configurations>
+</vdef:Visualization>

@@ -1,0 +1,24 @@
+(********************************************************************
+ * COPYRIGHT --  B&R Industrial Automation GmbH 
+ *******************************************************************
+ * Task: AlarmX
+ * Author: kay3a 
+ * Created: October 2, 2024/3:55 PM 
+ ********************************************************************)
+(**)
+(**** Max Single Alarm Constant*)
+VAR CONSTANT
+	LC_MAX_SNIPPET_ALARM_INDEX : UDINT := 25; (**** Olabilecek maksimum single alarm sayisi*)
+END_VAR
+(**)
+(**)
+(**)
+(**)
+(**** Alarm Category Constants*)
+VAR CONSTANT
+	LC_ALARM_Category0_Abort : USINT := 0;
+	LC_ALARM_Category1_Stop : USINT := 1;
+	LC_ALARM_Category2_Pause : USINT := 2;
+	LC_ALARM_Category3_Info : USINT := 3;
+	LC_MAX_ALARM_CATEGORY_INDEX : UDINT := 3; (**** Olabilecek maksimum single alarm sayisi*)
+END_VAR

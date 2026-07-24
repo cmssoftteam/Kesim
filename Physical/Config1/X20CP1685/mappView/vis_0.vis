@@ -5,11 +5,41 @@
     <Page refId="page_Main" />
   </Pages>
   <Navigations />
-  <BindingsSets />
-  <EventBindingsSets />
-  <EventScriptsSets>
-    <EventScriptsSet refId="content_Navigation" />
-  </EventScriptsSets>
+  <BindingsSets>
+    <BindingsSet refId="P0001_StartPage" />
+    <BindingsSet refId="content_UserXMgr" />
+    <BindingsSet refId="content_UserXImport" />
+    <BindingsSet refId="content_UserXExport" />
+    <BindingsSet refId="content_UserXList" />
+    <BindingsSet refId="content_RecipeAdd" />
+    <BindingsSet refId="content_RecipeRename" />
+    <BindingsSet refId="content_RecipeMgr" />
+    <BindingsSet refId="content_RecipeAddMachMach" />
+    <BindingsSet refId="content_RecipeRenameMachMach" />
+    <BindingsSet refId="content_RecipeMgrMachMach" />
+    <BindingsSet refId="content_AlarmXList" />
+    <BindingsSet refId="content_AlarmXHistory" />
+    <BindingsSet refId="content_AlarmXDetail" />
+  </BindingsSets>
+  <EventBindingsSets>
+    <EventBindingsSet refId="P0001_StartPage" />
+    <EventBindingsSet refId="UserXDisabled" />
+    <EventBindingsSet refId="content_UserXImport" />
+    <EventBindingsSet refId="content_UserXExport" />
+    <EventBindingsSet refId="UserXAnonymousLogin" />
+    <EventBindingsSet refId="content_UserXError" />
+    <EventBindingsSet refId="content_UserXList" />
+    <EventBindingsSet refId="content_RecipeMgr" />
+    <EventBindingsSet refId="content_RecipeRenameButton" />
+    <EventBindingsSet refId="content_RecipeAddButton" />
+    <EventBindingsSet refId="content_RecipeMgrMachMach" />
+    <EventBindingsSet refId="content_RecipeRenameButtonMachMach" />
+    <EventBindingsSet refId="content_RecipeAddButtonMachMach" />
+    <EventBindingsSet refId="content_AlarmXHistory" />
+    <EventBindingsSet refId="content_AlarmXList" />
+    <EventBindingsSet refId="content_Header" />
+  </EventBindingsSets>
+  <EventScriptsSets />
   <Dialogs>
     <Dialog refId="dialog_AlarmXMgr" />
     <Dialog refId="dialog_AlarmXDetail" />
@@ -50,18 +80,31 @@
     <Content refId="content_RecipeAddButtonMach" />
     <Content refId="P0100_Manual" />
   </Contents>
-  <SnippetsSets />
-  <VariablesSets />
+  <SnippetsSets>
+    <SnippetsSet refId="User" />
+  </SnippetsSets>
+  <VariablesSets>
+    <VariablesSet refId="AlarmX" />
+		<VariablesSet refId="UserX" />
+  </VariablesSets>
   <ExpressionsSets />
-  <Configurations>
-    <Configuration key="activityCount" value="false" />
-    <Gestures>
-      <!--<SystemGesture1 touchPoints="2" />
-		  <SystemGesture2 touchPoints="2" />
-		  <SystemGesture3 touchPoints="2" />-->
-    </Gestures>
-    <VirtualKeyboards>
-      <!--<InputProcessing onKeyDown="true" />-->
-    </VirtualKeyboards>
-  </Configurations>
+	<Configurations>
+		<Configuration key="bootProgressBar" value="true" />
+		<Configuration key="zoom" value="true" />
+		<!--<Configuration key="favicon" value="Media\mappFrameworkSymbols\Logos\BnR_Logo.ico" />-->
+		<Configuration key="bootColor" value="rgba(217, 218, 221, 1)" />
+		<!--<Configuration key="bootLogo" value="Media\mappFrameworkSymbols\Logos\BnR_Logo.svg" />-->
+		<Configuration key="bootLogo" value="Media\CMS\Logo_.png" />
+		<Configuration key="favicon" value="Media\CMS\Logo_.png" />
+		<Configuration key="activityCount" value="false" />
+		<Gestures>
+			<!--<SystemGesture1 touchPoints="2" />
+
+			<SystemGesture2 touchPoints="2" />
+			<SystemGesture3 touchPoints="2" />-->
+		</Gestures>
+		<VirtualKeyboards>
+			<!--<InputProcessing onKeyDown="true" />-->
+		</VirtualKeyboards>
+	</Configurations>
 </vdef:Visualization>

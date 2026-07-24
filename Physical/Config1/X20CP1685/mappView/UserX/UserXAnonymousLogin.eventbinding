@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="UserXAnonymousLogin" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="EventBinding_3">
+      <Source xsi:type="clientSystem.Event" event="ContentLoaded" />
+      <EventHandler condition="contentId=&quot;content_UserXMgr&quot;">
+        <Action>
+          <Target xsi:type="session.TimerAction" refId="TimerUserCheck">
+            <Method xsi:type="session.TimerAction.Start" interval="100" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_TimerUserCheck" comment="anonymous user login">
+      <Source xsi:type="session.Timer.Event" refId="TimerUserCheck" event="Elapsed" />
+      <Operand datatype="ANY_STRING" name="actUserName">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="::SYSTEM:clientInfo.userId">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="actUserName=&quot;&quot;">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.Login" userName="anonymous" password="123" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gHMI.UserName">
+            <Method xsi:type="opcUa.NodeAction.SetValueString" value="=actUserName" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gHMI.Cmd.Test01">
+            <Method xsi:type="opcUa.NodeAction.SetValueNumber" value="141" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

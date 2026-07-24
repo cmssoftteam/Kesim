@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="6.0"?>
+<OpcUaSource FileVersion="10">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <Module Name="&lt;Default&gt;">
+    <GlobalVariables Name="Global Variables">
+      <Variable Name="gDay" />
+    </GlobalVariables>
+    <Task Name="CncCtrl">
+      <Variable Name="Loc">
+        <Variable Name="FB">
+          <Variable Name="Cnc3Axis">
+            <Variable Name="ErrorReset" />
+            <Variable Name="Power" />
+            <Variable Name="Home" />
+            <Variable Name="StatusID" />
+            <Variable Name="X" />
+            <Variable Name="Y" />
+            <Variable Name="Z" />
+          </Variable>
+        </Variable>
+      </Variable>
+      <Variable Name="TestX" />
+      <Variable Name="TestY" />
+    </Task>
+  </Module>
+</OpcUaSource>

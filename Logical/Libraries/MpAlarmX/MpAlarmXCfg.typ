@@ -1,21 +1,21 @@
 TYPE
     MpAlarmXCfgEnum :
         (
-        mpALARMX_CFG_QUERIES := 180, (*MpAlarmXCfgQueryType: Root element of the Query Configuration*)
+        mpALARMX_CFG_CORE := 100, (*MpAlarmXCfgCoreType: Root element of the Core Configuration*)
         mpALARMX_CFG_MAPPINGS := 101, (*MpAlarmXCfgCoreMappingType: Alarm mappings*)
+        mpALARMX_CFG_MAPPING := 102, (*MpAlarmXCfgCoreMappingsType: Single alarm mapping*)
         mpALARMX_CFG_DEFAULTMAPPINGS := 103, (*MpAlarmXCfgCoreDefaultType: Default Actions*)
-        mpALARMX_CFG_QUERY := 181, (*MpAlarmXCfgQuerySingleType: Single Alarm Query*)
-        mpALARMX_CFG_SNIPPET := 142, (*MpAlarmXCfgListSnippetType: Single Alarm Snippet*)
         mpALARMX_CFG_DEFAULTACTION := 104, (*MpAlarmXCfgCoreMappingActionType: Single default action*)
         mpALARMX_CFG_ALARMLINK := 105, (*MpAlarmXCfgCoreListsType: Single Alarm List*)
-        mpALARMX_CFG_CATEGORY := 161, (*MpAlarmXCfgCategorySingleType: Single Alarm Category*)
-        mpALARMX_CFG_CORE := 100, (*MpAlarmXCfgCoreType: Root element of the Core Configuration*)
-        mpALARMX_CFG_CATEGORIES := 160, (*MpAlarmXCfgCategoryType: Root element of the Category Configuration*)
-        mpALARMX_CFG_ALARM := 141, (*MpAlarmXCfgListAlarmType: Single alarm configuration*)
+        mpALARMX_CFG_CATEGORYLINK := 106, (*MpAlarmXCfgCoreCatListType: Single Alarm Category Link*)
         mpALARMX_CFG_HISTORY := 120, (*MpAlarmXCfgHistoryType: Root element of the History Configuration*)
         mpALARMX_CFG_ALARMS := 140, (*MpAlarmXCfgListType: Root element of the List Configuration*)
-        mpALARMX_CFG_MAPPING := 102, (*MpAlarmXCfgCoreMappingsType: Single alarm mapping*)
-        mpALARMX_CFG_CATEGORYLINK := 106 (*MpAlarmXCfgCoreCatListType: Single Alarm Category Link*)
+        mpALARMX_CFG_ALARM := 141, (*MpAlarmXCfgListAlarmType: Single alarm configuration*)
+        mpALARMX_CFG_SNIPPET := 142, (*MpAlarmXCfgListSnippetType: Single Alarm Snippet*)
+        mpALARMX_CFG_CATEGORIES := 160, (*MpAlarmXCfgCategoryType: Root element of the Category Configuration*)
+        mpALARMX_CFG_CATEGORY := 161, (*MpAlarmXCfgCategorySingleType: Single Alarm Category*)
+        mpALARMX_CFG_QUERIES := 180, (*MpAlarmXCfgQueryType: Root element of the Query Configuration*)
+        mpALARMX_CFG_QUERY := 181 (*MpAlarmXCfgQuerySingleType: Single Alarm Query*)
         );
     MpAlarmXCfgCategorySeverityType : STRUCT (*Defines categories by alarm severity*)
         Severity : STRING[20]; (*Severity range that defines this category (e.g. 2...15 or 20)*)
@@ -74,6 +74,7 @@ TYPE
     MpAlarmXCfgCoreGeneralType : STRUCT (*General Settings*)
         Enable : BOOL; (*Enable component*)
         EnableCockpit : BOOL; (*Enable mapp Cockpit interface*)
+        EnableOpcUaInterface : BOOL; (*Enable OPC UA Interface*)
         CyclicTaskClass : MpAlarmXCfgCoreTaskClassEnum; (*Task class in which cyclic operation will take place*)
         Parent : STRING[50]; (*Optional parent of this component (when grouping should be done)*)
     END_STRUCT;
@@ -146,9 +147,22 @@ TYPE
         Retain : MpAlarmXCfgCoreRetainType; (*Configuration for storing retain alarms*)
         AlarmCategories : MpAlarmXCfgCoreAlarmCatType; (*List of alarm categories*)
     END_STRUCT;
+    MpAlarmXCfgHistoryTaskClassEnum :
+        ( (*The task class this component runs in*)
+        mpALARMX_CFG_HISTORY_TC_CYCLIC_1 := 1, (*Task Class #1*)
+        mpALARMX_CFG_HISTORY_TC_CYCLIC_2 := 2, (*Task Class #2*)
+        mpALARMX_CFG_HISTORY_TC_CYCLIC_3 := 3, (*Task Class #3*)
+        mpALARMX_CFG_HISTORY_TC_CYCLIC_4 := 4, (*Task Class #4*)
+        mpALARMX_CFG_HISTORY_TC_CYCLIC_5 := 5, (*Task Class #5*)
+        mpALARMX_CFG_HISTORY_TC_CYCLIC_6 := 6, (*Task Class #6*)
+        mpALARMX_CFG_HISTORY_TC_CYCLIC_7 := 7, (*Task Class #7*)
+        mpALARMX_CFG_HISTORY_TC_CYCLIC_8 := 8 (*Task Class #8*)
+        );
     MpAlarmXCfgHistoryGeneralType : STRUCT (*General Settings*)
         Enable : BOOL; (*Enable/Disable of component*)
         EnableCockpit : BOOL; (*Enable mapp Cockpit interface*)
+        EnableOpcUaInterface : BOOL; (*Enable OPC UA Interface*)
+        CyclicTaskClass : MpAlarmXCfgHistoryTaskClassEnum; (*Task class in which cyclic operation will take place*)
         EnableAuditing : BOOL; (*Enable/Disable sending of audit-events*)
         Parent : STRING[50]; (*Optional parent of this component (when grouping should be done)*)
     END_STRUCT;
@@ -188,11 +202,11 @@ TYPE
     END_STRUCT;
     MpAlarmXCfgListStaticType : STRUCT (*Static*)
         Limit : LREAL; (*Limit as static numeric input*)
-        LimitText : STRING[100]; (*Contents of snippet {&LimitText} to be integrated in the alarm message. A raw text or text ID can be entered, e.g. "LowLow" or {$MyText}.*)
+        LimitText : STRING[100]; (*Contents of snippet {&limittext} to be integrated in the alarm message.*)
     END_STRUCT;
     MpAlarmXCfgListDynamicType : STRUCT (*Dynamic*)
         LimitPv : STRING[255]; (*Process variable that contains the limit*)
-        LimitText : STRING[100]; (*Contents of snippet {&LimitText} to be integrated in the alarm message. A raw text or text ID can be entered, e.g. "LowLow" or {$MyText}.*)
+        LimitText : STRING[100]; (*Contents of snippet {&limittext} to be integrated in the alarm message.*)
     END_STRUCT;
     MpAlarmXCfgListLimitSelectorEnum :
         ( (*Defines the limits.*)
@@ -392,7 +406,7 @@ TYPE
     END_STRUCT;
     MpAlarmXCfgListDiscretType : STRUCT (*Behaviour: Discreet Value Monitoring Alarm*)
         Acknowledge : MpAlarmXCfgListAckValueListEnum; (*Acknowledge behavior.*)
-        Confirm : MpAlarmXCfgListConfValueListEnum; (*Confirm behevior.*)
+        Confirm : MpAlarmXCfgListConfValueListEnum; (*Confirm behavior.*)
         ReactionWhilePending : BOOL; (*If TRUE, a reaction caused by the alarm will remain active until the alarm is no longer pending (reset, acknowledged and confirmed). Otherwise, it will remain active until the alarm is reset.*)
         HistoryReport : MpAlarmXCfgListRecordingType; (*Defines which state changes should be recorded in the history report*)
         Monitoring : MpAlarmXCfgListDiscMonType; (*Defines monitoring settings*)
@@ -515,6 +529,9 @@ TYPE
         mpALARMX_CFG_QUERY_CONF_ADDINFO1 := 4, (*Additional information 1 column*)
         mpALARMX_CFG_QUERY_CONF_ADDINFO2 := 5 (*Additional information 2 column*)
         );
+    MpAlarmXCfgQueryGeneralType : STRUCT (*General Settings*)
+        EnableCockpit : BOOL; (*Enable mapp Cockpit interface*)
+    END_STRUCT;
     MpAlarmXCfgQueryUpdateModeEnum :
         ( (*Defines when to update*)
         mpALARMX_CFG_QUERY_ON_CHANGE := 0, (*On every change*)
@@ -537,7 +554,7 @@ TYPE
         mpALARMX_CFG_QUERY_PV := 1 (*Compares against the value of a specified process variable*)
         );
     MpAlarmXCfgQueryCompareToType : STRUCT (*Type of comparison*)
-        Type : MpAlarmXCfgQueryCompareToEnum; (*Definition of Compare To*)
+        Type : MpAlarmXCfgQueryCompareToEnum; (*Definition of Compare to*)
         Value : MpAlarmXCfgQueryValueType; (*Compares against a defined value*)
     END_STRUCT;
     MpAlarmXCfgQueryPendCondType : STRUCT (*The filters to apply for this query*)
@@ -623,6 +640,7 @@ TYPE
         Query : MpBaseCfgArrayType; (*MpAlarmXCfgQuerySingleType: User-defined queries*)
     END_STRUCT;
     MpAlarmXCfgQueryType : STRUCT (*Complete MpAlarmXQuery configuration structure.*)
+        General : MpAlarmXCfgQueryGeneralType; (*General Settings*)
         DataQueries : MpAlarmXCfgQueryDataQueriesType; (*List of queries*)
     END_STRUCT;
 END_TYPE

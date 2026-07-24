@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <Package SubType="mappServices" PackageType="mappServices" xmlns="http://br-automation.co.at/AS/Package">
-  <Objects />
+  <Objects>
+    <Object Type="File">Config_1.mpfilemanager</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">UserX</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">Recipe</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">AlarmX</Object>
+  </Objects>
 </Package>

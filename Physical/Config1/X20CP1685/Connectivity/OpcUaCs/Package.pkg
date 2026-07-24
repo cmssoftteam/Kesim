@@ -5,5 +5,8 @@
     <Object Type="File">UaCsConfig.uacfg</Object>
     <Object Type="File">UaDvConfig.uadcfg</Object>
     <Object Type="File" TransferedForTargetSourceCompare="true">CncCtrl.uad</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">UserX.uad</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">RecipeMgr.uad</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">AlarmXMgr.uad</Object>
   </Objects>
 </Package>

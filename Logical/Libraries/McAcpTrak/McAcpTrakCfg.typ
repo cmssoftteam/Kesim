@@ -311,6 +311,7 @@ TYPE
 		CollisionAvoidance : LREAL; (*Safety distance which is added to the distance a shuttle has to keep to obstacles [measurement units]*)
 		ErrorStopAvoidance : LREAL; (*Additional safety distance between shuttles in order to avoid error stops [measurement units]*)
 		ConflictZoneStopDistance : LREAL; (*Additional safety distance between a shuttle and a conflict zone barrier [measurement units]*)
+		SegmentBarrierStopDistance : LREAL; (*Stop distance in front of segment barrier [measurement units]*)
 	END_STRUCT;
 	McASMShShSttType : STRUCT (*Parameter settings for the shuttles*)
 		ShuttleStereotypeReference : McCfgUnboundedArrayType; (*Name of the shuttle stereotype reference (Connect array of type McCfgReferenceType)*)
@@ -319,6 +320,7 @@ TYPE
 		( (*Shuttle type 1-1 selector setting*)
 		mcASMSMPCST_ST8F1SX100 := 0, (*ST8F1Sx100 - 5 magnet poles on both sides of the shuttle (standard and legacy)*)
 		mcASMSMPCST_ST8F1SX102 := 1, (*ST8F1Sx102 - 5 magnet poles on one side of the shuttle (standard and legacy)*)
+		mcASMSMPCST_ST8F1SM102 := 9, (*ST8F1SM102 - 5 magnet poles on one side of the shuttle (metal-to-metal)*)
 		mcASMSMPCST_ST8F1SA104 := 2, (*ST8F1SA104 - 5 magnet poles skewed on both sides of the shuttle (legacy)*)
 		mcASMSMPCST_ST8F1SA106 := 3, (*ST8F1SA106 - 5 magnet poles skewed on one side of the shuttle (legacy)*)
 		mcASMSMPCST_ST8F1SA201 := 4, (*ST8F1SA201 - 10 magnet poles on both sides of the shuttle (legacy)*)
@@ -383,6 +385,18 @@ TYPE
 	McASMShCplgType : STRUCT
 		CouplingFeature : McASMShCplgCplgFeatType; (*Settings for Cam or GearIn coupling*)
 	END_STRUCT;
+	McASMShBaReDatEnum :
+		( (*Backup and restore data selector setting*)
+		mcASMSHBAREDAT_NOT_USE := 0, (*Not used -*)
+		mcASMSHBAREDAT_USE := 1 (*Used -*)
+		);
+	McASMShBaReDatUseType : STRUCT (*Type mcASMSHBAREDAT_USE settings*)
+		Variable : STRING[250]; (*USINT[n] variable. Choose n according to the documentation.*)
+	END_STRUCT;
+	McASMShBaReDatType : STRUCT (*Backup and restore data*)
+		Type : McASMShBaReDatEnum; (*Backup and restore data selector setting*)
+		Used : McASMShBaReDatUseType; (*Type mcASMSHBAREDAT_USE settings*)
+	END_STRUCT;
 	McASMShType : STRUCT (*Settings for the shuttles*)
 		MaximumCount : UINT; (*Maximum count of shuttles in the assembly*)
 		MaximumDelegatedCommandCount : UINT; (*Maximum count of shuttles which start a command triggered by an assembly command within one cycle (0 implies no limit)*)
@@ -393,6 +407,7 @@ TYPE
 		MagnetPlateConfigurations : McASMShMagnPltCfgType; (*Parameter settings for the magnet plates*)
 		CollisionAvoidance : McASMShColAvType; (*Parameter settings for the collision avoidance*)
 		Coupling : McASMShCplgType;
+		BackupAndRestoreData : McASMShBaReDatType; (*Backup and restore data*)
 	END_STRUCT;
 	McASMAsmFeatType : STRUCT (*Features for an assembly*)
 		AssemblyFeatureReference : McCfgUnboundedArrayType; (*Name of the assembly feature reference (Connect array of type McCfgReferenceType)*)
@@ -437,6 +452,9 @@ TYPE
 	McCfgAsmSpeedFilt : STRUCT (*Main data type corresponding to McCfgTypeEnum mcCFG_ASM_SPEED_FILTER*)
 		SpeedFilter : McASMCSSSpdFltrType; (*Filter for actual speed calculation*)
 	END_STRUCT;
+	McCfgAsmMagnetPlate : STRUCT (*Main data type corresponding to McCfgTypeEnum mcCFG_ASM_MAGNET_PLATE*)
+		MagnetPlateConfigurations : McASMShMagnPltCfgType; (*Parameter settings for the magnet plates*)
+	END_STRUCT;
 	McCfgAsmScopeOfErrReaction : STRUCT (*Main data type corresponding to McCfgTypeEnum mcCFG_ASM_SCOPE_OF_ERR_REAC*)
 		ScopeErrorReaction : McASMCSSScpErrReacEnum; (*Setting for the minimal error reaction scope for segment and encoder errors*)
 	END_STRUCT;
@@ -454,6 +472,15 @@ TYPE
 	END_STRUCT;
 	McCfgAsmColAvoidAdjustMode : STRUCT (*Main data type corresponding to McCfgTypeEnum mcCFG_ASM_ADJUSTMENT_MODE*)
 		AdjustmentMode : McASMShColAvAdjModType; (*Adjustment mode*)
+	END_STRUCT;
+	McCfgAsmDistReserves : STRUCT (*Main data type corresponding to McCfgTypeEnum mcCFG_ASM_DIST_RESERVES*)
+		DistanceReserves : McASMShDistResType; (*Parameter setting for shuttle distance reserves*)
+	END_STRUCT;
+	McCfgAsmColAvoidVirtShScope : STRUCT (*Main data type corresponding to McCfgTypeEnum mcCFG_ASM_VIRT_SH_SCOPE*)
+		VirtualShuttlesScope : McASMShVSCASType; (*Scope for collision avoidance of virtual shuttles*)
+	END_STRUCT;
+	McCfgAsmBaReShDatType : STRUCT (*Main data type corresponding to McCfgTypeEnum mcCFG_ASM_BR_SH_DATA*)
+		BackupAndRestoreData : McASMShBaReDatType; (*Backup and restore data*)
 	END_STRUCT;
 	McAFCCplgObjType : STRUCT (*Coupling object*)
 		Name : STRING[250]; (*Name of the coupling object*)
@@ -576,9 +603,23 @@ TYPE
 		Type : McAFLLMotLimAccEnum; (*Acceleration selector setting*)
 		Basic : McAFLLMotLimAccBasicType; (*Type mcAFLLMLA_BASIC settings*)
 	END_STRUCT;
+	McAFLLMotLimDecEnum :
+		( (*Deceleration selector setting*)
+		mcAFLLMLD_NOT_USE := 0, (*Not used - Acceleration limit not used*)
+		mcAFLLMLD_BASIC := 1, (*Basic -*)
+		mcAFLLMLD_ADV := 2 (*Advanced -*)
+		);
+	McAFLLMotLimDecBasicType : STRUCT (*Type mcAFLLMLD_BASIC settings*)
+		Deceleration : REAL; (*Deceleration limit in any movement direction [measurement units/s²]*)
+	END_STRUCT;
+	McAFLLMotLimDecType : STRUCT (*Limit the deceleration*)
+		Type : McAFLLMotLimDecEnum; (*Deceleration selector setting*)
+		Basic : McAFLLMotLimDecBasicType; (*Type mcAFLLMLD_BASIC settings*)
+	END_STRUCT;
 	McAFLLMotLimType : STRUCT (*Limits which are effective*)
 		Velocity : McAFLLMotLimVelType; (*Limit the velocity*)
 		Acceleration : McAFLLMotLimAccType; (*Limit the acceleration*)
+		Deceleration : McAFLLMotLimDecType; (*Limit the deceleration*)
 	END_STRUCT;
 	McAFLLType : STRUCT (*Local limit definition*)
 		Scope : McAFLLScpType; (*Defines for which shuttles the local limit applies*)

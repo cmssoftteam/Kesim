@@ -1,6 +1,6 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
-/* MpRecipe 6.5.1 */
+/* MpRecipe 6.7.1 */
 
 #ifndef _MPRECIPE_
 #define _MPRECIPE_
@@ -9,7 +9,7 @@ extern "C"
 {
 #endif
 #ifndef _MpRecipe_VERSION
-#define _MpRecipe_VERSION 6.5.1
+#define _MpRecipe_VERSION 6.7.1
 #endif
 
 #include <bur/plctypes.h>

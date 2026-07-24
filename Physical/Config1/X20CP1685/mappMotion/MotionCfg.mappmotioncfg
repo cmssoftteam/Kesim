@@ -11,9 +11,7 @@
       <Selector ID="Segment" Value="MpAlarmX" />
       <Selector ID="Sector" Value="MpAlarmX" />
       <Selector ID="Shuttle" Value="MpAlarmX" />
-      <Selector ID="ProcessPoint" Value="MpAlarmX" />
       <Selector ID="CamOperations" Value="MpAlarmX" />
-      <Selector ID="ConfigAccess" Value="MpAlarmX" />
     </Group>
     <Group ID="Diagnostics">
       <Selector ID="Snapshot" Value="NotUsed" />

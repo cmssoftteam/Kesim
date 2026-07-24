@@ -58,6 +58,8 @@ TYPE
 
 	McAcpTrakAdvConDeleteParType : STRUCT (*Additional parameters for deleting a convoy.*)
 		Mode : McAcpTrakConDeleteModeEnum; (*The mode specifies whether the convoy is deleted in any case or only if it is empty except for the convoy master.*)
+		ContinueMoveCmd : BOOL; (*Members different to the convoy master continue an elastic move velocity if true and are stopped with an error otherwise.*)
+		Sector : REFERENCE TO McSectorType; (*Sector on which the convoy members different to the master may switch if their movement is continued.*)
 	END_STRUCT;
 
 	McAcpTrakAdvConGetShParType : STRUCT (*Additional parameters for reading out convoy member shuttles.*)
@@ -148,8 +150,9 @@ TYPE
 		ShuttleOrientation : McDirectionEnum;			      (*Orientation of the shuttle on the target sector.*)
 		TransitPoints : REFERENCE TO McAcpTrakRouteTransitPointsType; (*Points a shuttle should pass before reaching its destination.*)
 		NumberOfTransitPoints : UINT; 				      (*Number of transit points to be passed.*)
-		PosRelativeTo :  McAcpTrakRoutePosRelToEnum;		      (*Defines wheather the end position is calculated relative to the start or end of the sector.*)
+		PosRelativeTo :  McAcpTrakRoutePosRelToEnum;		      (*Defines whether the end position is calculated relative to the start or end of the sector.*)
 		RouteInfoParameters : McAcpTrakRouteInfoParameters; (*Additional input to GetRouteInfo*)
+		SMP : BOOL; (*Indicates whether symmetric multiprocessing should be used for the execution of the function block.*)
 	END_STRUCT;
 
 	McAcpTrakAdvMoveCycParType : STRUCT
@@ -1024,6 +1027,12 @@ TYPE
 		mcACPTRAK_OBJECT_CONVOY   (*Object type Convoy. The convoy is addressed by its convoy master shuttle.*)
 	); (*Reference object type.*)
 
+	McAcpTrakOutputArrayEnum :
+	(
+		mcACPTRAK_BASE_OUTPUT	(*Base output for the component is displayed.*),
+		mcACPTRAK_NO_OUTPUT 	(*No component output is displayed.*)
+	); (*Defines the array type for the component output.*)
+
 	McAcpTrakOverrideEnum :
 	(
 		mcACPTRAK_OVERRIDE_VELOCITY (*Override velocity.*)
@@ -1250,4 +1259,35 @@ TYPE
 		mcACPTRAK_TCP_COORDSYS_X_VEL, (*TCP velocity wrt the x-axis of the specified coordinate system.*)
 		mcACPTRAK_TCP_ABS_VEL (*Absolute velocity of the TCP.*)
 	); (*Mode to specify the TCP velocity.*)
+
+	MpAcpTrakStopModeType : STRUCT
+		Mode : McStopModeEnum;
+		Deceleration : REAL;
+	END_STRUCT;
+
+	McAcpTrakAdvRestoreShModeEnum :
+	(
+		mcACPTRAK_RESTORE_TRY_RESTORING, (*Try restoring all shuttle data via positions.*)
+		mcACPTRAK_RESTORE_RESET_DATA (*Reset data in the remanent variable.*)
+	);
+
+	McAcpTrakAdvRestoreShDataType : STRUCT (*Additional parameters MC_BR_AsmRestoreShData_AcpTrak.*)
+		Tolerance : LREAL ;	(*Tolerance for the shuttle positions.*)
+		Mode : McAcpTrakAdvRestoreShModeEnum; (*Function block modes.*)
+		UserID : STRING[32]; (*UserID*)
+	END_STRUCT;
+
+	McAcpTrakAdvRestoreShStatusEnum :
+	(
+		mcACPTRAK_RESTORE_NO_STATUS,
+		mcACPTRAK_RESTORE_SUCCESS, (*The fub was successful.*)
+		mcACPTRAK_RESTORE_NO_SH_RESTORED, (*No shuttle data was restored.*)
+		mcACPTRAK_RESTORE_IDNOTFOUND (*The specified UserID was not found.*)
+	);
+
+	McAcpTrakAdvRestoreShInfoType : STRUCT (*Additional out parameters for MC_BR_AsmRestoreShData_AcpTrak.*)
+		Status : McAcpTrakAdvRestoreShStatusEnum;
+	END_STRUCT;
+
 END_TYPE
+

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gMpLink_AxisQX" Type="axis">
+    <Selector ID="BaseType" Value="LinearBounded" />
+    <Selector ID="MovementLimits">
+      <Group ID="Position">
+        <Property ID="LowerLimit" Value="-25000.0" />
+        <Property ID="UpperLimit" Value="25000.0" />
+      </Group>
+      <Selector ID="Velocity">
+        <Property ID="Velocity" Value="500000.0" />
+      </Selector>
+      <Selector ID="Acceleration">
+        <Property ID="Acceleration" Value="500000.0" />
+      </Selector>
+      <Selector ID="Deceleration">
+        <Property ID="Deceleration" Value="500000.0" />
+      </Selector>
+    </Selector>
+  </Element>
+  <Element ID="gMpLink_AxisQY" Type="axis">
+    <Selector ID="BaseType" Value="LinearBounded" />
+    <Selector ID="MovementLimits">
+      <Group ID="Position">
+        <Property ID="LowerLimit" Value="-25000.0" />
+        <Property ID="UpperLimit" Value="25000.0" />
+      </Group>
+      <Selector ID="Velocity">
+        <Property ID="Velocity" Value="500000.0" />
+      </Selector>
+      <Selector ID="Acceleration">
+        <Property ID="Acceleration" Value="500000.0" />
+      </Selector>
+      <Selector ID="Deceleration">
+        <Property ID="Deceleration" Value="500000.0" />
+      </Selector>
+    </Selector>
+  </Element>
+  <Element ID="gMpLink_AxisQC" Type="axis">
+    <Selector ID="BaseType" Value="RotaryBounded" />
+    <Selector ID="MovementLimits">
+      <Group ID="Position">
+        <Property ID="LowerLimit" Value="-25000.0" />
+        <Property ID="UpperLimit" Value="25000.0" />
+      </Group>
+      <Selector ID="Velocity">
+        <Property ID="Velocity" Value="500000.0" />
+      </Selector>
+      <Selector ID="Acceleration">
+        <Property ID="Acceleration" Value="500000.0" />
+      </Selector>
+      <Selector ID="Deceleration">
+        <Property ID="Deceleration" Value="500000.0" />
+      </Selector>
+    </Selector>
+  </Element>
+</Configuration>

@@ -17,7 +17,7 @@
     <Object Type="Package">mappCockpit</Object>
   </Objects>
   <Configuration ModuleId="X20CP1685">
-    <AutomationRuntime Version="6.3.4" />
+    <AutomationRuntime Version="6.7.6" />
     <Build GccVersion="11.3.0" />
     <DefaultTargetMemory Tasks="UserROM" />
     <Transfer WaitForReconnectAfterReboot="True" />

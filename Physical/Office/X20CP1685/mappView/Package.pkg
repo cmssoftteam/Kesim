@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="mappViewControl" PackageType="mappViewControl" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">OpcUaServer.uaserver</Object>
+    <Object Type="File">vis_0.vis</Object>
+    <Object Type="File">P0001_StartPage.binding</Object>
+    <Object Type="File">P0001_StartPage.eventbinding</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">UserX</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">Recipe</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">AlarmX</Object>
+    <Object Type="File">content_Header.eventbinding</Object>
+    <Object Type="File">Config.mappviewcfg</Object>
+    <Object Type="File">content_Navigation.eventbinding</Object>
+    <Object Type="File">content_Button.binding</Object>
+    <Object Type="File">Content_Params.eventbinding</Object>
+  </Objects>
+</Package>

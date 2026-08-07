@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio FileVersion="4.9"?>
-<Package SubType="mappMotion" PackageType="mappMotion" xmlns="http://br-automation.co.at/AS/Package">
-  <Objects>
-    <Object Type="File" TransferedForTargetSourceCompare="true">MotionCfg.mappmotioncfg</Object>
-    <Object Type="Package" TransferedForTargetSourceCompare="true">3AxesCNCXYC</Object>
-  </Objects>
-</Package>

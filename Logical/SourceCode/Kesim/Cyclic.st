@@ -4,6 +4,6 @@ PROGRAM _CYCLIC
 
 	fbCuttingTransfer_0();
 	 
-	
 	fbTableUpDown_0();
+	
 END_PROGRAM

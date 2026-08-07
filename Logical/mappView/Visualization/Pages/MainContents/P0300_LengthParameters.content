@@ -90,7 +90,7 @@
                 <Widget xsi:type="widgets.brease.Label" id="Label38" top="663" left="12" width="298" height="45" zIndex="18" text="$IAT/Language/Units" />
                 <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="19" x1="-1" x2="469" y1="62" y2="62" lineColor="rgba(0, 0, 0, 1)" />
                 <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="20" x1="0" x2="467" y1="290" y2="290" lineColor="rgba(0, 0, 0, 1)" />
-                <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox1" top="655" left="203" width="244" height="61" zIndex="21" />
+                <Widget xsi:type="widgets.brease.MeasurementSystemSelector" id="MeasurementSystemSelector1" top="645" left="264" width="178" height="69" zIndex="21" />
               </Widgets>
             </Widget>
             <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox5" top="9" left="1442" width="307" height="765" zIndex="4" text="$IAT/Language/txtPosition">

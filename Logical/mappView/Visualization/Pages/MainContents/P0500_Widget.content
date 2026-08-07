@@ -1,23 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Content id="P0500_Widget" guid="02bc9911-8343-48c5-bc8d-fa83a79c6d27" height="840" width="1770" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
+<Content id="P0500_Widget" guid="02bc9911-8343-48c5-bc8d-fa83a79c6d27" height="840" width="1770" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
-    <Widget xsi:type="widgets.brease.XYJoystick" id="XYJoystick1" top="27" left="52" width="1296" height="1296" zIndex="0" decimalPlaces="3" image="Media/CMS/target_ok.png" thumbSize="60px" trackSize="0px" borderWidth="1px" thumbGradient="radial-gradient(ellipse at center, #FF8500 0%,#FF8500 20%,#CCCCCC 95%,#1F1F1F 100%)" trackColor="rgba(200, 200, 200, 0)" />
+    <Widget xsi:type="widgets.brease.XYJoystick" id="XYJoystick1" top="-3" left="-725" width="1583" height="1583" zIndex="0" decimalPlaces="0" image="Media/CMS/target_ok.png" thumbSize="60px" trackSize="0px" borderWidth="1px" thumbGradient="radial-gradient(ellipse at center, #FF8500 0%,#FF8500 20%,#CCCCCC 95%,#1F1F1F 100%)" trackColor="rgba(200, 200, 200, 0)" />
     <Widget xsi:type="widgets.brease.MeasurementSystemSelector" id="MeasurementSystemSelector1" top="711" left="1505" width="241" height="110" zIndex="1" />
-    <Widget xsi:type="widgets.brease.XYChart" id="XYChart1" top="190" left="985" zIndex="2">
-      <Properties>
-        <yAxis>
-          <Element id="yAxis1" />
-        </yAxis>
-        <xAxis>
-          <Element id="xAxis1" />
-        </xAxis>
-        <graph>
-          <Element id="graph1" xAxisReference="xAxis1" yAxisReference="yAxis1" />
-        </graph>
-        <cursor>
-          <Element id="cursor1" />
-        </cursor>
-      </Properties>
-    </Widget>
   </Widgets>
 </Content>

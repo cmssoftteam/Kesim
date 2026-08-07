@@ -1,0 +1,72 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Package: ForceIOs
+ * File: ForcePackage.var
+ * Author: abdullahoglf
+ * Created: February 12, 2014
+ ********************************************************************
+ * Variables of package ForceIOs
+ ********************************************************************)
+(**)
+(**********************************************************************)
+(*IO Handling Package Variables*)
+(**********************************************************************)
+(*State Definitions*)
+VAR
+	state : USINT := 0;
+END_VAR
+VAR CONSTANT
+	ERROR : USINT := 60;
+	GET_LIST : USINT := 55;
+	GET_NUM_INFO : USINT := 50;
+	DISPOSE_INFO : USINT := 40;
+	CREATE_INFO : USINT := 30;
+	GET_STR_INFO : USINT := 20;
+	MAIN : USINT := 10;
+	WAIT_START : USINT := 0;
+END_VAR
+(*Input Controls*)
+VAR
+	MyDiagDisposeInfo : DiagDisposeInfo;
+	MyDiagCreateInfo : DiagCreateInfo;
+	MyDiagGetNumInfo : DiagGetNumInfo;
+	MyDiagGetStrInfo : DiagGetStrInfo;
+END_VAR
+(*Information about the object*)
+VAR
+	Info : Info_typ;
+END_VAR
+(*DiagGetNumInfo()*)
+VAR
+	GetNumInfoCommand : GetNumInfoCommands_typ;
+END_VAR
+(*DiagGetStrInfo()*)
+VAR
+	GetStrInfoCommand : GetStrInfoCommands_typ;
+END_VAR
+(*DiagCreateInfo()*)
+VAR
+	CreateInfoCommand : CreateInfoCommands_typ;
+END_VAR
+(*DiagDisposeInfo()*)
+VAR
+	DisposeInfoCommand : DisposeInfoCommands_typ;
+END_VAR
+(*Get List*)
+VAR
+	GetList : GetList_typ;
+END_VAR
+(*IO Cards Order Check*)
+VAR
+	ioCfgStart : UDINT := 0; (*Internal index where the storage of IO Card starts in the PLC memory*)
+	aiCount : UDINT;
+	aiStartIndex : UDINT;
+	aoCount : UDINT;
+	aoStartIndex : UDINT;
+	diCount : UDINT;
+	diStartIndex : UDINT;
+	doCount : UDINT;
+	doStartIndex : UDINT;
+END_VAR
+(****************************************************************************)

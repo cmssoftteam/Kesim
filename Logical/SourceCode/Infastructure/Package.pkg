@@ -4,5 +4,7 @@
   <Objects>
     <Object Type="Program" Language="IEC" TransferedForTargetSourceCompare="true">AlarmX</Object>
     <Object Type="Program" Language="IEC" TransferedForTargetSourceCompare="true">UserXMgr</Object>
+    <Object Type="Package">ForceIOs</Object>
+    <Object Type="Program" Language="IEC">HMI</Object>
   </Objects>
 </Package>

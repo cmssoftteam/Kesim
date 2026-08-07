@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VariablesSet id="MachStatus" xmlns="http://www.br-automation.com/iat2015/session/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Variables>
+		<!--
+		<Variable name="Variable1" xsi:type="ANY_REAL" value="0" />
+		<Variable name="Variable2" xsi:type="ANY_INT" value="0" />
+		<Variable name="Variable3" xsi:type="ANY_STRING" value="0" />
+		<Variable name="Variable4" xsi:type="DATE_AND_TIME" value="2002-05-30T09:30:10Z" />
+		<Variable name="Variable4.1" xsi:type="DT" value="2002-05-30T09:30:10Z" />
+		<Variable name="Variable5" xsi:type="BOOL" value="true" />    
+		-->
+		
+		
+		<!-- MainTask -->
+		<Variable name="svPMLMode" 	   xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLState"    xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubState" xsi:type="ANY_STRING" value="" />
+		<!--  *-*  -->
+		<!-- EntryMain  -->
+		<Variable name="svPMLModeEntryMain"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateEntryMain"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateEntryMain"   xsi:type="ANY_STRING" value="" />
+
+		<!-- ExitMain -->
+		<Variable name="svPMLModeExitMain"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateExitMain"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateExitMain"   xsi:type="ANY_STRING" value="" />
+
+		<!-- Sealing -->
+		<Variable name="svPMLModeSealing"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateSealing"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateSealing"   xsi:type="ANY_STRING" value="" />
+
+		<!-- Vacuum -->
+		<Variable name="svPMLModeVacuum"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateVacuum"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateVacuum"   xsi:type="ANY_STRING" value="" />
+
+		<!-- Entry 1 -->
+		<Variable name="svPMLModeEntry1"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateEntry1"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateEntry1"   xsi:type="ANY_STRING" value="" />
+
+		<!-- Entry 2 -->
+		<Variable name="svPMLModeEntry2"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateEntry2"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateEntry2"   xsi:type="ANY_STRING" value="" />
+
+		<!-- Entry 3 -->
+		<Variable name="svPMLModeEntry3"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateEntry3"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateEntry3"   xsi:type="ANY_STRING" value="" />
+
+		<!-- Entry 4 -->
+		<Variable name="svPMLModeEntry4"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateEntry4"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateEntry4"   xsi:type="ANY_STRING" value="" />
+		
+		
+		<!-- Exit 1 -->
+		<Variable name="svPMLModeExit1"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateExit1"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateExit1"   xsi:type="ANY_STRING" value="" />
+
+		<!-- Exit 2 -->
+		<Variable name="svPMLModeExit2"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateExit2"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateExit2"   xsi:type="ANY_STRING" value="" />
+
+		<!-- Exit 3 -->
+		<Variable name="svPMLModeExit3"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateExit3"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateExit3"   xsi:type="ANY_STRING" value="" />
+
+		<!-- Exit 4 -->
+		<Variable name="svPMLModeExit4"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateExit4"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateExit4"   xsi:type="ANY_STRING" value="" />
+
+		<!-- Exit 5 -->
+		<Variable name="svPMLModeExit5"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateExit5"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateExit5"   xsi:type="ANY_STRING" value="" />
+
+		<!-- Exit 6 -->
+		<Variable name="svPMLModeExit6"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateExit6"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateExit6"   xsi:type="ANY_STRING" value="" />
+
+		<!-- Exit 7 -->
+		<Variable name="svPMLModeExit7"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateExit7"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateExit7"   xsi:type="ANY_STRING" value="" />
+
+		<!-- Exit 8 -->
+		<Variable name="svPMLModeExit8"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLStateExit8"      xsi:type="ANY_STRING" value="" />
+		<Variable name="svPMLSubStateExit8"   xsi:type="ANY_STRING" value="" />
+
+		<!-- IO Forcing -->
+		<Variable name="svIO_Forcing_States"       xsi:type="ANY_STRING" value="" />
+		<!-- IO Name -->
+		<Variable name="svIO_Name0"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svIO_Name1"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svIO_Name2"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svIO_Name3"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svIO_Name4"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svIO_Name5"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svIO_Name6"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svIO_Name7"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svIO_Name8"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svIO_Name9"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svIO_Name10"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svIO_Name11"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svIO_Name12"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svIO_Name13"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svIO_Name14"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svIO_Name15"       xsi:type="ANY_STRING" value="" />
+		<!-- Exit 8 -->
+		<Variable name="svStateSealing"       xsi:type="ANY_STRING" value="" />
+		
+		
+		<!-- Sealing History -->
+		<Variable name="svSealingState0"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svSealingState1"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svSealingState2"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svSealingState3"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svSealingState4"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svSealingState5"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svSealingState6"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svSealingState7"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svSealingState8"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svSealingState9"       xsi:type="ANY_STRING" value="" />
+		
+		<!-- LocSealing History -->
+		<Variable name="svLocSealingState0"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svLocSealingState1"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svLocSealingState2"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svLocSealingState3"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svLocSealingState4"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svLocSealingState5"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svLocSealingState6"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svLocSealingState7"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svLocSealingState8"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svLocSealingState9"       xsi:type="ANY_STRING" value="" />
+		
+		<!-- Exit History -->
+		<Variable name="svExitState0"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svExitState1"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svExitState2"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svExitState3"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svExitState4"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svExitState5"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svExitState6"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svExitState7"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svExitState8"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svExitState9"       xsi:type="ANY_STRING" value="" />
+		
+		<!-- Entry History -->
+		<Variable name="svEntryState0"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svEntryState1"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svEntryState2"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svEntryState3"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svEntryState4"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svEntryState5"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svEntryState6"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svEntryState7"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svEntryState8"       xsi:type="ANY_STRING" value="" />
+		<Variable name="svEntryState9"       xsi:type="ANY_STRING" value="" />
+		
+	</Variables>
+</VariablesSet>

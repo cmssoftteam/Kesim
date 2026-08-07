@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">WidgetVisible.st</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">GenTimer.st</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">Status.st</Object>
+    <Object Type="File">IOcontrolPage.st</Object>
+    <Object Type="File">MachineLockPage.st</Object>
+    <Object Type="File">ManuelAxis.st</Object>
+    <Object Type="File">MaxMinValue.st</Object>
+    <Object Type="File">ManualDevice.st</Object>
+    <Object Type="File">Home.st</Object>
+    <Object Type="File">Distance.st</Object>
+  </Objects>
+</Package>

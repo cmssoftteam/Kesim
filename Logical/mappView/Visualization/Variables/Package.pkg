@@ -4,5 +4,6 @@
   <Objects>
     <Object Type="File" TransferedForTargetSourceCompare="true">AlarmX.svar</Object>
     <Object Type="File" Description="mapp Framework UserX variables">UserX.svar</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MachStatus.svar</Object>
   </Objects>
 </Package>

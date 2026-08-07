@@ -22,6 +22,8 @@
     <BindingsSet refId="content_AlarmXDetail" />
     <BindingsSet refId="content_Button" />
     <BindingsSet refId="P0500_Widget" />
+    <BindingsSet refId="P0320_IO_Force" />
+    <BindingsSet refId="MachStatus" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="P0001_StartPage" />
@@ -42,6 +44,7 @@
     <EventBindingsSet refId="content_Header" />
     <EventBindingsSet refId="Content_Params" />
     <EventBindingsSet refId="content_Navigation" />
+    <EventBindingsSet refId="content_Services" />
   </EventBindingsSets>
   <EventScriptsSets />
   <Dialogs>
@@ -101,10 +104,13 @@
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="User" />
+    <SnippetsSet refId="Force" />
+    <SnippetsSet refId="MachStatus" />
   </SnippetsSets>
   <VariablesSets>
     <VariablesSet refId="AlarmX" />
     <VariablesSet refId="UserX" />
+    <VariablesSet refId="MachStatus" />
   </VariablesSets>
   <ExpressionsSets />
   <StartTheme themeRefId="BuRTheme" />

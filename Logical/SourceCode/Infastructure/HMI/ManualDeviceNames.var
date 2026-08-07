@@ -1,0 +1,6 @@
+VAR CONSTANT
+	UNIT_LargeSpatulaPiston : USINT := 0;
+	UNIT_SmallSpatulaPiston : USINT := 1;
+	UNIT_DepthValve : USINT := 2;
+	UNIT_MaterialOutValve : USINT := 3;
+END_VAR

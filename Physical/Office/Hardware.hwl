@@ -2,11 +2,41 @@
 <?AutomationStudio FileVersion="4.9"?>
 <BR.AS.HardwareTopology>
   <TimeStamps>
-    <TimeStamp LogicalPath="Office.Hardware.hw" LastWriteTime="07/22/2026 07:24:59" />
+    <TimeStamp LogicalPath="Office.Hardware.hw" LastWriteTime="08/05/2026 16:22:56" />
   </TimeStamps>
   <Modules>
     <Module Name="8EI8X8HWT10.xxxx-1" Type="8EI8X8HWT10.xxxx-1" X="250" Y="249" />
     <Module Name="X20CP1685" Type="X20CP1685" X="100" Y="100" />
+    <Module Name="X20BM11" Type="X20BM11" X="250" Y="100" />
+    <Module Name="X20DIF371" Type="X20DIF371" X="250" Y="100" />
+    <Module Name="X20TB1F" Type="X20TB1F" X="250" Y="127" />
+    <Module Name="X20BM11_a" Type="X20BM11" X="263" Y="100" />
+    <Module Name="X20DIF371_a" Type="X20DIF371" X="263" Y="100" />
+    <Module Name="X20TB1F_a" Type="X20TB1F" X="263" Y="127" />
+    <Module Name="X20BM11_b" Type="X20BM11" X="276" Y="100" />
+    <Module Name="X20DIF371_b" Type="X20DIF371" X="276" Y="100" />
+    <Module Name="X20TB1F_b" Type="X20TB1F" X="276" Y="127" />
+    <Module Name="X20BM11_c" Type="X20BM11" X="289" Y="100" />
+    <Module Name="X20DIF371_c" Type="X20DIF371" X="289" Y="100" />
+    <Module Name="X20TB1F_c" Type="X20TB1F" X="289" Y="127" />
+    <Module Name="X20BM11_d" Type="X20BM11" X="302" Y="100" />
+    <Module Name="X20DIF371_d" Type="X20DIF371" X="302" Y="100" />
+    <Module Name="X20TB1F_d" Type="X20TB1F" X="302" Y="127" />
+    <Module Name="X20BM11_e" Type="X20BM11" X="315" Y="100" />
+    <Module Name="X20DOF322" Type="X20DOF322" X="315" Y="100" />
+    <Module Name="X20TB1F_e" Type="X20TB1F" X="315" Y="127" />
+    <Module Name="X20BM11_f" Type="X20BM11" X="328" Y="100" />
+    <Module Name="X20DOF322_a" Type="X20DOF322" X="328" Y="100" />
+    <Module Name="X20TB1F_f" Type="X20TB1F" X="328" Y="127" />
+    <Module Name="X20BM11_g" Type="X20BM11" X="341" Y="100" />
+    <Module Name="X20DOF322_b" Type="X20DOF322" X="341" Y="100" />
+    <Module Name="X20TB1F_g" Type="X20TB1F" X="341" Y="127" />
+    <Module Name="X20BM11_h" Type="X20BM11" X="354" Y="100" />
+    <Module Name="X20DOF322_c" Type="X20DOF322" X="354" Y="100" />
+    <Module Name="X20TB1F_h" Type="X20TB1F" X="354" Y="127" />
+    <Module Name="X20BM11_i" Type="X20BM11" X="367" Y="100" />
+    <Module Name="X20AO2622" Type="X20AO2622" X="367" Y="100" />
+    <Module Name="X20TB12" Type="X20TB12" X="367" Y="127" />
   </Modules>
   <Links>
     <Link From="8EI8X8HWT10.xxxx-1" To="X20CP1685" FromPort="PLK1" ToPort="IF3" IsRoutedByUser="False">

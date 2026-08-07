@@ -1,0 +1,43 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: ForceIO
+ * File: ForceIO.var
+ * Author: abdullahoglf
+ * Created: December 18, 2013
+ ********************************************************************
+ * Local variables of program ForceIO
+ ********************************************************************)
+VAR
+	ForceHandle : ForceHandle_typ := (0); (*Force I/O task handle*)
+	HMIforceStep : DINT;
+	forceStep : ForceStep_enm; (*States for the program*)
+	forceWaitMsg : STRING[100]; (*Error msg from the task*)
+	i : USINT; (*Iteration variable*)
+	k : USINT := 0; (*Iteration variable*)
+	t : USINT; (*Iteration variable*)
+	j : USINT; (*Iteration variable*)
+	lastDataPoint : UDINT; (*Datapoint found by GetIOList*)
+	forceErrorID : UINT; (*Development diagnostics based error ID*)
+END_VAR
+(*==========================         Function Blocks           ==============================*)
+VAR
+	GetSignalStr_1 : BuildSignalStr := (0);
+	GetSignalStr_0 : BuildSignalStr := (0);
+	GetDPStatus : AsIODPStatus := (0); (*FB to see the physical value of the I/O datapoint*)
+	SetForceValue : AsIOSetForceValue; (*FB to set force value*)
+	EnableIOForcing : AsIOEnableForcing; (*FB to enable frocing*)
+	GetIOListDP : AsIOListDP; (*FB to get the IO address list*)
+	DisableAllForcing : AsIOGlobalDisableForcing := (0); (*FB to disable forcing for all channels*)
+	DisableForcing : AsIODisableForcing; (*FB to disable specific channel*)
+END_VAR
+(*=========================         Variables for GetSignalStr Action    =====================*)
+VAR
+	slotIndex : USINT; (*Slot number iteration variable*)
+	loopBypass : BOOL; (*Flag to bypass to loops*)
+END_VAR
+(*==========================                    Constants           ==============================									*)
+VAR
+	TEST_INT : INT;
+	MAX_DP_INDEX : USINT := 0; (*Max datapoint index in an IO card -- depends on the type of the card*)
+END_VAR

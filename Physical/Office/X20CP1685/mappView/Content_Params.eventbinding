@@ -11,5 +11,15 @@
         </Action>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="Content_Params.HomePage1.Click">
+      <Source xsi:type="widgets.brease.ToggleButton.Event" contentRefId="Content_Params" widgetRefId="HomePage1" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="P0320_IO_Force" areaId="areaContent" pageId="page_Main" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>

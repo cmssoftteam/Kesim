@@ -1,4 +1,4 @@
-
 VAR_CONFIG
-
+	Cyclic#1.::ForceIO:slotIndex AT %Q.Cyclic#1.::gHMI.IO_Control.SelectedSlot; (*Insert your comment here...*)
+	Cyclic#1.::ForceIO:GetSignalStr_0.eTypeSignal AT %Q.Cyclic#1.::gHMI.IO_Control.TypeOfIO; (*Insert your comment here...*)
 END_VAR

@@ -1,0 +1,7 @@
+VAR
+	TON_0 : TON := (0); (*Help timer*)
+	checkName : REFERENCE TO STRING[1]; (*Pointer to access to the IO Name*)
+END_VAR
+VAR CONSTANT
+	MAX_UDINT_NUMBER : UDINT := 4294967295;
+END_VAR

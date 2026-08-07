@@ -29,6 +29,7 @@
       <Property ID="TargetFile[15]" Value="mappView.Visualization.Dialogs.Recipe.Product.dialog_RecipeRename.tmx" />
       <Property ID="TargetFile[16]" Value="mappView.Resources.Texts.Language.tmx" />
       <Property ID="TargetFile[17]" Value="SourceCode.Infastructure.AlarmX.Alerts.tmx" />
+      <Property ID="TargetFile[18]" Value="mappView.Resources.Texts.IOList.tmx" />
     </Group>
   </Element>
 </Configuration>

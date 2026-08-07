@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="1.0.5" SubType="IEC" Description="IO Control Library" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported data types">IOControl.typ</File>
+    <File Description="Exported constants">IOControl.var</File>
+    <File Description="Exported functions and function blocks">IOControl.fun</File>
+    <File Description="Builds the necessary datapoint for a specific channel">BuildSignalStr.st</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsIOMMan" />
+    <Dependency ObjectName="AsIODiag" />
+    <Dependency ObjectName="AsIO" />
+  </Dependencies>
+</Library>

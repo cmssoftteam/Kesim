@@ -1,0 +1,1291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/IOList</prop>
+  </header>
+  <body>
+    <tu tuid="0">
+      <tuv xml:lang="tr">
+        <seg>ACİL STOP</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EMERGENCY STOP</seg>
+      </tuv>
+    </tu>
+    <tu tuid="1">
+      <tuv xml:lang="tr">
+        <seg>FAZ SIRASI TAMAM</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>PHASE ORDER RELAY</seg>
+      </tuv>
+    </tu>
+    <tu tuid="10">
+      <tuv xml:lang="tr">
+        <seg>18DRV9 EXIT2.EKSEN HATASI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>18DRV9 EXIT2.1 BRIDGE FAULT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="100">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.2 KÖPRÜ YUKARI </seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT1.2  BRIDGE UP</seg>
+      </tuv>
+    </tu>
+    <tu tuid="101">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.2 KÖPRÜ AŞAĞI </seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT1.2 BRIDGE DOWN</seg>
+      </tuv>
+    </tu>
+    <tu tuid="102">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 2.1 KÖPRÜ YUKARI </seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT2.1 BRIDGE UP</seg>
+      </tuv>
+    </tu>
+    <tu tuid="103">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 2.1 KÖPRÜ AŞAĞI </seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT2.1 BRIDGE DOWN</seg>
+      </tuv>
+    </tu>
+    <tu tuid="104">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 2.2 KÖPRÜ YUKARI </seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT2.2 BRIDGE UP</seg>
+      </tuv>
+    </tu>
+    <tu tuid="105">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 2.2 KÖPRÜ AŞAĞI </seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT2.2 BRIDGE DOWN</seg>
+      </tuv>
+    </tu>
+    <tu tuid="106">
+      <tuv xml:lang="tr">
+        <seg>VAKUM VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SEALING STATION VACUUM VALVE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="107">
+      <tuv xml:lang="tr">
+        <seg>ÜFLEME VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SEALING STATION VACUUM BLOWING VALVE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="108">
+      <tuv xml:lang="tr">
+        <seg>VAKUM İLERİ VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>VACUUM CYLINDER FORWARD VALVE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="109">
+      <tuv xml:lang="tr">
+        <seg>SPATULA BÜYÜK PİSTON İLERİ VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPATULA BIG PISTON VALVE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="11">
+      <tuv xml:lang="tr">
+        <seg>19DRV10 EXIT2.EKSEN HATASI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>19DRV10 EXIT2.2 BRIDGE FAULT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="110">
+      <tuv xml:lang="tr">
+        <seg>SPATULA KÜÇÜK PİSTON İLERİ VALFI
+</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPATULA SMALL PISTON VALVE
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="111">
+      <tuv xml:lang="tr">
+        <seg>KAFA BASKI VALFI İLERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HEAD PRESSURE FORWARD VALVE
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="112">
+      <tuv xml:lang="tr">
+        <seg>KAFA DERİNLİK İLERİ VALFI
+</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HEAD GROUP DEPTH FORWARD VALVE
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="113">
+      <tuv xml:lang="tr">
+        <seg>İLAÇ ÇIKIŞ VALFI
+</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>MATERIAL OPEN VALVE
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="114">
+      <tuv xml:lang="tr">
+        <seg>B-1 SİYAH İLAÇ KAFA AÇMA VALFI
+
+</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYD.B-1 UNIT HEAD OPEN VALVE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="115">
+      <tuv xml:lang="tr">
+        <seg>B-1 SİYAH İLAÇ HORTUM AÇMA VALFI
+,</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYD. B-1 UNIT HOSE OPEN VALVE
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="116" />
+    <tu tuid="12">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="120">
+      <tuv xml:lang="tr">
+        <seg>TEPE LAMBASI SİREN </seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>TOWER LAMP BUZZER</seg>
+      </tuv>
+    </tu>
+    <tu tuid="121">
+      <tuv xml:lang="tr">
+        <seg>KIRMIZI LAMBA</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>RED LAMP</seg>
+      </tuv>
+    </tu>
+    <tu tuid="122">
+      <tuv xml:lang="tr">
+        <seg>SARI LAMBA</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>YELLOW LAMP</seg>
+      </tuv>
+    </tu>
+    <tu tuid="123">
+      <tuv xml:lang="tr">
+        <seg>YEŞİL LAMBA</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>GREEN LAMP</seg>
+      </tuv>
+    </tu>
+    <tu tuid="124">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK TANK SOĞUKMA FAN START</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYD.PUMP COOLİNG START</seg>
+      </tuv>
+    </tu>
+    <tu tuid="125">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK DOLUM BY-PASS VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYD.FILLING BY-PASS VALVE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="126">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK ÜNİTE-1 SİLİNDİR YUKARI VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC UNIT-1 CYLINDER UP VALVE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="127">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK ÜNİTE-1 SİLİNDİR BASINC DÜŞÜRME  VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC UNIT-1 PRESSURE BALANCED VALVE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="128">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK SİSTEM BY-PASS VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC SYSTEM BY-PASS VALVE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="129">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK A1 POMPA AŞAĞI VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC A1 PUMP DOWN VALVE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="13">
+      <tuv xml:lang="tr">
+        <seg>GİRİŞ 1.1 KONVEYOR GİRİŞ SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ENTRY 1.1 CONVEYOR GLASS ENTRY SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="130">
+      <tuv xml:lang="tr">
+        <seg>SPATULA KÜÇÜK PİSTON İLERİ VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC A1 PUMP UP VALVE
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="131">
+      <tuv xml:lang="tr">
+        <seg>KAFA BASKI VALFI İLERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC B1 PUMP DOWN VALVE
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="132">
+      <tuv xml:lang="tr">
+        <seg>KAFA DERİNLİK İLERİ VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC B1 PUMP UP VALVE
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="133">
+      <tuv xml:lang="tr">
+        <seg>İLAÇ ÇIKIŞ VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT-1 CONVEYOR GLASS SUPPORT  FORWARD VALVE
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="134">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="135">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="14">
+      <tuv xml:lang="tr">
+        <seg>GİRİŞ 1.1 KONVEYOR SLOW SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ENTRY 1.1  SLOW SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="15">
+      <tuv xml:lang="tr">
+        <seg>GİRİŞ 1.1 KONVEYOR STOP SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ENTRY 1.1 CONVEYOR GLASS STOP SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="150">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK A1 POMPA YUKARI VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC A1 PUMP UP VALVE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="151">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK B1 POMPA AŞAĞI VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC B1 PUMP DOWN VALVE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="152">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK B1 POMPA YUKARI VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC B1 PUMP UP VALVE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="153">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.1 CAM DESTEK İLERİ VALFI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT-1 CONVEYOR GLASS SUPPORT  FORWARD VALVE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="140">
+      <tuv xml:lang="tr">
+        <seg>
+HİDROLİK A1 BASINÇ SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC  A1 PRESSURE SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="141">
+      <tuv xml:lang="tr">
+        <seg>
+HİDROLİK B1 BASINÇ SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC  B1 PRESSURE SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="180">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="181">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="160">
+      <tuv xml:lang="tr">
+        <seg>Z1 EKSEN İLERİ GERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Z1 AXIS  FORWORD BACKWARD STROKE: 100 mm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="161">
+      <tuv xml:lang="tr">
+        <seg>Z2 EKSEN İLERİ GERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Z2 AXIS  FORWORD BACKWARD STROKE: 100 mm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="162">
+      <tuv xml:lang="tr">
+        <seg>Z3 EKSEN İLERİ GERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Z3 AXIS  FORWORD BACKWARD STROKE: 100 mm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="163">
+      <tuv xml:lang="tr">
+        <seg>Z4 EKSEN İLERİ GERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Z4 AXIS  FORWORD BACKWARD STROKE: 100 mm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="142">
+      <tuv xml:lang="tr">
+        <seg>KAFA İLAÇ ÇIKIŞ BASINCI </seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HEAD MATERIAL EXIT PRESSURE SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="143">
+      <tuv xml:lang="tr">
+        <seg>DERİNLİK ÖLÇME SİNYALİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>MEASURING DEPTH SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="182">
+      <tuv xml:lang="tr">
+        <seg>Z5 EKSEN İLERİ GERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Z5 AXIS  FORWORD BACKWARD STROKE: 100 mm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="183">
+      <tuv xml:lang="tr">
+        <seg>Z6 EKSEN İLERİ GERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Z6 AXIS  FORWORD BACKWARD STROKE: 100 mm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="185">
+      <tuv xml:lang="tr">
+        <seg>KAFA BASKI REGÜLATÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HEAD PRESSURE SET VALUE REACHED</seg>
+      </tuv>
+    </tu>
+    <tu tuid="186">
+      <tuv xml:lang="tr">
+        <seg>10DRV1 GİRİŞ 1.1 Z EKSEN  ANALOG SPEED</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>10DRV1 ENTRY1.1 Z AXIS  ANALOG SPEED</seg>
+      </tuv>
+    </tu>
+    <tu tuid="187">
+      <tuv xml:lang="tr">
+        <seg>11DRV2 GİRİŞ 1.2 Z EKSEN ANALOG SPEED</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>11DRV2 ENTRY1.2 Z AXIS  ANALOG SPEED</seg>
+      </tuv>
+    </tu>
+    <tu tuid="188">
+      <tuv xml:lang="tr">
+        <seg>12DRV3 ÇIKIŞ 1.1 Z EKSEN  ANALOG SPEED</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>12DRV3 EXIT1.1 Z AXIS  ANALOG SPEED</seg>
+      </tuv>
+    </tu>
+    <tu tuid="2">
+      <tuv xml:lang="tr">
+        <seg>CAM ÇAĞIRMA SİNYALİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ENTRY CONVEYOR GLASS READY TO SIGNAL</seg>
+      </tuv>
+    </tu>
+    <tu tuid="20">
+      <tuv xml:lang="tr">
+        <seg>GİRİŞ 2.1 KONVEYOR GİRİŞ SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ENTRY 2.1 CONVEYOR GLASS ENTRY SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="190">
+      <tuv xml:lang="tr">
+        <seg>13DRV4 ÇIKIŞ 1.2 Z EKSEN ANALOG SPEED</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>13DRV4 EXIT1.2 Z AXIS ANALOG SPEED</seg>
+      </tuv>
+    </tu>
+    <tu tuid="191">
+      <tuv xml:lang="tr">
+        <seg>14DRV5 ÇIKIŞ 2.1 Z EKSEN  ANALOG SPEED</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>14DRV5 EXIT2.1 Z AXIS  ANALOG SPEED</seg>
+      </tuv>
+    </tu>
+    <tu tuid="192">
+      <tuv xml:lang="tr">
+        <seg>15DRV6 ÇIKIŞ 2.2 Z EKSEN ANALOG SPEED</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>15DRV6 EXIT2.2 Z AXIS ANALOG SPEED</seg>
+      </tuv>
+    </tu>
+    <tu tuid="197">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="193">
+      <tuv xml:lang="tr">
+        <seg>17DRV8 ÇIKIŞ 1.2  KÖPRÜ ANALOG SPEED</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>17DRV8 EXIT1.2  BRIDGE ANALOG SPEED</seg>
+      </tuv>
+    </tu>
+    <tu tuid="195">
+      <tuv xml:lang="tr">
+        <seg>18DRV9 ÇIKIŞ 2.1  KÖPRÜ ANALOG SPEED</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>18DRV9 EXIT2.1  BRIDGE ANALOG SPEED</seg>
+      </tuv>
+    </tu>
+    <tu tuid="196">
+      <tuv xml:lang="tr">
+        <seg>19DRV10 ÇIKIŞ 2.2  KÖPRÜ ANALOG SPEED</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>19DRV10 EXIT2.2  BRIDGE ANALOG SPEED</seg>
+      </tuv>
+    </tu>
+    <tu tuid="198">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="21">
+      <tuv xml:lang="tr">
+        <seg>GİRİŞ 2.2 KONVEYOR STOP SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ENTRY 2.1 CONVEYOR GLASS STOP SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="22">
+      <tuv xml:lang="tr">
+        <seg>VAKUM EKSENİ REFERANS SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>VACUUM REFERANCE SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="23">
+      <tuv xml:lang="tr">
+        <seg>VAKUM EKSENİ POZİTİF LİMİT SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>VACUUM POSITIVE LIMIT SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="24">
+      <tuv xml:lang="tr">
+        <seg>VAKUM VANTUZ GERİDE SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>VACUUM SYSTEM BACK SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="25">
+      <tuv xml:lang="tr">
+        <seg>VAKUM VANTUZ VAKUM OKEY SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>GLASS VACUUM OK SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="26">
+      <tuv xml:lang="tr">
+        <seg>GİRİŞ HAVA BASINCI SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>AIR PRESSURE SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="27">
+      <tuv xml:lang="tr">
+        <seg>START BUTONU</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>PRODUCTIAN START BUTTON</seg>
+      </tuv>
+    </tu>
+    <tu tuid="28">
+      <tuv xml:lang="tr">
+        <seg>RESET BUTONU</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>RESET BUTTON</seg>
+      </tuv>
+    </tu>
+    <tu tuid="29">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.1 KONVEYOR GİRİŞ SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT1.1 CONVEYOR GLASS ENTRY SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="3">
+      <tuv xml:lang="tr">
+        <seg>10DRV1 ENTRY1.1 Z EKSEN HATASI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>10DRV1 ENTRY1.1 Z AXIS FAULT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="30">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.1 KONVEYOR ÇIKIŞ SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT1.1 CONVEYOR GLASS STOP SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="31">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.2 KONVEYOR GİRİŞ SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT1.2 CONVEYOR GLASS ENTRY SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="32">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.2 KONVEYOR ÇIKIŞ SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT1.2 CONVEYOR GLASS STOP SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="33">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 2.1 KONVEYOR GİRİŞ SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT2.1 CONVEYOR GLASS ENTRY SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="34">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 2.1 KONVEYOR ÇIKIŞ SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT2.1 CONVEYOR GLASS STOP SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="35">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 2.2 KONVEYOR GİRİŞ SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT2.2 CONVEYOR GLASS ENTRY SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4">
+      <tuv xml:lang="tr">
+        <seg>11DRV2 ENTRY1.2 Z EKSEN HATASI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>11DRV2 ENTRY1.2 Z AXIS FAULT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="40">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 2.2 KONVEYOR ÇIKIŞ SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT2.2 CONVEYOR GLASS STOP SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="41">
+      <tuv xml:lang="tr">
+        <seg>SPATULA BÜYÜK PİSTON GERİDE SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPATULA BIG PISTON BACK SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="42">
+      <tuv xml:lang="tr">
+        <seg>SPATULA KÜÇÜK PİSTON GERİDE SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPATULA SMALL PISTON BACK SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="43">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.1 KÖPRÜ Y EKSEN CAPTURE SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT 1.1 BRIDGE Y AXIS CAPTURE SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="44">
+      <tuv xml:lang="tr">
+        <seg>KAFA Y EKSEN REFERANS SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HEAD Y AXIS REFERANCE SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="45">
+      <tuv xml:lang="tr">
+        <seg>KAFA Y EKSEN POZİTİF LİMİT SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HEADY AXIS POSITIVE LIMIT SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="46">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK A1 POMPA YUKARI SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC A1 PUMP UP SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="47">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK A1 POMPA AŞAĞI SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC A1 PUMP DOWN SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="48">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK A1 POMPA İLAÇ BİTTİ SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC A1 PUMP EMPTY SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="49">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK B1 POMPA YUKARI SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC B1 PUMP UP SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="5">
+      <tuv xml:lang="tr">
+        <seg>12DRV3 EXIT1.1 Z EKSEN HATASI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>12DRV3 EXIT1.1 Z AXIS FAULT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="50">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK B1 POMPA AŞAĞI SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC B1 PUMP DOWN SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="51">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK B1 POMPA İLAÇ BİTTİ SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC B1 PUMP EMPTY SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="52">
+      <tuv xml:lang="tr">
+        <seg>1. ÜNİT HİDROLİK SİLİNDİR AŞAĞIDA SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1ST HYDRAULIC CYLINDER IS DOWN SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="53">
+      <tuv xml:lang="tr">
+        <seg>1. ÜNİT HİDROLİK SİLİNDİR YUKARIDA SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1ST HYDRAULIC CYLINDER IS UP SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="54">
+      <tuv xml:lang="tr">
+        <seg>HİDROLİK TANK SOĞUTMA TERMOSTAT</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>HYDRAULIC UNIT COOLING THERMOSTAT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="55">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.1 KONVEYORU CAM DESTEK GERİDE SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT-1 CONVEYOR GLASS SUPPORT BACK SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="6">
+      <tuv xml:lang="tr">
+        <seg>13DRV4 EXIT1.2  Z EKSEN HATASI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>13DRV4 EXIT1.2  Z AXIS FAULT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="60">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.1 KÖPRÜ REFERANS SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT1.1 BRIDGE REFERANCE SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="61">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.2 KÖPRÜ REFERANS SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT1.2 BRIDGE REFERANCE SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="62">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 2.1 KÖPRÜ REFERANS SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT2.1 BRIDGE REFERANCE SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="63">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 2.2 KÖPRÜ REFERANS SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT2.2 BRIDGE REFERANCE SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="64">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.1 KÖPRÜ YUKARIDA SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT-1 CONVEYOR BRIDGE-1 TOP SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="65">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.1 KÖPRÜ AŞAĞIDA SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT-1 CONVEYOR BRIDGE-1 BOTTOM SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="66">
+      <tuv xml:lang="tr">
+        <seg>GİRİŞ CAM YÜKSEKLİK ÖLÇME 1. SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ENTRY CONVEYOR  GLASS HEIGHT 1 SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="67">
+      <tuv xml:lang="tr">
+        <seg>GİRİŞ CAM YÜKSEKLİK ÖLÇME 2. SENSÖRÜ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ENTRY CONVEYOR  GLASS HEIGHT 2 SENSOR</seg>
+      </tuv>
+    </tu>
+    <tu tuid="68">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="69">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="7">
+      <tuv xml:lang="tr">
+        <seg>14DRV5 EXIT2.1 Z EKSEN HATASI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>14DRV5 EXIT2.1 Z AXIS FAULT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="70">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="71">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="72">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="73">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="74">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="75">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="8">
+      <tuv xml:lang="tr">
+        <seg>15DRV6 EXIT2.2 Z EKSEN HATASI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>15DRV6 EXIT2.2 Z AXIS FAULT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="80">
+      <tuv xml:lang="tr">
+        <seg>MAKİNA RESET</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>MACHINE RESET</seg>
+      </tuv>
+    </tu>
+    <tu tuid="81">
+      <tuv xml:lang="tr">
+        <seg>CAM ÇAĞIRMA ÇIKIŞI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ENTRY STATION GLASS REQUET</seg>
+      </tuv>
+    </tu>
+    <tu tuid="82">
+      <tuv xml:lang="tr">
+        <seg>GİRİŞ 1.1 Z EKSEN İLERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ENTRY1.1 Z AXIS FORWARD</seg>
+      </tuv>
+    </tu>
+    <tu tuid="83">
+      <tuv xml:lang="tr">
+        <seg>GİRİŞ 1.1 Z EKSEN GERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ENTRY1.1 Z AXIS BACKWARD</seg>
+      </tuv>
+    </tu>
+    <tu tuid="84">
+      <tuv xml:lang="tr">
+        <seg>GİRİŞ 1.2 Z EKSEN İLERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ENTRY1.2 Z AXIS FORWARD</seg>
+      </tuv>
+    </tu>
+    <tu tuid="85">
+      <tuv xml:lang="tr">
+        <seg>GİRİŞ 1.2 Z EKSEN GERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ENTRY1.2 Z AXIS BACKWARD</seg>
+      </tuv>
+    </tu>
+    <tu tuid="86">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.1 Z EKSEN İLER</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT1.1 Z AXIS FORWARD</seg>
+      </tuv>
+    </tu>
+    <tu tuid="87">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.1 Z EKSEN GERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT1.1 Z AXIS BACKWARD</seg>
+      </tuv>
+    </tu>
+    <tu tuid="88">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.2 Z EKSEN İLER</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT1.2 Z AXIS FORWARD</seg>
+      </tuv>
+    </tu>
+    <tu tuid="89">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 1.2 Z EKSEN GERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT1.2 Z AXIS BACKWARD</seg>
+      </tuv>
+    </tu>
+    <tu tuid="9">
+      <tuv xml:lang="tr">
+        <seg>17DRV8 EXIT1.EKSEN HATASI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>17DRV8 EXIT1.2 BRIDGE FAULT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="90">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 2.1 Z EKSEN İLER</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT2.1 Z AXIS FORWARD</seg>
+      </tuv>
+    </tu>
+    <tu tuid="91">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 2.1 Z EKSEN GERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT2.1 Z AXIS BACKWARD</seg>
+      </tuv>
+    </tu>
+    <tu tuid="92">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 2.2 Z EKSEN İLER</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT2.2 Z AXIS FORWARD</seg>
+      </tuv>
+    </tu>
+    <tu tuid="93">
+      <tuv xml:lang="tr">
+        <seg>ÇIKIŞ 2.2 Z EKSEN GERİ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>EXIT2.2 Z AXIS BACKWARD</seg>
+      </tuv>
+    </tu>
+    <tu tuid="94">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="95">
+      <tuv xml:lang="tr">
+        <seg>YEDEK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SPARE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AI1">
+      <tuv xml:lang="tr">
+        <seg>Analog Giriş 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Analog Input 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AI2">
+      <tuv xml:lang="tr">
+        <seg>Analog Giriş 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Analog Input 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AI3">
+      <tuv xml:lang="tr">
+        <seg>Analog Giriş 3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Analog Input 3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AI4">
+      <tuv xml:lang="tr">
+        <seg>Analog Giriş 4</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Analog Input 4</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AO1">
+      <tuv xml:lang="tr">
+        <seg>Analog Çıkış 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Analog Output 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AO2">
+      <tuv xml:lang="tr">
+        <seg>Analog Çıkış 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Analog Output 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AO3">
+      <tuv xml:lang="tr">
+        <seg>Analog Çıkış 3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Analog Output 3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AO4">
+      <tuv xml:lang="tr">
+        <seg>Analog Çıkış 4</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Analog Output 4</seg>
+      </tuv>
+    </tu>
+    <tu tuid="DI1">
+      <tuv xml:lang="tr">
+        <seg>Dijital Giriş 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Digital Input 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="DI2">
+      <tuv xml:lang="tr">
+        <seg>Dijital Giriş 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Digital Input 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="DI3">
+      <tuv xml:lang="tr">
+        <seg>Dijital Giriş 3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Digital Input 3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="DI4">
+      <tuv xml:lang="tr">
+        <seg>Dijital Giriş 4</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Digital Input 4</seg>
+      </tuv>
+    </tu>
+    <tu tuid="DI5">
+      <tuv xml:lang="tr">
+        <seg>Dijital Giriş 5</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Digital Input 5</seg>
+      </tuv>
+    </tu>
+    <tu tuid="DO1">
+      <tuv xml:lang="tr">
+        <seg>Dijital Çıkış 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Digital Output 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="DO2">
+      <tuv xml:lang="tr">
+        <seg>Dijital Çıkış 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Digital Output 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="DO3">
+      <tuv xml:lang="tr">
+        <seg>Dijital Çıkış 3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Digital Output 3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="DO4">
+      <tuv xml:lang="tr">
+        <seg>Dijital Çıkış 4</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Digital Output 4</seg>
+      </tuv>
+    </tu>
+    <tu tuid="DO5">
+      <tuv xml:lang="tr">
+        <seg>Dijital Çıkış 5</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Digital Output 5</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

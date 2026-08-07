@@ -4,5 +4,6 @@
   <Objects>
     <Object Type="File" TransferedForTargetSourceCompare="true">Language.tmx</Object>
     <Object Type="Package">ForceIO</Object>
+    <Object Type="File">IOList.tmx</Object>
   </Objects>
 </Package>

@@ -28,7 +28,7 @@
         <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power8" top="222" left="538" width="118" height="55" zIndex="7" multiLine="true" text="$IAT/Language/txtTransferFromLoader" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" fontSize="14px" shadow="10px 8px 15px -3px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.SequencerTable" id="SequencerTable1" top="5" left="702" width="459" height="340" zIndex="10">
+    <Widget xsi:type="widgets.brease.SequencerTable" id="SequencerTable1" top="5" left="702" width="459" height="340" zIndex="10" borderStyle="solid" borderWidth="1px">
       <Widgets>
         <Widget xsi:type="widgets.brease.SequencerTableItemImageList" id="SequencerTableItemImageList1" zIndex="0" columnWidth="120" imageList="['']" text="SequencerTableItemImageList1" />
         <Widget xsi:type="widgets.brease.SequencerTableItemImageList" id="SequencerTableItemImageList2" zIndex="1" imageList="['']" text="SequencerTableItemImageList2" />
@@ -36,7 +36,7 @@
         <Widget xsi:type="widgets.brease.SequencerTableItemImageList" id="SequencerTableItemImageList4" zIndex="3" imageList="['']" text="SequencerTableItemImageList4" />
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.SequencerTable" id="SequencerTable2" top="6" left="1199" width="547" height="336" zIndex="11">
+    <Widget xsi:type="widgets.brease.SequencerTable" id="SequencerTable2" top="6" left="1199" width="547" height="336" zIndex="11" borderStyle="solid" borderWidth="1px">
       <Widgets>
         <Widget xsi:type="widgets.brease.SequencerTableItemImageList" id="SequencerTableItemImageList5" zIndex="0" columnWidth="120" imageList="['']" text="SequencerTableItemImageList5" />
         <Widget xsi:type="widgets.brease.SequencerTableItemImageList" id="SequencerTableItemImageList6" zIndex="1" imageList="['']" text="SequencerTableItemImageList6" />

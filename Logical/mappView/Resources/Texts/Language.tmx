@@ -1118,5 +1118,29 @@
         <seg>Low-E Down Pressure</seg>
       </tuv>
     </tu>
+    <tu tuid="txtForcingProgramStatus">
+      <tuv xml:lang="tr">
+        <seg>Program Zorlama Durumu</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ForcingProgramStatus</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtResetError">
+      <tuv xml:lang="tr">
+        <seg>Hata Sıfırla</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Error Reset</seg>
+      </tuv>
+    </tu>
+    <tu tuid="txtAllForceRelease">
+      <tuv xml:lang="tr">
+        <seg>Tüm Zorlamaları Kaldır</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>All Force Release</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

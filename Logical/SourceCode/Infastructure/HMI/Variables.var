@@ -1,0 +1,48 @@
+VAR
+	bHMIBigGlass : BOOL;
+	bHMIPower : BOOL;
+	i : UINT;
+	_i : UINT;
+	Loc : LocType;
+	_k : UINT;
+	_j : UINT;
+END_VAR
+(*Machine Lock Get Time*)
+VAR
+	SystemTime : DATE_AND_TIME;
+	DTGetTime_0 : DTGetTime;
+	DTStructureGetTime_0 : DTStructureGetTime;
+	DTStructure_0 : DTStructure;
+	tempDay : STRING[80];
+	tempMonth : STRING[80];
+	NormalPassword : STRING[80];
+	oldMonth : USINT;
+	oldDay : USINT;
+	SuperPassword : STRING[80];
+	TON_Logout : TON;
+	CmsGetTimeStatus : UDINT;
+END_VAR
+(*test için eklendi *)
+VAR
+	bTest01 : BOOL;
+END_VAR
+(*Manual Device FB*)
+VAR
+	(*fbManualDeviceCtrl : ARRAY[0..Max_Manual_Device] OF fbManualDevice;*)
+	MC_ReadParameterZ_FB : MC_ReadParameter;
+	MC_ReadParameterC_FB : MC_ReadParameter;
+	StateAbsCHomeOffset : INT;
+	StateAbsZHomeOffset : INT;
+	hmiOldCSetVal : LREAL;
+	hmiCSetValSon : LREAL;
+	hmiCSetVal : LREAL;
+	hmiZSetVal : LREAL;
+END_VAR
+(*Timers*)
+VAR
+	TON_ResetAxis : TON;
+END_VAR
+VAR CONSTANT
+	DOWN : USINT := 0;
+	UP : USINT := 1;
+END_VAR

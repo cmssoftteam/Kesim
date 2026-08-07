@@ -3,7 +3,6 @@
 <SwConfiguration CpuAddress="" xmlns="http://br-automation.co.at/AS/SwConfiguration">
   <TaskClass Name="Cyclic#1" />
   <TaskClass Name="Cyclic#2" />
-
   <TaskClass Name="Cyclic#3">
     <Task Name="Kesim" Source="SourceCode.Kesim.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
@@ -11,6 +10,9 @@
     <Task Name="AlarmX" Source="SourceCode.Infastructure.AlarmX.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="UserXMgr" Source="SourceCode.Infastructure.UserXMgr.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="CncCtrl" Source="SourceCode.CncCtrl.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="ForceIO" Source="SourceCode.Infastructure.ForceIOs.ForceIO.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="aIOhand" Source="SourceCode.Infastructure.ForceIOs.aIOhand.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="HMI" Source="SourceCode.Infastructure.HMI.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#5" />
   <TaskClass Name="Cyclic#6" />
@@ -96,7 +98,6 @@
     <LibraryObject Name="MpServer" Source="Libraries.MpServer.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="CMS_CT" Source="Libraries.CMS_CT.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="ArSvcReg" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
-
     <LibraryObject Name="ArSsl" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="DataObj" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="UaCoal" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
@@ -109,11 +110,14 @@
     <LibraryObject Name="AsArProf" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="brsystem" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsMem" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
-    <LibraryObject Name="AsIO" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsEPL" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="UaCore" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsUSB" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsIOAcc" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsIoTrc" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="AsIO" Source="Libraries.AsIO.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="IOControl" Source="Libraries.IOControl.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="AsIOMMan" Source="Libraries.AsIOMMan.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="AsIODiag" Source="Libraries.AsIODiag.lby" Memory="UserROM" Language="Binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="MachStatus" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		
+		
+		<!-- IO_Forcing Status -->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::ForceIO:HMIforceStep" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Forcing_States" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Forcing_States" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Forcing_States" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 0-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[0]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name0" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name0" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name0" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 1-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[1]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name1" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name1" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name1" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 2-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[2]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name2" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name2" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name2" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 3-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[3]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name3" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name3" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name3" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 4-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[4]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name4" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name4" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name4" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 5-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[5]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name5" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name5" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name5" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 6-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[6]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name6" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name6" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name6" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 7-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[7]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name7" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name7" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name7" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 8-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[8]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name8" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name8" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name8" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 9-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[9]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name9" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name9" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name9" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 10-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[10]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name10" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name10" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name10" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 11-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[11]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name11" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name11" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name11" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 12-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[12]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name12" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name12" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name12" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 13-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[13]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name13" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name13" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name13" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 14-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[14]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name14" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name14" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name14" attribute="value" />
+		</Binding>
+		
+		<!-- IO_Name 15-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.NameSelector[15]" attribute="value" />
+			<Target xsi:type="snippet" refId="IdxTxtSnp_IO_Name15" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="IdxTxtSnp_IO_Name15" attribute="value" />
+			<Target xsi:type="session" refId="svIO_Name15" attribute="value" />
+		</Binding>
+		
+		
+		
+		
+		
+	</Bindings>
+</BindingsSet>

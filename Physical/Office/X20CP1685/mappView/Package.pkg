@@ -15,6 +15,8 @@
     <Object Type="File">content_Button.binding</Object>
     <Object Type="File">Content_Params.eventbinding</Object>
     <Object Type="File">P0500_Widget.binding</Object>
-
+    <Object Type="File">content_Services.eventbinding</Object>
+    <Object Type="File">P0320_IO_Force.binding</Object>
+    <Object Type="File">MachStatus.binding</Object>
   </Objects>
 </Package>

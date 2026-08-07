@@ -3,5 +3,6 @@
 <Physical xmlns="http://br-automation.co.at/AS/Physical">
   <Objects>
     <Object Type="Configuration" TransferedForTargetSourceCompare="true">Office</Object>
+    <Object Type="Configuration">FCL</Object>
   </Objects>
 </Physical>

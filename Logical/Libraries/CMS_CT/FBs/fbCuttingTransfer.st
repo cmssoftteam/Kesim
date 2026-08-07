@@ -163,6 +163,7 @@ FUNCTION_BLOCK fbCuttingTransfer
 				Loc.StepTimer.IN := FALSE;	
 			ELSE
 				IF NOT inGlassTransfer THEN
+					// Waiting fb Input cmd's are OFF
 					outState := CT_INIT;
 				END_IF;	
 			END_IF;			

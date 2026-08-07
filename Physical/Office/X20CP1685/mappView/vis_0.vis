@@ -43,8 +43,8 @@
     <EventBindingsSet refId="content_AlarmXList" />
     <EventBindingsSet refId="content_Header" />
     <EventBindingsSet refId="Content_Params" />
-    <EventBindingsSet refId="content_Navigation" />
     <EventBindingsSet refId="content_Services" />
+    <EventBindingsSet refId="content_Navigation" />
   </EventBindingsSets>
   <EventScriptsSets />
   <Dialogs>

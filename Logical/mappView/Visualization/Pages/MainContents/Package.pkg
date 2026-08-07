@@ -15,5 +15,6 @@
     <Object Type="File">P0400_SystemInformation.content</Object>
     <Object Type="File">P0410_CompanyInformation.content</Object>
     <Object Type="File">P0500_Widget.content</Object>
+
   </Objects>
 </Package>

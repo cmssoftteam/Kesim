@@ -66,11 +66,9 @@ PROGRAM _CYCLIC
 	Loc.FB.Cnc3Axis();
 	
 	//|_________________________________________________________________________
-
-
-	
 	TestX := Loc.FB.Cnc3Axis.X / 1500;
 	TestY := Loc.FB.Cnc3Axis.Z / 1500;
+
 
 	
 END_PROGRAM

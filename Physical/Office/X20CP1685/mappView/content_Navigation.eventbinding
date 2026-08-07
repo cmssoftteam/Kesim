@@ -41,17 +41,8 @@
         </Action>
       </EventHandler>
     </EventBinding>
-    <EventBinding id="content_Navigation.ToggleButton5.Click">
-      <Source xsi:type="widgets.brease.ToggleButton.Event" contentRefId="content_Navigation" widgetRefId="ToggleButton5" event="Click" />
-      <EventHandler>
-        <Action>
-          <Target xsi:type="clientSystem.Action">
-            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="P0500_Widget" areaId="areaContent" pageId="page_Main" />
-          </Target>
-        </Action>
-      </EventHandler>
-    </EventBinding>
+  
 
 
-  </Bindings>
+	</Bindings>
 </EventBindingSet>

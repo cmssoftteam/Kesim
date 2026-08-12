@@ -16,7 +16,7 @@
   </Aliases>
   <Module Name="&lt;Default&gt;">
     <GlobalVariables Name="Global Variables">
-      <Variable Name="gHMI">
+      <Variable Name="gHMI" RecursiveEnable="2">
         <Variable Name="IO_Control">
           <Variable Name="MaxForceValueLimit" />
           <Variable Name="MinForceValueLimit" />
@@ -53,6 +53,12 @@
     <Task Name="ForceIO">
       <Variable Name="slotIndex" />
       <Variable Name="HMIforceStep" />
+      <Variable Name="ForceHandle">
+        <Variable Name="Cmd">
+          <Variable Name="ErrAck" />
+          <Variable Name="DisableForceGlobal" />
+        </Variable>
+      </Variable>
     </Task>
   </Module>
 </OpcUaSource>

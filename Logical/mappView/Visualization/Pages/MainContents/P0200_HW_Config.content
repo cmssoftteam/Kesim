@@ -11,7 +11,19 @@
         <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox2" top="49" left="143" width="223" height="80" zIndex="0" dataProvider="[{'value':'0','text':'GLM-B&amp;R'},{'value':'1','text':'GLM-SIEMENS'}]" selectedValue="0" activeBackColor="rgba(128, 128, 128, 1)" />
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton11" top="633" left="906" width="218" height="113" zIndex="2" text="$IAT/Language/txtConfirm" cornerRadius="10px" borderColor="rgba(0, 0, 0, 1)" textColor="rgba(0, 0, 0, 1)" fontSize="35px" bold="true" />
-    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton12" top="628" left="1160" width="218" height="113" zIndex="3" text="$IAT/Language/txtUndo" cornerRadius="10px" borderColor="rgba(0, 0, 0, 1)" textColor="rgba(0, 0, 0, 1)" fontSize="35px" bold="true" />
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton11" top="717" left="586" width="218" height="113" zIndex="2" text="$IAT/Language/txtConfirm" cornerRadius="10px" borderColor="rgba(0, 0, 0, 1)" textColor="rgba(0, 0, 0, 1)" fontSize="35px" bold="true" />
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton12" top="712" left="840" width="218" height="113" zIndex="3" text="$IAT/Language/txtUndo" cornerRadius="10px" borderColor="rgba(0, 0, 0, 1)" textColor="rgba(0, 0, 0, 1)" fontSize="35px" bold="true" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox3" top="538" left="1187" width="576" height="293" zIndex="4">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.DateTimeInput" id="DateTimeInput1" top="184" left="40" width="499" height="84" zIndex="0" borderColor="rgba(65, 17, 0, 1)" activeBorderColor="rgba(65, 17, 0, 1)" textAlign="center" shadow="4px 1px 3px rgba(65, 17, 0, 0.75)" />
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch5" top="-5" left="433" width="123" height="39" zIndex="1" value="true" sliderHeight="60" sliderWidth="40" borderStyle="groove" textAlign="center" padding="0px" margin="10px" sliderImage="Media/Box_OK.png" />
+        <Widget xsi:type="widgets.brease.Password" id="Password1" top="108" left="40" width="210" height="60" zIndex="2" borderColor="rgba(65, 17, 0, 1)" activeBorderColor="rgba(65, 17, 0, 1)" shadow="4px 1px 3px rgba(65, 17, 0, 0.75)" />
+        <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton1" top="106" left="285" width="123" height="59" zIndex="3" text="$IAT/System/Login/BTN_LOGIN" />
+        <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton2" top="105" left="429" width="123" height="59" zIndex="4" text="$IAT/dialog_UserXMgr/Button.Logout" />
+        <Widget xsi:type="widgets.brease.Label" id="Label2" top="8" left="149" width="269" zIndex="5" text="$IAT/Language/ServicesTime" fontSize="35px" />
+        <Widget xsi:type="widgets.brease.DateTimeOutput" id="DateTimeOutput1" top="59" left="102" width="369" zIndex="6" textAlign="center" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.LanguageSelector" id="LanguageSelector2" top="433" left="1188" width="570" height="90" zIndex="5" displaySettings="imageAndText" imagePath="Media/LanguageIMG/" itemHeight="64" listPosition="bottom" listWidth="240" shadow="0px 0px rgba(62, 79, 92, 0.75)" backColor="rgba(236, 239, 241, 1)" borderStyle="none" textColor="rgba(0, 0, 0, 1)" disabledTextColor="rgba(0, 0, 0, 1)" listBackColor="rgba(255, 255, 255, 1)" activeBackColor="rgba(113, 0, 67, 1)" listBorderWidth="0px" activeTextColor="rgba(255, 255, 255, 1)" fontSize="27px" style="transparent" />
   </Widgets>
 </Content>

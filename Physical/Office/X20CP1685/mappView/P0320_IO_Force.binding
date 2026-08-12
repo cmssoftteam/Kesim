@@ -201,5 +201,77 @@
 <Source xsi:type="session" refId="svIO_Forcing_States" attribute="value" />
 <Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="TextOutput_MachMode" attribute="value" />
 </Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ForceIO:ForceHandle.Cmd.ErrAck" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="MomentaryPushButton1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ForceIO:ForceHandle.Cmd.DisableForceGlobal" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="MomentaryPushButton2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[0]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel20" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[1]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel21" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[2]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel22" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[3]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel23" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[4]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel24" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[5]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel25" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[6]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel26" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[7]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel27" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[8]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel28" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[9]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel29" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[10]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel30" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[11]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel31" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[12]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel32" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[13]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel33" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[14]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel34" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.IO_Control.DatafieldStatus[15]" attribute="value" />
+<Target xsi:type="brease" contentRefId="P0320_IO_Force" widgetRefId="FlexLayoutPanel35" attribute="visible" />
+</Binding>
 </Bindings>
 </BindingsSet>

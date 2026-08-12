@@ -1142,5 +1142,13 @@
         <seg>All Force Release</seg>
       </tuv>
     </tu>
+    <tu tuid="ServicesTime">
+      <tuv xml:lang="tr">
+        <seg>Servis Zamanı</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Services Time</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

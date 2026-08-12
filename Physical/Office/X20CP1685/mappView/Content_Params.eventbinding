@@ -3,7 +3,12 @@
   <Bindings>
     <EventBinding id="Content_Params.HomePage.Click">
       <Source xsi:type="widgets.brease.ToggleButton.Event" contentRefId="Content_Params" widgetRefId="HomePage" event="Click" />
-      <EventHandler>
+      <Operand datatype="ANY_STRING" name="actLoadedContent">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="LoadedContent">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="actLoadedContent&lt;&gt;&quot;P0300_LengthParameters&quot;">
         <Action>
           <Target xsi:type="clientSystem.Action">
             <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="P0300_LengthParameters" areaId="areaContent" pageId="page_Main" />
@@ -13,7 +18,12 @@
     </EventBinding>
     <EventBinding id="Content_Params.HomePage1.Click">
       <Source xsi:type="widgets.brease.ToggleButton.Event" contentRefId="Content_Params" widgetRefId="HomePage1" event="Click" />
-      <EventHandler>
+      <Operand datatype="ANY_STRING" name="actLoadedContent">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="LoadedContent">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="actLoadedContent&lt;&gt;&quot;P0320_IO_Force&quot;">
         <Action>
           <Target xsi:type="clientSystem.Action">
             <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="P0320_IO_Force" areaId="areaContent" pageId="page_Main" />

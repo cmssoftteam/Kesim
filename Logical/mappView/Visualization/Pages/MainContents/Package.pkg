@@ -15,6 +15,6 @@
     <Object Type="File">P0400_SystemInformation.content</Object>
     <Object Type="File">P0410_CompanyInformation.content</Object>
     <Object Type="File">P0500_Widget.content</Object>
-
+    <Object Type="File">P0350_MachineLock.content</Object>
   </Objects>
 </Package>

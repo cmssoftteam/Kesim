@@ -1,16 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Content id="P0410_CompanyInformation" guid="e41a2868-831a-4725-8100-026c4cb74ffc" height="840" width="1770" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Content id="P0350_MachineLock" guid="6db33123-f441-4af8-8290-06fc60336ac6" height="880" width="1820" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
-    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="540" left="1177" width="576" height="293" zIndex="0">
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="581" left="1240" width="576" height="293" zIndex="0">
       <Widgets>
         <Widget xsi:type="widgets.brease.DateTimeInput" id="DateTimeInput1" top="184" left="40" width="499" height="84" zIndex="0" borderColor="rgba(65, 17, 0, 1)" activeBorderColor="rgba(65, 17, 0, 1)" textAlign="center" shadow="4px 1px 3px rgba(65, 17, 0, 0.75)" />
         <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch5" top="-5" left="433" width="123" height="39" zIndex="1" value="true" sliderHeight="60" sliderWidth="40" borderStyle="groove" textAlign="center" padding="0px" margin="10px" sliderImage="Media/Box_OK.png" />
         <Widget xsi:type="widgets.brease.Password" id="Password1" top="108" left="40" width="210" height="60" zIndex="2" borderColor="rgba(65, 17, 0, 1)" activeBorderColor="rgba(65, 17, 0, 1)" shadow="4px 1px 3px rgba(65, 17, 0, 0.75)" />
         <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton1" top="106" left="285" width="123" height="59" zIndex="3" text="$IAT/System/Login/BTN_LOGIN" />
         <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton2" top="105" left="429" width="123" height="59" zIndex="4" text="$IAT/dialog_UserXMgr/Button.Logout" />
-        <Widget xsi:type="widgets.brease.Label" id="Label2" top="8" left="149" width="269" zIndex="5" text="$IAT/OTM_Language/txtServicesTime" fontSize="35px" />
+        <Widget xsi:type="widgets.brease.Label" id="Label2" top="8" left="149" width="269" zIndex="5" text="$IAT/Language/ServicesTime" fontSize="35px" />
         <Widget xsi:type="widgets.brease.DateTimeOutput" id="DateTimeOutput1" top="59" left="102" width="369" zIndex="6" textAlign="center" />
       </Widgets>
     </Widget>
+    <Widget xsi:type="widgets.brease.LanguageSelector" id="LanguageSelector2" top="476" left="1241" width="570" height="90" zIndex="1" displaySettings="imageAndText" imagePath="Media/LanguageIMG/" itemHeight="64" listPosition="bottom" listWidth="240" shadow="0px 0px rgba(62, 79, 92, 0.75)" backColor="rgba(236, 239, 241, 1)" borderStyle="none" textColor="rgba(0, 0, 0, 1)" disabledTextColor="rgba(0, 0, 0, 1)" listBackColor="rgba(255, 255, 255, 1)" activeBackColor="rgba(113, 0, 67, 1)" listBorderWidth="0px" activeTextColor="rgba(255, 255, 255, 1)" fontSize="27px" style="transparent" />
   </Widgets>
 </Content>

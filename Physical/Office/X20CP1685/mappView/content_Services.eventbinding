@@ -3,7 +3,12 @@
   <Bindings>
     <EventBinding id="content_Services.ManualPage.Click">
       <Source xsi:type="widgets.brease.ToggleButton.Event" contentRefId="content_Services" widgetRefId="ManualPage" event="Click" />
-      <EventHandler>
+      <Operand datatype="ANY_STRING" name="actLoadedContent">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="LoadedContent">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="actLoadedContent&lt;&gt;&quot;P0210_SDM&quot;">
         <Action>
           <Target xsi:type="clientSystem.Action">
             <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="P0210_SDM" areaId="areaContent" pageId="page_Main" />
@@ -13,10 +18,30 @@
     </EventBinding>
     <EventBinding id="content_Services.HomePage1.Click">
       <Source xsi:type="widgets.brease.ToggleButton.Event" contentRefId="content_Services" widgetRefId="HomePage1" event="Click" />
-      <EventHandler>
+      <Operand datatype="ANY_STRING" name="actLoadedContent">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="LoadedContent">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="actLoadedContent&lt;&gt;&quot;P0220_Cockpit&quot;">
         <Action>
           <Target xsi:type="clientSystem.Action">
             <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="P0220_Cockpit" areaId="areaContent" pageId="page_Main" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="content_Services.HomePage.Click">
+      <Source xsi:type="widgets.brease.ToggleButton.Event" contentRefId="content_Services" widgetRefId="HomePage" event="Click" />
+      <Operand datatype="ANY_STRING" name="actLoadedContent">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="LoadedContent">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="actLoadedContent&lt;&gt;&quot;P0200_HW_Config&quot;">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="P0200_HW_Config" areaId="areaContent" pageId="page_Main" />
           </Target>
         </Action>
       </EventHandler>

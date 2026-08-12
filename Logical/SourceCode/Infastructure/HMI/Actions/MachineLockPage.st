@@ -32,7 +32,7 @@ ACTION MachineLockPage:
 
 	//Süper Sifre ile giris yapilirsa tamamen kapatilsin.
 	IF gHMI.MachineLock.Login AND gHMI.MachineLock.Password = SuperPassword AND gHMI.UserName <> 'admin'  THEN
-		gFixData.MachineLock.Enable		:= FALSE;
+		gHMI.MachineLock.Enable		:= FALSE;
 		gHMI.MachineLock.Password		:= '' ;
 	END_IF;
 	
@@ -44,16 +44,16 @@ ACTION MachineLockPage:
 	
 	
 	//Sifre 2 ile giris yapilirsa mevcut süre 1 ay uzatilsin.
-	IF gHMI.MachineLock.Login AND gHMI.MachineLock.Password = NormalPassword AND gFixData.MachineLock.oldDay <> DTStructure_0.day AND DTStructure_0.day <> 0 THEN
-		gFixData.MachineLock.EndTime :=  gFixData.MachineLock.EndTime + t#14d + t#14d + t#2d;
+	IF gHMI.MachineLock.Login AND gHMI.MachineLock.Password = NormalPassword AND gHMI.MachineLock.oldDay <> DTStructure_0.day AND DTStructure_0.day <> 0 THEN
+		gHMI.MachineLock.EndTime :=  gHMI.MachineLock.EndTime + t#14d + t#14d + t#2d;
 		gHMI.MachineLock.Login		 := FALSE;
 		gHMI.MachineLock.Password		:= '' ;
-		gFixData.MachineLock.oldDay := DTStructure_0.day;
+		gHMI.MachineLock.oldDay := DTStructure_0.day;
 	END_IF;
 	
 
 	// eger kilitleme zamani geçmis ve makine kilitleme opsiyonu açiksa .	
-	IF (gFixData.MachineLock.EndTime < SystemTime) AND gFixData.MachineLock.Enable THEN
+	IF (gHMI.MachineLock.EndTime < SystemTime) AND gHMI.MachineLock.Enable THEN
 		gHMI.MachineLock.Lock := TRUE;
 	ELSE
 		gHMI.MachineLock.Lock := FALSE;

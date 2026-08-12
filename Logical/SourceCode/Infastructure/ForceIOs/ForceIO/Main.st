@@ -66,24 +66,25 @@ PROGRAM _CYCLIC
 		GetSignalStr_1.eTypeSignal  := DO_IO;
 		MAX_DP_INDEX := 15;
 	
+		// AO card	
+	ELSIF (slotIndex + ioCfgStart) >= aoStartIndex AND (slotIndex + ioCfgStart <= aoStartIndex + aoCount - 1) THEN	
+		GetSignalStr_0.eTypeSignal  := AO_IO;
+		GetSignalStr_1.eTypeSignal  := AO_IO;
+		MAX_DP_INDEX := 1;
+		
+		
 		// AI card	
 	ELSIF (slotIndex + ioCfgStart) >= aiStartIndex AND (slotIndex + ioCfgStart <= aiStartIndex + aiCount - 1) THEN
 		GetSignalStr_0.eTypeSignal  := AI_IO;
 		GetSignalStr_1.eTypeSignal  := AI_IO;
 		// AI2632 has two input channels
 		IF slotIndex + ioCfgStart = aoStartIndex - 1 THEN
-			MAX_DP_INDEX := 3;			
+			MAX_DP_INDEX := 1;			
 		ELSE
-			MAX_DP_INDEX := 3;
+			MAX_DP_INDEX := 1;
 		END_IF;
 		
-		// AO card	
-	ELSIF (slotIndex + ioCfgStart) >= aoStartIndex AND (slotIndex + ioCfgStart <= aoStartIndex + aoCount - 1) THEN	
-		GetSignalStr_0.eTypeSignal  := AO_IO;
-		GetSignalStr_1.eTypeSignal  := AO_IO;
-		MAX_DP_INDEX := 3;
-		
-		
+
 	END_IF;
 	
 	GetSignalStr_0();

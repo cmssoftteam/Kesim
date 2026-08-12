@@ -20,7 +20,7 @@
     <Group ID="Security">
       <Group ID="MessageSecurity">
         <Group ID="SecurityPolicies">
-          <Property ID="None" Value="0" />
+          <Property ID="None" Value="1" />
           <Property ID="Basic128Rsa15" Value="0" />
           <Property ID="Basic256" Value="0" />
           <Property ID="Aes128Sha256RsaOaep" Value="1" />

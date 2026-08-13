@@ -6,7 +6,7 @@
  * Created: October 16, 2024/11:08 AM 
  ********************************************************************)
 VAR
-	TestX : REAL;
-	TestY : REAL;
+	TestX : LREAL;
+	TestY : LREAL;
 	Loc : Loc_typ; (**** Bu Task icinde kullanilacak Local degisken*)
 END_VAR

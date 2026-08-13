@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <Package SubType="mappViewControl" PackageType="mappViewControl" xmlns="http://br-automation.co.at/AS/Package">
-  <Objects />
+  <Objects>
+    <Object Type="File" Reference="true">Physical\Office\X20CP1685\mappView\content_Header.eventbinding</Object>
+    <Object Type="File" Reference="true">Physical\Office\X20CP1685\mappView\content_Navigation.eventbinding</Object>
+    <Object Type="File" Reference="true">Physical\Office\X20CP1685\mappView\Content_Params.eventbinding</Object>
+    <Object Type="File" Reference="true">Physical\Office\X20CP1685\mappView\content_Services.eventbinding</Object>
+    <Object Type="File" Reference="true">Physical\Office\X20CP1685\mappView\MachStatus.binding</Object>
+    <Object Type="File" Reference="true">Physical\Office\X20CP1685\mappView\OpcUaServer.uaserver</Object>
+    <Object Type="File" Reference="true">Physical\Office\X20CP1685\mappView\P0001_StartPage.binding</Object>
+    <Object Type="File" Reference="true">Physical\Office\X20CP1685\mappView\P0001_StartPage.eventbinding</Object>
+    <Object Type="File" Reference="true">Physical\Office\X20CP1685\mappView\Config.mappviewcfg</Object>
+  </Objects>
 </Package>

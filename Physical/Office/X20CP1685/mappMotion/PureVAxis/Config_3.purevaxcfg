@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="PureVAxCfg_1" Type="purevaxcfg">
+    <Group ID="PureVAxis">
+      <Property ID="AxisReference" Value="gMpLink_AxisVQZ" />
+    </Group>
+  </Element>
+</Configuration>

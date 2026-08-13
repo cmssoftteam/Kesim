@@ -3,6 +3,7 @@
 <Package SubType="mappMotion" PackageType="mappMotion" xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="File" TransferedForTargetSourceCompare="true">MotionCfg.mappmotioncfg</Object>
-    <Object Type="Package" TransferedForTargetSourceCompare="true">3AxesCNCXYC</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">3AxesCNCXYZ</Object>
+    <Object Type="Package">PureVAxis</Object>
   </Objects>
 </Package>

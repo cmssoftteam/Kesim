@@ -34,5 +34,6 @@
     <Object Type="Library" Language="IEC" Description="IO Control Library">IOControl</Object>
     <Object Type="Library" Language="binary" Description="This library provides functions for enabling and disabling configuration or mapping modules.">AsIOMMan</Object>
     <Object Type="Library" Language="binary" Description="The AsIODiag library provides functions for creating and evaluating I/O module information.">AsIODiag</Object>
+    <Object Type="Library" Language="binary" Description="[mapp Motion] Purely virtual axis library">McPureVAx</Object>
   </Objects>
 </Package>

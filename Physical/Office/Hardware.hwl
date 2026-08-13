@@ -2,8 +2,7 @@
 <?AutomationStudio FileVersion="4.9"?>
 <BR.AS.HardwareTopology>
   <TimeStamps>
-
-    <TimeStamp LogicalPath="Office.Hardware.hw" LastWriteTime="07/24/2026 14:05:38" />
+    <TimeStamp LogicalPath="Office.Hardware.hw" LastWriteTime="08/12/2026 15:21:09" />
   </TimeStamps>
   <Modules>
     <Module Name="8EI8X8HWT10.xxxx-1" Type="8EI8X8HWT10.xxxx-1" X="250" Y="249" />
@@ -38,8 +37,20 @@
     <Module Name="X20BM11_i" Type="X20BM11" X="367" Y="100" />
     <Module Name="X20AO2622" Type="X20AO2622" X="367" Y="100" />
     <Module Name="X20TB12" Type="X20TB12" X="367" Y="127" />
+    <Module Name="8EI8X8HWS10.xxxx-1" Type="8EI8X8HWS10.xxxx-1" X="333" Y="249" />
   </Modules>
   <Links>
+    <Link From="8EI8X8HWS10.xxxx-1" To="8EI8X8HWT10.xxxx-1" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="266.1" Y="259.5" />
+      <Point X="266.1" Y="259.5" />
+      <Point X="266.1" Y="248.5" />
+      <Point X="266.1" Y="235" />
+      <Point X="305" Y="235" />
+      <Point X="305" Y="259.5" />
+      <Point X="333.5" Y="259.5" />
+      <Point X="341.5" Y="259.5" />
+      <Point X="341.5" Y="259.5" />
+    </Link>
     <Link From="8EI8X8HWT10.xxxx-1" To="X20CP1685" FromPort="PLK1" ToPort="IF3" IsRoutedByUser="False">
       <Point X="257.7" Y="259.5" />
       <Point X="257.7" Y="259.5" />

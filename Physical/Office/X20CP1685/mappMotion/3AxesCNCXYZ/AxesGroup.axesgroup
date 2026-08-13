@@ -14,8 +14,8 @@
             <Property ID="AxisRef" Value="gMpLink_AxisQY" />
           </Group>
           <Group ID="JointAxis[3]">
-            <Property ID="Name" Value="QC" />
-            <Property ID="AxisRef" Value="gMpLink_AxisQC" />
+            <Property ID="Name" Value="VQZ" />
+            <Property ID="AxisRef" Value="gMpLink_AxisVQZ" />
           </Group>
         </Group>
       </Group>

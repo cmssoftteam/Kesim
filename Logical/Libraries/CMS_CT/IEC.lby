@@ -7,5 +7,6 @@
     <Object Type="File" Description="Exported constants">Constants.var</Object>
     <Object Type="File" Description="Exported functions and function blocks">CMS_CT.fun</Object>
     <Object Type="Package">FBs</Object>
+    <Object Type="Package">FCs</Object>
   </Objects>
 </Library>

@@ -71,6 +71,16 @@ ACTION AxesStatus:
 		END_IF
 	END_FOR 
 	
+	// ----------------------------------------																
+	//Park Pos Control
+	// ----------------------------------------	
+	IF  (ABS(gMain.In.Settings.ParkPos[AX_X] - gAxBasic[AX_X].Position)<= 5.0 ) AND
+		(ABS(gMain.In.Settings.ParkPos[AX_Y] - gAxBasic[AX_Y].Position)<= 5.0 ) THEN	
+		gMain.Out.Status.Ax_Parked := TRUE;
+	ELSE
+		gMain.Out.Status.Ax_Parked := FALSE;		
+	END_IF;	
+	
 	gMain.Out.Status.Active				:= EnabledFlag;
 	
 	gMain.Out.Status.PoweredOn 			:= PowerFlag;
@@ -82,6 +92,8 @@ ACTION AxesStatus:
 	gMain.Out.Status.StandStill 		:= StandStillFlag;
 	
 	gMain.Out.Status.MoveActive 		:= MoveActiveFlag;
+	
+	gMain.Out.Status.CNC.Active			:= pCNC.Active;
 	
 	
 END_ACTION

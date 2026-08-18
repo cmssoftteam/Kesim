@@ -56,7 +56,7 @@ TYPE
 	gIO_In_typ : 	STRUCT 
 		Breaker : gIO_BreakerIn_typ;
 		CT : gIO_InCT_typ; (*CT = Cutting Table*)
-		Loader : USINT;
+		Loader : gIO_Out_Loader_typ;
 	END_STRUCT;
 	gIO_Out_CT_typ : 	STRUCT 
 		RedLamp : BOOL; (*Red Lamp On if Error Occured*)
@@ -78,6 +78,7 @@ TYPE
 		SquareUpValve : BOOL; (*OCKM*)
 		SquareDownValve : BOOL; (*OCKM*)
 		XYGlassBreakControl : BOOL; (*OCKM*)
+		TransferBelt : BOOL;
 		AO_CuttingPressure : USINT; (*Analog Output Cutting Pressure*)
 	END_STRUCT;
 	gIO_Out_Loader_typ : 	STRUCT 

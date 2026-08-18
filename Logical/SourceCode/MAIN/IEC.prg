@@ -8,5 +8,7 @@
     <File Description="Local data types" Private="true">Types.typ</File>
     <File Description="Local variables" Private="true">Variables.var</File>
     <File>AxesStatus.st</File>
+    <File>Reference.st</File>
+    <File>Park.st</File>
   </Files>
 </Program>

@@ -3,10 +3,10 @@
 <Package Version="1.0.0" xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="Package" Description="Global libraries">Libraries</Object>
+    <Object Type="Package">GVL</Object>
     <Object Type="File">Project.language</Object>
     <Object Type="Package">SourceCode</Object>
     <Object Type="Package" Description="Cutting table program">CuttingTable</Object>
     <Object Type="Package">mappView</Object>
-    <Object Type="Package">GVL</Object>
   </Objects>
 </Package>

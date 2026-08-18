@@ -1,0 +1,14 @@
+VAR
+	gAxBasic : ARRAY[0..MAX_AX_NR_MIN1] OF MpAxisBasic;
+	gAxBasicPar : ARRAY[0..MAX_AX_NR_MIN1] OF MpAxisBasicParType;
+END_VAR
+VAR CONSTANT
+	C_MAX_CUT_SPEED : REAL := 200.0; (*Maximum speed of the path while cutting [m/min]*)
+	C_MAX_C_AXIS_SPEED : REAL := 1440.0; (*Maximum speed of the C axis [°/s]*)
+	AX_X : USINT := 0;
+	AX_Y : USINT := 1;
+	AX_C : USINT := 2;
+	AX_B : USINT := 3;
+	AX_VC : USINT := 4;
+	MAX_AX_NR_MIN1 : USINT := 5;
+END_VAR

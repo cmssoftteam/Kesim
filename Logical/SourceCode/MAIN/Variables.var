@@ -7,5 +7,7 @@ VAR
 	MoveActiveFlag : BOOL;
 	DrivesReadyFlag : BOOL; (*DrivesAreReadyToPowerOn*)
 	i : USINT;
+	pCNC : REFERENCE TO MpCnc3Axis;
+	Loc : Loc_typ;
 	fbTableUpDown_0 : fbTableUpDown;
 END_VAR

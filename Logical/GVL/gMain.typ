@@ -2,7 +2,8 @@
 TYPE
 	gMainOut_typ : 	STRUCT 
 		Status : gMainOutStatus_typ;
-		MainStep : UINT; (*Main step of main program*)
+		MainStep : gMainState_Enum; (*Main step of main program*)
+		MainSubStep : gMainSubState_Enum; (*Main sSUB step of main program*)
 		Error : BOOL; (*Flag that machine has an active error*)
 		ErrorCL0 : BOOL; (*Flag that critical error class 0 is active*)
 		ErrorID : UDINT; (*Error ID of main logic*)
@@ -25,6 +26,10 @@ TYPE
 		AxisDisabled : ARRAY[0..MAX_AX_NR_MIN1]OF BOOL; (*Flag that axis is disabled*)
 		CurrentAutStep : UINT; (*Indication of actually executed automat Single step.*)
 		AutoMode : BOOL; (*Flag that auto mode is active (standstill, running, stoped)*)
+		CNC : gMainOutStatusCnc_typ;
+	END_STRUCT;
+	gMainOutStatusCnc_typ : 	STRUCT 
+		Active : BOOL;
 	END_STRUCT;
 	gMainIn_typ : 	STRUCT 
 		Enable : BOOL; (*Command to enable main control*)
@@ -62,4 +67,38 @@ TYPE
 	gMainInSettingsMultiEnc_typ : 	STRUCT 
 		reserved : USINT;
 	END_STRUCT;
+	gMainState_Enum : 
+		(
+		MAIN_INIT := 0,
+		MAIN_WAIT_CMD,
+		MAIN_MANUAL_MOVE,
+		MAIN_START,
+		MAIN_STOP,
+		MAIN_PAUSE,
+		MAIN_PARK,
+		MAIN_HOME,
+		MAIN_RESET,
+		MAIN_NEW_LAYOUT,
+		MAIN_AUTO_STANDSTILL,
+		MAIN_AUTO_RUNNING,
+		MAIN_AUTO_STOPPED,
+		MAIN_MULTI_ENCODER_OFFSET,
+		MAIN_HOME_LIMIT_SWITCH,
+		MAIN_GO_SET_ORIJIN,
+		MAIN_AUTO_DETECT_ORIGIN,
+		MAIN_TRANSFER_TO_BT,
+		MAIN_TRANSFER_FROM_LD,
+		MAIN_GET_ENC_OFFSET_AXIS_B,
+		MAIN_ERROR
+		);
+	gMainSubState_Enum : 
+		(
+		SUB_INIT,
+		SUB_CHECK_IO,
+		SUB_HOME_START,
+		SUB_PARK_START,
+		SUB_CMD_DONE,
+		SUB_STOP,
+		SUB_ERROR
+		);
 END_TYPE

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="content_Header" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.Widget.AlertImage.Image" attribute="value" />
+			<Target xsi:type="brease" contentRefId="content_Header" widgetRefId="Image_Alert1" attribute="image" />
+		</Binding>
+
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.Widget.AlertLine.Style" attribute="value" />
+			<Target xsi:type="brease" contentRefId="content_Header" widgetRefId="AlarmLine" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="mapp" refId="gMpLink_AlarmXCore" attribute="link" />
+			<Target xsi:type="brease" contentRefId="content_Header" widgetRefId="AlarmLine" attribute="mpLink" />
+		</Binding>
+
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.Widget.AlertImage.Style" attribute="value" />
+			<Target xsi:type="brease" contentRefId="content_Header" widgetRefId="Image_Alert1" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gHMI.Widget.AlertImage.Visible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="content_Header" widgetRefId="Image_Alert1" attribute="visible" />
+		</Binding>
+
+</Bindings>
+</BindingsSet>

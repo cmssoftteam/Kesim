@@ -31,5 +31,6 @@
     <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput12" top="68" left="462" width="106" height="25" zIndex="29" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'DD','imperial':'DD','imperial-us':'DD'}" unitAlign="right" value="360" borderWidth="1px" backColor="rgba(0, 128, 0, 1)" textColor="rgba(255, 255, 255, 1)" textAlign="right" fontSize="16px" unitFontSize="8px" />
     <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="23" x1="457" x2="457" y1="125" y2="0" lineWidth="3px" />
     <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="26" x1="574" x2="574" y1="123" y2="-2" lineWidth="3px" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton_Power3" top="8" left="1778" width="127" height="101" zIndex="30" image="Media/CMS/undo_8770116.png" imageAlign="top" multiLine="true" text="$IAT/Language/txtReset" wordWrap="true" borderWidth="1px" backColor="rgba(128, 128, 128, 1)" backGroundGradient="linear-gradient(to bottom, #ffffff 0%,#bdbdbd 100%)" borderColor="rgba(0, 0, 0, 1)" fontSize="20px" shadow="10px 8px 15px -3px rgba(62, 79, 92, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, #e99921 0%,#e99921 100%)" />
   </Widgets>
 </Content>

@@ -1150,5 +1150,13 @@
         <seg>Services Time</seg>
       </tuv>
     </tu>
+    <tu tuid="txtReset">
+      <tuv xml:lang="tr">
+        <seg>Reset</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reset</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

@@ -116,7 +116,7 @@ PROGRAM _CYCLIC
 	Loc.FB.AlarmXHistory(); 	
 	//|_________________________________________________________________________ 
 
-	
+	gHMI.CommUnit.ActAlarms := Loc.FB.AlarmXCore.PendingAlarms;
 END_PROGRAM
 
 PROGRAM _EXIT

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.90.23 SP05?>
+<?AutomationStudio FileVersion="4.9"?>
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="File" Description="Package data types">RecipeHandling.typ</Object>
@@ -7,5 +7,6 @@
     <Object Type="Program" Language="IEC" Description="Recipe control program">Recipe_Ctrl</Object>
     <Object Type="Package" Description="CSV handling program">CsvHandling</Object>
     <Object Type="Package" Description="File handling program">FileHandling</Object>
+    <Object Type="File" Private="true">Types.typ</Object>
   </Objects>
 </Package>

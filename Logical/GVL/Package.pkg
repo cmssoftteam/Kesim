@@ -6,5 +6,8 @@
     <Object Type="File" Description="Global data types" TransferedForTargetSourceCompare="true">GlobalAlert1.typ</Object>
     <Object Type="File" Description="Global variables">Global1.var</Object>
     <Object Type="File" Description="Global data types">Global.typ</Object>
+    <Object Type="Package">gIO_Types</Object>
+    <Object Type="Package">Parameters</Object>
+    <Object Type="File">gMain.typ</Object>
   </Objects>
 </Package>

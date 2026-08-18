@@ -4,7 +4,7 @@
   <TaskClass Name="Cyclic#1" />
   <TaskClass Name="Cyclic#2" />
   <TaskClass Name="Cyclic#3">
-    <Task Name="Kesim" Source="SourceCode.Kesim.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="MAIN" Source="SourceCode.MAIN.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#4">
     <Task Name="AlarmX" Source="SourceCode.Infastructure.AlarmX.prg" Memory="UserROM" Language="IEC" Debugging="true" />
@@ -13,6 +13,7 @@
     <Task Name="ForceIO" Source="SourceCode.Infastructure.ForceIOs.ForceIO.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="aIOhand" Source="SourceCode.Infastructure.ForceIOs.aIOhand.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="HMI" Source="SourceCode.Infastructure.HMI.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="MachCfg" Source="SourceCode.MachCfg.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#5" />
   <TaskClass Name="Cyclic#6" />

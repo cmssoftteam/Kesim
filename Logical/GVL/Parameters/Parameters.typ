@@ -14,14 +14,21 @@
 (*========================================================================================================*)
 
 TYPE
+	gMachineType_Enum : 
+		(
+		FCM := 0,
+		FCL := 1,
+		OCKM := 2,
+		YCKM := 3,
+		YCKM_BREAKER := 4
+		);
 	gParameters_type : 	STRUCT 
 		BridgeStraight : BOOL; (*Command is taken from the HMI when the bridge straightness is set by the user*)
-		MachineType : USINT; (*Machine type*)
+		MachineType : gMachineType_Enum; (*Machine type  FCM= 0 FCL= 1 OCKM= 2 YCKM =3 YCKM_BREAKER = 4*)
 		Options : Parameters_Options_typ;
 		LengthParametes : LengthParametes_type; (*Length parameters*)
 		DriverParameters : ARRAY[0..5]OF DriverParameters_type; (*Drive parameters*)
-		PressParameters : PressParameters_type; (*Pressure parameters*)
-(*		LoaderParameters : LoaderCtrl_In_Par_typ; (*Loader parameters*)
+		PressParameters : PressParameters_type; (*Pressure parameters*) (*		LoaderParameters : LoaderCtrl_In_Par_typ; (*Loader parameters*)
 		Network : Recipe_Ctrl_In_Par_Net_typ; (*Network parameters*)
 	END_STRUCT;
 END_TYPE
@@ -130,6 +137,7 @@ END_TYPE
 
 TYPE
 	DriverParameters_type : 	STRUCT 
+		Enabled : BOOL;
 		CntDir : USINT; (*Encoder counting direction*)
 		DriveStep : REAL; (*Units needed for the motor to complete one turn [um] - THE SAME THAN units IN LOAD IN ACP INIT TABLE*)
 		PositiveLimit : REAL; (*Positive software limit [mm] - THE SAME THAN IN LOAD IN ACP INIT TABLE*)
@@ -225,4 +233,3 @@ TYPE
 		Pressure : ARRAY[0..5]OF REAL; (*Set pressure for different kinds of cut [bar]*)
 	END_STRUCT;
 END_TYPE
-

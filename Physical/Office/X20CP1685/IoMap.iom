@@ -1,3 +1,0 @@
-VAR_CONFIG
-	::Kesim:fbCuttingTransfer_0.inEnable AT %IX."X20DIF371".DigitalInput01;
-END_VAR

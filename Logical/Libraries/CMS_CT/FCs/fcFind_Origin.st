@@ -27,4 +27,15 @@ ELSE // No Enable
 	;	
 END_IF;		
 	
+	// Y eksen
+	// 
+	// 
+	////  nokta 3
+	// 
+	// 
+	// 
+	//  	nokta 2			nokta 1						
+	//		//				// 								
+	/////////////////////////////////////// X eksen	
+	
 END_FUNCTION

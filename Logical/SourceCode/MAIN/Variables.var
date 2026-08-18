@@ -1,0 +1,11 @@
+VAR
+	fbCuttingTransfer_0 : fbCuttingTransfer;
+	EnabledFlag : BOOL;
+	PowerFlag : BOOL;
+	ReferencedFlag : BOOL;
+	StandStillFlag : BOOL;
+	MoveActiveFlag : BOOL;
+	DrivesReadyFlag : BOOL; (*DrivesAreReadyToPowerOn*)
+	i : USINT;
+	fbTableUpDown_0 : fbTableUpDown;
+END_VAR

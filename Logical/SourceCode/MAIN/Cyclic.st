@@ -6,4 +6,6 @@ PROGRAM _CYCLIC
 	 
 	fbTableUpDown_0();
 	
+	AxesStatus;
+
 END_PROGRAM
